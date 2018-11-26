@@ -467,7 +467,7 @@ var AppModule = /** @class */ (function () {
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 angular_fusioncharts__WEBPACK_IMPORTED_MODULE_8__["FusionChartsModule"],
                 //ROUTER PAGE
-                _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(_router_component__WEBPACK_IMPORTED_MODULE_3__["appRoutes"], { useHash: true }) //Trayendo el modulo de rutas que cree en la raiz app
+                _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(_router_component__WEBPACK_IMPORTED_MODULE_3__["appRoutes"]) //Trayendo el modulo de rutas que cree en la raiz app
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
