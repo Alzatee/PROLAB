@@ -1025,7 +1025,7 @@ var NEWSS = [
         time: '10:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 599.99,
-        imageUrl: './assets/images/news/img-photos-1.jpg',
+        imageUrl: '/assets/images/news/img-photos-1.jpg',
         location: {
             address: '1057 DT',
             city: 'London',
@@ -1088,7 +1088,7 @@ var NEWSS = [
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 950.00,
-        imageUrl: './assets/images/news/img-photo-12.jpg',
+        imageUrl: '/assets/images/news/img-photo-12.jpg',
         location: {
             address: 'The NG-NL Convention Center & Scuba Shop',
             city: 'Amsterdam',
@@ -1142,7 +1142,7 @@ var NEWSS = [
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 759.00,
-        imageUrl: './assets/images/news/aguacate.jpg',
+        imageUrl: '/assets/images/news/aguacate.jpg',
         location: {
             address: 'The Palatial America Hotel',
             city: 'Salt Lake City',
@@ -1214,7 +1214,7 @@ var NEWSS = [
         time: '8:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 800.00,
-        imageUrl: './assets/images/news/img-photos-10.jpg',
+        imageUrl: '/assets/images/news/img-photos-10.jpg',
         location: {
             address: 'The UN Angular Center',
             city: 'New York',
@@ -1259,7 +1259,7 @@ var NEWSS = [
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 400.00,
-        imageUrl: './assets/images/news/img-photos-12.jpg',
+        imageUrl: '/assets/images/news/img-photos-12.jpg',
         location: {
             address: 'The Excalibur',
             city: 'Las Vegas',
