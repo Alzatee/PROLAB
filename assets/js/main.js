@@ -69,4 +69,6 @@ $(document).ready(function(){
             }
       });
 
+    //El menú es cerrado por defecto en dispositivos móviles
+      //Aún no está...
 });

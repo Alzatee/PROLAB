@@ -321,7 +321,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ngx-loading-bar color=\"#f9ba46\"></ngx-loading-bar>\n\n<header class=\"AAE-container-header\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n            <!--\n                LOGIN OCULTO\n                :D\n            -->\n            <section class=\"AAE-headerPage\">\n                    <article class=\"container-fluid\">\n                        <div class=\"row\">\n                            <video class=\"video-background \" autoplay loop muted plays-inline>\n                                <source src=\"./assets/video/fondo.mp4\" type=\"video/mp4\">\n                            </video>\n                            <div id=\"AAE-inicio-mitad-login\" class=\"col-md-6 d-flex justify-content-center\">\n                                <div class=\"AAE-container-login\">\n                                    <h2 class=\"AAE-title-principal\">\n                                        PROLAB\n                                    </h2>\n                                    <h6 class=\"AAE-subtitle-principal\">Your design ally</h6>\n                                    <div class=\"AAE-container-form\">\n                                        <form class=\"AAE-form-inicio\">\n                                            <div class=\"form-group\">\n                                                <label for=\"exampleInputEmail1\">Email address</label>\n                                                <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n                                                <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone\n                                                    else.\n                                                </small>\n                                            </div>\n                                            <div class=\"form-group\">\n                                                <label for=\"exampleInputPassword1\">Password</label>\n                                                <input id=\"password-field\" type=\"password\" class=\"form-control\" placeholder=\"Password\">\n                                                <span toggle=\"#password-field\" class=\"fa fa-fw fa-eye field-icon toggle-password\"></span>\n                                            </div>\n                                            <div class=\"form-group form-check\">\n                                                <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">\n                                                <label class=\"form-check-label\" for=\"exampleCheck1\">Remember credentials</label>\n                                            </div>\n                                            <button class=\"btn btn-primary\" routerLink=\"/inicio\"><a>LOG IN</a></button>\n                                            <div class=\"d-flex justify-content-between\">\n                                                <a class=\"AAE-reset-pasword\" ><small id=\"emailHelp\" class=\"form-text\">¿Did you forget\n                                                        your password? :)</small></a>\n                                                <a class=\"AAE-reset-pasword\" ><small id=\"emailHelp\" class=\"form-text\">Sign up here</small></a>\n                                            </div>\n                                            <small id=\"emailHelp\" class=\"form-text text-muted\">All rights reserved (AAE) 2018</small>\n                                        </form>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-md-6 d-flex justify-content-end\">\n                                <i id=\"AAE-close-login\" class=\"fas fa-angle-left\"></i>\n                            </div>\n                        </div>\n                    </article>\n                </section>\n            <!--FINAL LOGIN-->\n                \n            <div class=\"col-md-2 d-flex justify-content-center\">\n                <div class=\"AAE-container-menuHide\">\n                    <a class=\"open-nav open-close-nav\"><i class=\"fas fa-bars\"></i></a>\n                    <a class=\"open-nav open-nav-show hiden-nav\"><i class=\"fas fa-bars\"></i></a>\n                </div>\n                <div class=\"AAE-container-logo\">\n                    <a href=\"#\">\n                        <h1>\n                            <img class=\"img-fluid\" src=\"./assets/images/Logo.PNG\" alt=\"PL\"><span>co</span>\n                        </h1>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-7 d-flex align-items-center justify-content-center\">\n                <div class=\"input-group\">\n                    <input type=\"text\" class=\"form-control search-night\" placeholder=\"Search\" aria-label=\"Recipient's username\" aria-describedby=\"basic-addon2\">\n                    <div class=\"input-group-append\">\n                        <span class=\"input-group-text searh-icon-night\" id=\"basic-addon2\"><i class=\"fas fa-search\"></i></span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-3 d-flex align-items-center\">\n                <div class=\"AAE-var-optionsName disable-options-mobile\">\n                    <!-- <a class=\"item-option active-nocturne-mode\" href=\"#\"><i class=\"fas fa-moon\"></i></a> -->\n                    <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                    <input type=\"checkbox\" class=\"toggle-switch\">\n                    <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n            \n                    <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                </div>\n                <div class=\"AAE-option-sesion\">\n                    <a id=\"AAE-login-desplegate\" class=\"aae-inicio-sesion\">LOG IN</a>\n                </div>\n            </div>\n        </div>\n    </article>\n</header>\n\n<section class=\"AAE-section-principal\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-2\">\n                <div class=\"aae-menu-hide\">\n                    <div class=\"group-style group-basic\">\n                        <nav>\n                            <ul>\n\n                                <div class=\"aditional-movil\">\n                                    <div class=\"options-nav\">\n                                        <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                                            <input type=\"checkbox\" class=\"toggle-switch\">\n                                        <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-th\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-comment\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                                    </div>\n                                </div>\n                                \n                                <li routerLink=\"/inicio\" class=\"active\"><a><i class=\"fas fa-home active-icon\"></i> Inicio</a></li>\n                                <li routerLink=\"/view-post\"><a><i class=\"fas fa-smile-beam active-icon\"></i> View Post</a></li>\n                                <li routerLink=\"/trends\"><a><i class=\"fas fa-fire active-icon\"></i> Trends</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-mejor\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">MOST RELEVANT</h6>\n                            <ul>\n                                <!-- <li  routerLink=\"/photo\"><a><i class=\"fas fa-camera-retro active-icon\"></i> Photograpics</a></li> -->\n                                <li [routerLink]=\"['/photo']\"><a><i class=\"fas fa-camera-retro active-icon\"></i> Photograpics</a></li>\n                                <li [routerLink]=\"['/news']\"><a><i class=\"far fa-newspaper active-icon\"></i> News</a></li>\n                                <li routerLink=\"/web-design\"><a><i class=\"fas fa-pen-nib active-icon\"></i> Web Design</a></li>\n                                <li routerLink=\"/color-palette\"><a><i class=\"fas fa-palette active-icon\"></i> Color palette</a></li>\n                                <li routerLink=\"/directos\"><a><i class=\"fas fa-fist-raised active-icon\"></i>In live</a></li>\n                                <li routerLink=\"/ux-designer\"><a><i class=\"far fa-object-group active-icon\"></i>UX Designer</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-spam-inicioSesion\">\n                        <p class=\"AAE-text-menu\">Invite your friends.</p>\n                        <a class=\"aae-inicio-sesion\" href=\"\">INVITE PEOPLE</a>\n                    </div>\n                    <div class=\"group-style group-mas\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">EDIT PROLAB</h6>\n                            <ul>\n                                <li><a><i class=\"fas fa-cog active-icon\"></i> Config</a></li>\n                                <li><a><i class=\"fas fa-question-circle active-icon\"></i> Ayuda</a></li>\n                                <li routerLink=\"/record\"><a><i class=\"far fa-clock active-icon\"></i> Record</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n\n                    <div class=\"group-style group-derechos\">\n                        <p class=\"AAE-text-menu\">© 2015 All rights reserved | Prolab - Medellin Colombia</p>\n                        <p class=\"AAE-text-menu\">©Prolab.com</p>\n                        <p class=\"AAE-text-menu\">Autor: Andrés Alzate (AAE)</p>\n                    </div>\n                </div>\n            </div>\n            <div id=\"absoluting\" class=\"col-md-10\">\n                <div class=\"AAE-container-principal\">\n                    <router-outlet></router-outlet>\n                </div>\n          </div>\n        </div>\n    </article>\n</section>\n\n\n"
+module.exports = "<ngx-loading-bar color=\"#f9ba46\"></ngx-loading-bar>\n\n<header class=\"AAE-container-header\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n\n            <!-- LOGIN OCULTO :D -->\n            <div class=\"AAE-headerPage\">\n                <article class=\"container-fluid\">\n                    <div class=\"row\">\n                        <video class=\"video-background \" autoplay loop muted plays-inline>\n                            <source src=\"./assets/video/fondo-login.mp4\" type=\"video/mp4\">\n                        </video>\n                        <div id=\"AAE-inicio-mitad-login\" class=\"col-md-6 d-flex justify-content-center\">\n                            <div class=\"AAE-container-login\">\n                                <h2 class=\"AAE-title-principal\">\n                                    PROLAB\n                                </h2>\n                                <h6 class=\"AAE-subtitle-principal\">Your design ally</h6>\n                                <div class=\"AAE-container-form\">\n                                    <form class=\"AAE-form-inicio\">\n                                        <div class=\"form-group\">\n                                            <label for=\"exampleInputEmail1\">Email address</label>\n                                            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n                                            <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.\n                                            </small>\n                                        </div>\n                                        <div class=\"form-group\">\n                                            <label for=\"exampleInputPassword1\">Password</label>\n                                            <input id=\"password-field\" type=\"password\" class=\"form-control\" placeholder=\"Password\">\n                                            <span toggle=\"#password-field\" class=\"fa fa-fw fa-eye field-icon toggle-password\"></span>\n                                        </div>\n                                        <div class=\"form-group form-check\">\n                                            <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">\n                                            <label class=\"form-check-label\" for=\"exampleCheck1\">Remember credentials</label>\n                                        </div>\n                                        <button class=\"btn btn-primary\" routerLink=\"/inicio\"><a>LOG IN</a></button>\n                                        <div class=\"d-flex justify-content-between\">\n                                            <a class=\"AAE-reset-pasword\"><small id=\"emailHelp\" class=\"form-text\">¿Did you forget your password?\n                                                    :)</small></a>\n                                            <a class=\"AAE-reset-pasword\"><small id=\"emailHelp\" class=\"form-text\">Sign up here</small></a>\n                                        </div>\n                                        <small id=\"emailHelp\" class=\"form-text text-muted\">All rights reserved (AAE) 2018</small>\n                                    </form>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-6 d-flex justify-content-end\">\n                            <i id=\"AAE-close-login\" class=\"fas fa-angle-left\"></i>\n                        </div>\n                    </div>\n                </article>\n            </div>\n            <!--FINAL LOGIN-->\n                \n            <div class=\"col-md-2 d-flex justify-content-center\">\n                <div class=\"AAE-container-menuHide\">\n                    <a class=\"open-nav open-close-nav\"><i class=\"fas fa-bars\"></i></a>\n                    <a class=\"open-nav open-nav-show hiden-nav\"><i class=\"fas fa-bars\"></i></a>\n                </div>\n                <div class=\"AAE-container-logo\">\n                    <a href=\"#\">\n                        <h1>\n                            <img class=\"img-fluid\" src=\"./assets/images/Logo.PNG\" alt=\"PL\"><span>co</span>\n                        </h1>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-7 d-flex align-items-center justify-content-center\">\n                <div class=\"input-group\">\n                    <input type=\"text\" class=\"form-control search-night\" placeholder=\"Search\" aria-label=\"Recipient's username\" aria-describedby=\"basic-addon2\">\n                    <div class=\"input-group-append\">\n                        <span class=\"input-group-text searh-icon-night\" id=\"basic-addon2\"><i class=\"fas fa-search\"></i></span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-3 d-flex align-items-center\">\n                <div class=\"AAE-var-optionsName disable-options-mobile\">\n                    <!-- <a class=\"item-option active-nocturne-mode\" href=\"#\"><i class=\"fas fa-moon\"></i></a> -->\n                    <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                    <input type=\"checkbox\" class=\"toggle-switch\">\n                    <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n            \n                    <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                </div>\n                <div class=\"AAE-option-sesion\">\n                    <a id=\"AAE-login-desplegate\" class=\"aae-inicio-sesion\">LOG IN</a>\n                </div>\n            </div>\n        </div>\n    </article>\n</header>\n\n<section class=\"AAE-section-principal\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-2\">\n                <div class=\"aae-menu-hide\">\n                    <div class=\"group-style group-basic\">\n                        <nav>\n                            <ul>\n                                <div class=\"aditional-movil\">\n                                    <div class=\"options-nav\">\n                                        <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                                            <input type=\"checkbox\" class=\"toggle-switch\">\n                                        <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-th\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-comment\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                                    </div>\n                                </div>\n                                \n                                <li routerLink=\"/inicio\" class=\"active\"><a><i class=\"fas fa-home active-icon\"></i> Inicio</a></li>\n                                <li routerLink=\"/view-post\"><a><i class=\"fas fa-smile-beam active-icon\"></i> View Post</a></li>\n                                <li routerLink=\"/trends\"><a><i class=\"fas fa-fire active-icon\"></i> Trends</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-mejor\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">MOST RELEVANT</h6>\n                            <ul>\n                                <!-- <li  routerLink=\"/photo\"><a><i class=\"fas fa-camera-retro active-icon\"></i> Photograpics</a></li> -->\n                                <li [routerLink]=\"['/photo']\"><a><i class=\"fas fa-camera-retro active-icon\"></i> Photograpics</a></li>\n                                <li [routerLink]=\"['/news']\"><a><i class=\"far fa-newspaper active-icon\"></i> News</a></li>\n                                <li routerLink=\"/web-design\"><a><i class=\"fas fa-pen-nib active-icon\"></i> Web Design</a></li>\n                                <li routerLink=\"/color-palette\"><a><i class=\"fas fa-palette active-icon\"></i> Color palette</a></li>\n                                <li routerLink=\"/directos\"><a><i class=\"fas fa-fist-raised active-icon\"></i>In live</a></li>\n                                <li routerLink=\"/ux-designer\"><a><i class=\"far fa-object-group active-icon\"></i>UX Designer</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-spam-inicioSesion\">\n                        <p class=\"AAE-text-menu\">Invite your friends.</p>\n                        <a class=\"aae-inicio-sesion\" href=\"\">INVITE PEOPLE</a>\n                    </div>\n                    <div class=\"group-style group-mas\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">EDIT PROLAB</h6>\n                            <ul>\n                                <li><a><i class=\"fas fa-cog active-icon\"></i> Config</a></li>\n                                <li><a><i class=\"fas fa-question-circle active-icon\"></i> Ayuda</a></li>\n                                <li routerLink=\"/record\"><a><i class=\"far fa-clock active-icon\"></i> Record</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n\n                    <div class=\"group-style group-derechos\">\n                        <p class=\"AAE-text-menu\">© 2015 All rights reserved | Prolab - Medellin Colombia</p>\n                        <p class=\"AAE-text-menu\">©Prolab.com</p>\n                        <p class=\"AAE-text-menu\">Autor: Andrés Alzate (AAE)</p>\n                    </div>\n                </div>\n            </div>\n            <div id=\"absoluting\" class=\"col-md-10\">\n                <div class=\"AAE-container-principal\">\n                    <router-outlet></router-outlet>\n                </div>\n          </div>\n        </div>\n    </article>\n</section>\n\n\n"
 
 /***/ }),
 
@@ -382,32 +382,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_common_errors_no_found_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/common/errors/no-found.component */ "./src/app/modules/common/errors/no-found.component.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _modules_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/inicio/inicio.component */ "./src/app/modules/inicio/inicio.component.ts");
-/* harmony import */ var _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/trends/trends.component */ "./src/app/modules/trends/trends.component.ts");
-/* harmony import */ var angular_fusioncharts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! angular-fusioncharts */ "./node_modules/angular-fusioncharts/index.js");
-/* harmony import */ var fusioncharts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! fusioncharts */ "./node_modules/fusioncharts/fusioncharts.js");
-/* harmony import */ var fusioncharts__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(fusioncharts__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! fusioncharts/fusioncharts.maps */ "./node_modules/fusioncharts/fusioncharts.maps.js");
-/* harmony import */ var fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! fusioncharts/maps/fusioncharts.world */ "./node_modules/fusioncharts/maps/fusioncharts.world.js");
-/* harmony import */ var fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! fusioncharts/themes/fusioncharts.theme.fusion */ "./node_modules/fusioncharts/themes/fusioncharts.theme.fusion.js");
-/* harmony import */ var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./modules/photo/photo.component */ "./src/app/modules/photo/photo.component.ts");
-/* harmony import */ var _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./modules/web-design/web-design.component */ "./src/app/modules/web-design/web-design.component.ts");
-/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
-/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
-/* harmony import */ var _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./modules/ux-designer/ux-designer.component */ "./src/app/modules/ux-designer/ux-designer.component.ts");
-/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
-/* harmony import */ var _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./modules/view-post/graph/graph.component */ "./src/app/modules/view-post/graph/graph.component.ts");
-/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
-/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _modules_record_record_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modules/record/record.component */ "./src/app/modules/record/record.component.ts");
-/* harmony import */ var _ngx_loading_bar_router__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @ngx-loading-bar/router */ "./node_modules/@ngx-loading-bar/router/esm5/ngx-loading-bar-router.js");
-/* harmony import */ var _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./modules/news/news-list.component */ "./src/app/modules/news/news-list.component.ts");
-/* harmony import */ var _modules_news_news_thumbnail_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./modules/news/news-thumbnail.component */ "./src/app/modules/news/news-thumbnail.component.ts");
-/* harmony import */ var _modules_news_shared_news_service_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./modules/news/shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-detail.component */ "./src/app/modules/news/newss-detail/newss-detail.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-router-activate.service */ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts");
+/* harmony import */ var _modules_inicio_video_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/inicio/video-list.component */ "./src/app/modules/inicio/video-list.component.ts");
+/* harmony import */ var _modules_inicio_shared_video_service_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/inicio/shared/video-service.component */ "./src/app/modules/inicio/shared/video-service.component.ts");
+/* harmony import */ var _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/inicio/videos-detail/videos-detail.component */ "./src/app/modules/inicio/videos-detail/videos-detail.component.ts");
+/* harmony import */ var _modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/inicio/videos-detail/videos-router-activate.service */ "./src/app/modules/inicio/videos-detail/videos-router-activate.service.ts");
+/* harmony import */ var _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/trends/trends.component */ "./src/app/modules/trends/trends.component.ts");
+/* harmony import */ var angular_fusioncharts__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! angular-fusioncharts */ "./node_modules/angular-fusioncharts/index.js");
+/* harmony import */ var fusioncharts__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! fusioncharts */ "./node_modules/fusioncharts/fusioncharts.js");
+/* harmony import */ var fusioncharts__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(fusioncharts__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! fusioncharts/fusioncharts.maps */ "./node_modules/fusioncharts/fusioncharts.maps.js");
+/* harmony import */ var fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! fusioncharts/maps/fusioncharts.world */ "./node_modules/fusioncharts/maps/fusioncharts.world.js");
+/* harmony import */ var fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! fusioncharts/themes/fusioncharts.theme.fusion */ "./node_modules/fusioncharts/themes/fusioncharts.theme.fusion.js");
+/* harmony import */ var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./modules/photo/photo.component */ "./src/app/modules/photo/photo.component.ts");
+/* harmony import */ var _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modules/web-design/web-design.component */ "./src/app/modules/web-design/web-design.component.ts");
+/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
+/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
+/* harmony import */ var _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modules/ux-designer/ux-designer.component */ "./src/app/modules/ux-designer/ux-designer.component.ts");
+/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
+/* harmony import */ var _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./modules/view-post/graph/graph.component */ "./src/app/modules/view-post/graph/graph.component.ts");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var _modules_record_record_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./modules/record/record.component */ "./src/app/modules/record/record.component.ts");
+/* harmony import */ var _ngx_loading_bar_router__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @ngx-loading-bar/router */ "./node_modules/@ngx-loading-bar/router/esm5/ngx-loading-bar-router.js");
+/* harmony import */ var _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./modules/news/news-list.component */ "./src/app/modules/news/news-list.component.ts");
+/* harmony import */ var _modules_news_news_thumbnail_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./modules/news/news-thumbnail.component */ "./src/app/modules/news/news-thumbnail.component.ts");
+/* harmony import */ var _modules_news_shared_news_service_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./modules/news/shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
+/* harmony import */ var _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-detail.component */ "./src/app/modules/news/newss-detail/newss-detail.component.ts");
+/* harmony import */ var _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-router-activate.service */ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -424,6 +428,10 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 //DEFAULT PAGE COMPONENTS
 
 
+
+
+
+
 //COMPONENTS 
 
 
@@ -435,7 +443,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 // Load FusionTheme theme
 
 // Add dependencies for FusionChartsModule
-angular_fusioncharts__WEBPACK_IMPORTED_MODULE_9__["FusionChartsModule"].fcRoot(fusioncharts__WEBPACK_IMPORTED_MODULE_10__, fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_11__, fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_12__, fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_13__);
+angular_fusioncharts__WEBPACK_IMPORTED_MODULE_13__["FusionChartsModule"].fcRoot(fusioncharts__WEBPACK_IMPORTED_MODULE_14__, fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_15__, fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_16__, fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_17__);
 
 
 
@@ -459,35 +467,45 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
                 _modules_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_7__["InicioComponent"],
-                _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_8__["TrendsComponent"],
-                _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_14__["PhotoComponent"],
-                _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_15__["WebDesignComponent"],
-                _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_16__["ColorPaletteComponent"],
-                _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_17__["DirectosComponent"],
-                _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_18__["UxDesignerComponent"],
-                _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_19__["ViewPostComponent"],
-                _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_20__["GraphComponent"],
-                _modules_record_record_component__WEBPACK_IMPORTED_MODULE_22__["RecordComponent"],
+                _modules_inicio_video_list_component__WEBPACK_IMPORTED_MODULE_8__["VideoListComponent"],
+                _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_10__["VideosDetailComponent"],
                 _modules_common_errors_no_found_component__WEBPACK_IMPORTED_MODULE_5__["NoFoundComponent"],
-                _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_24__["NewsListComponent"],
-                _modules_news_news_thumbnail_component__WEBPACK_IMPORTED_MODULE_25__["NewsThumbnailComponent"],
-                _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_27__["NewssDetailComponent"],
+                _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_12__["TrendsComponent"],
+                _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_18__["PhotoComponent"],
+                _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_19__["WebDesignComponent"],
+                _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_20__["ColorPaletteComponent"],
+                _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_21__["DirectosComponent"],
+                _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_22__["UxDesignerComponent"],
+                _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_23__["ViewPostComponent"],
+                _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_24__["GraphComponent"],
+                _modules_record_record_component__WEBPACK_IMPORTED_MODULE_26__["RecordComponent"],
+                _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_28__["NewsListComponent"],
+                _modules_news_news_thumbnail_component__WEBPACK_IMPORTED_MODULE_29__["NewsThumbnailComponent"],
+                _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_31__["NewssDetailComponent"],
             ],
             imports: [
-                ng2_charts__WEBPACK_IMPORTED_MODULE_21__["ChartsModule"],
-                _ngx_loading_bar_router__WEBPACK_IMPORTED_MODULE_23__["LoadingBarRouterModule"],
+                ng2_charts__WEBPACK_IMPORTED_MODULE_25__["ChartsModule"],
+                _ngx_loading_bar_router__WEBPACK_IMPORTED_MODULE_27__["LoadingBarRouterModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                angular_fusioncharts__WEBPACK_IMPORTED_MODULE_9__["FusionChartsModule"],
+                angular_fusioncharts__WEBPACK_IMPORTED_MODULE_13__["FusionChartsModule"],
                 //ROUTER PAGE
-                _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(_router_component__WEBPACK_IMPORTED_MODULE_4__["appRoutes"], { useHash: true }) //Trayendo el modulo de rutas que cree en la raiz app
+                _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(_router_component__WEBPACK_IMPORTED_MODULE_4__["appRoutes"], { useHash: true }) //useHash (Para que no se dañe la ruta en githubpages al recargar.)
             ],
-            providers: [_modules_news_shared_news_service_component__WEBPACK_IMPORTED_MODULE_26__["NewsServiceComponent"], _modules_common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"], _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_28__["NewsRouteActivator"]],
+            providers: [_modules_news_shared_news_service_component__WEBPACK_IMPORTED_MODULE_30__["NewsServiceComponent"], _modules_common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"], _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_32__["NewsRouteActivator"], _modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_11__["VideoRouteActivator"], _modules_inicio_shared_video_service_component__WEBPACK_IMPORTED_MODULE_9__["VideoServiceComponent"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
 }());
 
+//Requisitos de reinstalación de Node_module
+// npm install bootstrap
+//  npm install @ngx-loading-bar/router --save
+// npm install ng2-charts 
+// npm install angular-fusioncharts
+//LAS DEPENDENCIAS QUEDARON ALMACENADAS EN EL PACKAJE, ASI QUE SE INSTALAN POR SU CUENTA ************
+//EL POPPER:JS NO SE REGENERA YA QUE YO LO METÍ MANUALMENTE EN LA DEPENDENCIA DEL BOOTSTRAP, ASI QUE ESE HAY QUE VOLVERLO A PONER
+//Agregar el popper.min.js  (a: Node_modules/bootstrap/dist/js)
 
 
 /***/ }),
@@ -510,7 +528,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\r\n    <article class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n          <h6 class=\"titles\">\r\n            COLOR PALETTE\r\n          </h6>\r\n        </div>\r\n      </div>\r\n    </article>\r\n</section>"
+module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <h6 class=\"titles\">\r\n          COLOR PALETTE\r\n        </h6>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
 
 /***/ }),
 
@@ -579,11 +597,10 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var NoFoundComponent = /** @class */ (function () {
     function NoFoundComponent() {
     }
-    NoFoundComponent.prototype.ngOnInit = function () {
-    };
+    NoFoundComponent.prototype.ngOnInit = function () { };
     NoFoundComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            template: "\n      <section class=\"AAE-404-component\">\n        <article class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-md-12 d-flex justify-content-center\">\n              <div>\n                <img class=\"img-fluid\" src=\"./assets/images/img-404.png\">\n              </div>\n                <h1 class=\"errorMessage\">404</h1>\n                <p class=\"sub-errorMessage\">Parece que te has perdido, elije otra opci\u00F3n del men\u00FA, o en el buscador :)</p>\n            </div>\n          </div>\n        </article>\n    </section>\n  ",
+            template: "\n    <section class=\"AAE-404-component\">\n      <article class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-12 d-flex justify-content-center\">\n            <div>\n              <img class=\"img-fluid\" src=\"./assets/images/img-404.png\">\n            </div>\n            <h1 class=\"errorMessage\">404</h1>\n            <p class=\"sub-errorMessage\">Parece que te has perdido, elije otra opci\u00F3n del men\u00FA, o en el buscador :)</p>\n          </div>\n        </div>\n      </article>\n    </section>\n  ",
             styles: ["\n    .errorMessage {\n      position: absolute; \n      color: #555;\n      font-weight: 100;\n      margin-top: 185px; \n      font-size: 100px;\n      text-align: center;\n    }\n    .sub-errorMessage {\n      position: absolute; \n      margin-top: 300px;\n      padding: 50px; \n      color: #555;\n      font-size: 30px;\n      text-align: center;\n      font-weight: 300;\n    }\n    .AAE-404-component img{\n      width: 800px;\n      pointer-events: none;\n    }\n    "]
         }),
         __metadata("design:paramtypes", [])
@@ -708,7 +725,7 @@ var DirectosComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--SECCION VIDEOS-->\n<div class=\"AAE-container-videos\">\n        <div class=\"AAE-video-publicidad\">\n            <iframe class=\"video-publicidad-inicial img-fluid\" src=\"https://www.youtube.com/embed/ibLIyq7zyTU\"  allowfullscreen></iframe>\n            <iframe class=\"video-publicidad img-fluid\" src=\"https://www.youtube.com/embed/JlaUo1TNXh4\"  allowfullscreen></iframe>\n            <iframe class=\"video-publicidad img-fluid\" src=\"https://www.youtube.com/embed/aqvXXva1Qy4\"  allowfullscreen></iframe>\n        </div>\n\n        <div class=\"AAE-video-section\">\n            <h6 class=\"AAE-title-section\">RECOMENDADOS</h6>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/5v5TNgZyYz8\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Hijuetumadre</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Negro está claro</p>\n                    <p class=\"AAE-descript\">907 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 1 año</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/eTj1Fhfgouk\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">ElectroPower</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">SrElect <span><i class=\"fas fa-check-circle\"></i></span></p>\n                    <p class=\"AAE-descript\">1 millón visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 4 meses</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/ERMrP4Da6Is\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Heavy Metal</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">MrGaner</p>\n                    <p class=\"AAE-descript\">5 millones visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 5 años</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/s6QGEWY0vBw\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Anuncios de piso</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">AuronPlay <span><i class=\"fas fa-check-circle\"></i></span></p>\n                    <p class=\"AAE-descript\">600 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 15 días</p>\n                </div>\n            </div>\n\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/yPVFRP6vlvg\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Electronica</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Electronico</p>\n                    <p class=\"AAE-descript\">100 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 1 año</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/5rvZBsueMoc\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Inteligencia Artificial</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Discovery Chanel</p>\n                    <p class=\"AAE-descript\">100 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 8 meses</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/6iL87lza-eY\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">El creador homúnculo</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Dross <span><i class=\"fas fa-check-circle\"></i></span></p>\n                    <p class=\"AAE-descript\">15 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 2 años</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/KBxXuU1lxf4\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Mi experiencia</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Juanda Oviedo</p>\n                    <p class=\"AAE-descript\">907 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 1 año</p>\n                </div>\n            </div>\n\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/Es7HAzFsW1M\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Redes neuronales</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Platzi <span><i class=\"fas fa-check-circle\"></i></span></p>\n                    <p class=\"AAE-descript\">567 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 1 mes</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/aqvXXva1Qy4\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Sorteo Kia!</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Kia <span><i class=\"fas fa-check-circle\"></i></span></p>\n                    <p class=\"AAE-descript\">902 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 3 años</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/pHwlBTR4pik\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Cartel paranormal d ela mega</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">La Mega</p>\n                    <p class=\"AAE-descript\">345mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 4 meses</p>\n                </div>\n            </div>\n            <div class=\"card\">\n                <iframe class=\"video-formato img-fluid\" src=\"https://www.youtube.com/embed/aigMMocXaic\" allowfullscreen></iframe>\n                <p class=\"aae-title-videos\">Taller Design Thinking \"Platzi\"</p>\n                <div class=\"data-descript\">\n                    <p class=\"AAE-descript\">Platzi <span><i class=\"fas fa-check-circle\"></i></span></p>\n                    <p class=\"AAE-descript\">598 mil visualizaciones</p>\n                    <p class=\"AAE-descript\">hace 1 día</p>\n                </div>\n            </div>\n        </div>\n      </div>"
+module.exports = "<div class=\"AAE-container-videos\">\n  <!--SECCIÓN PUBLICIDAD-->\n  <!-- <div class=\"AAE-video-publicidad\">\n  </div> -->\n\n  <!-- LLAMANDO SECCIÓN VIDEOS -->\n  <div class=\"AAE-video-section\">\n    <h6 class=\"AAE-title-section\">VIDEO CORNER</h6>\n    <div *ngFor=\"let video of videos\">\n      <app-video-list (click)=\"handeThumbnailClick(video.name)\" [video]=\"video\"></app-video-list>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -723,6 +740,8 @@ module.exports = "<!--SECCION VIDEOS-->\n<div class=\"AAE-container-videos\">\n 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InicioComponent", function() { return InicioComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_video_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/video-service.component */ "./src/app/modules/inicio/shared/video-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -733,19 +752,444 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var InicioComponent = /** @class */ (function () {
-    function InicioComponent() {
+    function InicioComponent(VideoServiceComponent, toastr) {
+        this.VideoServiceComponent = VideoServiceComponent;
+        this.toastr = toastr;
     }
     InicioComponent.prototype.ngOnInit = function () {
+        this.videos = this.VideoServiceComponent.getVideos();
+    };
+    InicioComponent.prototype.handeThumbnailClick = function (videoName) {
+        this.toastr.success(videoName);
     };
     InicioComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-inicio',
             template: __webpack_require__(/*! ./inicio.component.html */ "./src/app/modules/inicio/inicio.component.html")
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_shared_video_service_component__WEBPACK_IMPORTED_MODULE_1__["VideoServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], InicioComponent);
     return InicioComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/shared/video-service.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/modules/inicio/shared/video-service.component.ts ***!
+  \******************************************************************/
+/*! exports provided: VideoServiceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoServiceComponent", function() { return VideoServiceComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var VideoServiceComponent = /** @class */ (function () {
+    function VideoServiceComponent() {
+    }
+    VideoServiceComponent.prototype.ngOnInit = function () {
+    };
+    VideoServiceComponent.prototype.getVideos = function () {
+        return VIDEOS;
+    };
+    VideoServiceComponent.prototype.getVideo = function (id) {
+        return VIDEOS.find(function (video) { return video.id === id; });
+    };
+    VideoServiceComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [])
+    ], VideoServiceComponent);
+    return VideoServiceComponent;
+}());
+
+var VIDEOS = [
+    {
+        id: 1,
+        title: 'UX as a walk',
+        canalName: 'Andrés Alzate',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video1.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 2,
+        title: 'Fuck title',
+        canalName: 'Alzate papá',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video2.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 3,
+        title: 'Otro fuck title',
+        canalName: 'Tomas design',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video3.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 4,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video1.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 5,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video2.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 6,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video3.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 7,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video1.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 8,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video2.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 9,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video3.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 10,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video1.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 11,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video2.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+    {
+        id: 12,
+        title: 'Hijuetumadre',
+        canalName: 'Angular Connect',
+        time: '2 days',
+        date: '9/26/2036',
+        numViews: '348 thousand',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        videoUrl: '/assets/video/subidos/video3.mp4',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/video-list.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/modules/inicio/video-list.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div [routerLink]=\"['/videos', video.id]\">\r\n    <div class=\"card\">\r\n        <video class=\"video-formato img-fluid\">\r\n            <source [src]=\"video.videoUrl\" type=\"video/mp4\">\r\n            <source [src]=\"video.videoUrl\" type=\"video/ogg\">\r\n            Your browser does not support the video tag.\r\n        </video>\r\n        <div class=\"AAE-play-video d-flex justify-content-center align-items-center\">\r\n            <i class=\"fab fa-youtube\"></i>\r\n        </div>\r\n        <p class=\"aae-title-videos\">{{video.title}}</p>\r\n        <div class=\"data-descript\">\r\n            <p class=\"AAE-descript\">{{video.canalName}}</p>\r\n            <p class=\"AAE-descript\">{{video.numViews}} views</p>\r\n            <p class=\"AAE-descript\">{{video.time}}</p>\r\n    </div>\r\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/video-list.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/modules/inicio/video-list.component.ts ***!
+  \********************************************************/
+/*! exports provided: VideoListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoListComponent", function() { return VideoListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+//AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
+//Y LE DAMOS LA FUNCION EL CLICK ROUTER
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var VideoListComponent = /** @class */ (function () {
+    function VideoListComponent() {
+    }
+    VideoListComponent.prototype.ngOnInit = function () {
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], VideoListComponent.prototype, "video", void 0);
+    VideoListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-video-list',
+            template: __webpack_require__(/*! ./video-list.component.html */ "./src/app/modules/inicio/video-list.component.html"),
+        }),
+        __metadata("design:paramtypes", [])
+    ], VideoListComponent);
+    return VideoListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/videos-detail/videos-detail.component.css":
+/*!**************************************************************************!*\
+  !*** ./src/app/modules/inicio/videos-detail/videos-detail.component.css ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".AAE-header-view-new{\r\n    border-bottom: 1px solid rgba(85, 85, 85, 0.137);\r\n    padding: 5px;\r\n}\r\n\r\n.AAE-header-view-new .container .container-image-view-news{/*Container img view new*/\r\n    width: 100%;\r\n    height: 300px;\r\n    background-color: #ccc;\r\n    box-shadow: 4px 4px 4px 0px rgba(85, 85, 85, 0.274);\r\n    border-radius: 7px;\r\n    overflow: hidden;\r\n}\r\n\r\n.AAE-header-view-new .container .container-image-view-news img { \r\n    width: 100%;\r\n    border-radius: 3px;\r\n}\r\n\r\n.AAE-photo-section .container h2{\r\n    font-family: \"Roboto\", sans-serif;\r\n    font-weight: 100;\r\n    margin-top: 20px;\r\n    text-align: center;\r\n}\r\n\r\n.AAE-container-descript-news{\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 20px;\r\n    border-radius: 10px;\r\n}\r\n\r\n.AAE-container-descript-news span{\r\n    font-weight: bold;\r\n    color: #555;\r\n}\r\n\r\n.AAE-container-descript-news h2{\r\n    font-weight: 100;\r\n}\r\n\r\n.AAE-container-descript-news h6{\r\n    font-weight: bold;\r\n    color: #555;\r\n}\r\n\r\n.AAE-container-descript-news h6 span{\r\n    color: #2793E8;\r\n}"
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/videos-detail/videos-detail.component.html":
+/*!***************************************************************************!*\
+  !*** ./src/app/modules/inicio/videos-detail/videos-detail.component.html ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"AAE-videos-detail\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-8\">\n        <div class=\"AAE-container-video\">\n          <video class=\"video-formato img-fluid\" controls>\n            <source [src]=\"video.videoUrl\" type=\"video/mp4\">\n            <source [src]=\"video.videoUrl\" type=\"video/ogg\"> Your browser does not support the video tag.\n          </video>\n          <div class=\"row\">\n            <div class=\"col-md-6\">\n                <h5 class=\"title-video-detail\">{{video.title}}</h5>\n            </div>\n            <div class=\"col-md-6 d-flex justify-content-end\">\n              <nav>\n                <ul class=\"container-reactions\">\n                  <i class=\"fas fa-thumbs-up\"></i>\n                  <i class=\"fas fa-heart\"></i>\n                  <i class=\"fas fa-thumbs-down\"></i>\n                </ul>\n              </nav>\n            </div>\n          </div>\n              <h6 class=\"spam-views\">{{video.numViews}} of views</h6>\n        </div>\n      \n        <button class=\"btn btn-category dropdown-toggle\" mat-raised-button (click)=\"toggle()\">{{buttonName}}</button>\n        <div class=\"container-descript-video\">\n          <div *ngIf=\"!(show)\">\n              Description:\n              <p class=\"sub-description-video\">{{video.descrip}}</p>\n          </div>\n          <div *ngIf=\"show\">\n            <div class=\"AAE-video-descript\">\n              <h6><span>By:</span> {{video.canalName}}</h6>\n              <h6><span>Date:</span> {{video.date}} </h6>\n              <span>Location:</span> {{ video.location.address }}\n              <h6>{{video.numViews}} of views</h6>\n              <div class=\"AAE-text-descript\">\n                <p>{{video.descrip}}</p>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-md-4\">\n          <div class=\"AAE-container-spam-videos d-flex justify-content-end\">\n            <app-inicio></app-inicio>\n          </div>\n        </div>\n\n      <div class=\"col-md-8\">\n        <div class=\"AAE-container-comments-video\">\n          <h6>Coments</h6>\n          <input type=\"text\">\n        </div>\n      </div>\n\n    </div>\n  </article>\n</section>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/videos-detail/videos-detail.component.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/modules/inicio/videos-detail/videos-detail.component.ts ***!
+  \*************************************************************************/
+/*! exports provided: VideosDetailComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideosDetailComponent", function() { return VideosDetailComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_video_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/video-service.component */ "./src/app/modules/inicio/shared/video-service.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var VideosDetailComponent = /** @class */ (function () {
+    function VideosDetailComponent(VideoServiceComponent, route) {
+        this.VideoServiceComponent = VideoServiceComponent;
+        this.route = route;
+        //Función para esconder la descriptción con el *ngif
+        this.show = false;
+        this.buttonName = 'SEE MORE';
+    }
+    VideosDetailComponent.prototype.ngOnInit = function () {
+        this.video = this.VideoServiceComponent.getVideo(+this.route.snapshot.params['id']);
+    };
+    VideosDetailComponent.prototype.toggle = function () {
+        this.show = !this.show;
+        if (this.show) {
+            this.buttonName = 'SEE LESS';
+            console.log(this.show);
+        }
+        else {
+            this.buttonName = 'SEE MORE';
+        }
+    };
+    VideosDetailComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-video-detail',
+            template: __webpack_require__(/*! ./videos-detail.component.html */ "./src/app/modules/inicio/videos-detail/videos-detail.component.html"),
+            styles: [__webpack_require__(/*! ./videos-detail.component.css */ "./src/app/modules/inicio/videos-detail/videos-detail.component.css")]
+        }),
+        __metadata("design:paramtypes", [_shared_video_service_component__WEBPACK_IMPORTED_MODULE_1__["VideoServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+    ], VideosDetailComponent);
+    return VideosDetailComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/inicio/videos-detail/videos-router-activate.service.ts":
+/*!********************************************************************************!*\
+  !*** ./src/app/modules/inicio/videos-detail/videos-router-activate.service.ts ***!
+  \********************************************************************************/
+/*! exports provided: VideoRouteActivator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoRouteActivator", function() { return VideoRouteActivator; });
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_video_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/video-service.component */ "./src/app/modules/inicio/shared/video-service.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+//Servicio de rutas activadas por id Sección de videos
+
+
+
+var VideoRouteActivator = /** @class */ (function () {
+    function VideoRouteActivator(VideoServiceComponent, router) {
+        this.VideoServiceComponent = VideoServiceComponent;
+        this.router = router;
+        //Codigo que agregué para que la ruta id por parametros se recarge, es decir
+        // que la id del item se actualice al dar click en otro video o manualmente en el link sin recargar
+        //Esto resuelve el error de que solo cargaba la ruta desde cada elemento y no manualmente.
+        this.router.routeReuseStrategy.shouldReuseRoute = function () { return false; };
+    }
+    VideoRouteActivator.prototype.canActivate = function (route) {
+        var videoExists = !!this.VideoServiceComponent.getVideo(+route.params['id']);
+        if (!videoExists)
+            this.router.navigate(['./common/errorr']); //Redirecciona al error 404 original
+        return videoExists;
+    };
+    VideoRouteActivator = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        __metadata("design:paramtypes", [_shared_video_service_component__WEBPACK_IMPORTED_MODULE_2__["VideoServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_0__["Router"]])
+    ], VideoRouteActivator);
+    return VideoRouteActivator;
 }());
 
 
@@ -764,7 +1208,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsListComponent", function() { return NewsListComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
-/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
 //AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
 //Y LE DAMOS LA FUNCION EL CLICK ROUTER
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -877,7 +1321,7 @@ module.exports = ".AAE-header-view-new{\r\n    border-bottom: 1px solid rgba(85,
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <img class=\"img fluid\" [src]=\"news?.imageUrl\" [alt]=\"news?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{news.name}} </h2>\n          <h6><span>By:</span> {{news.user}}</h6>\n          <div>\n            <span>Category:</span> {{news.category}}\n          </div>\n\n          <div><span>Date:</span> {{news.date}} </div>\n          <div>\n            <span>Location:</span> {{ news.location.address }}\n            <span>&nbsp;</span>\n            {{ news.location.city }}, {{ news.location.country }}\n          </div>\n        </div>\n      </div> \n    </div>\n  </article>\n</section>\n\n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n          <h2>{{news?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{news.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>\n"
+module.exports = "<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <img class=\"img fluid\" [src]=\"news?.imageUrl\" [alt]=\"news?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{news.name}} </h2>\n          <h6><span>By:</span> {{news.user}}</h6>\n          <div>\n            <span>Category:</span> {{news.category}}\n          </div>\n\n          <div><span>Date:</span> {{news.date}} </div>\n          <div>\n            <span>Location:</span> {{ news.location.address }}\n            <span>&nbsp;</span>\n            {{ news.location.city }}, {{ news.location.country }}\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n\n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h2>{{news?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{news.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>\n"
 
 /***/ }),
 
@@ -892,7 +1336,7 @@ module.exports = "<section class=\"AAE-header-view-new\">\n  <article class=\"co
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewssDetailComponent", function() { return NewssDetailComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
+/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -941,7 +1385,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsRouteActivator", function() { return NewsRouteActivator; });
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
+/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -958,6 +1402,10 @@ var NewsRouteActivator = /** @class */ (function () {
     function NewsRouteActivator(NewsServiceComponent, router) {
         this.NewsServiceComponent = NewsServiceComponent;
         this.router = router;
+        //Codigo que agregué para que la ruta id por parametros se recarge, es decir
+        // Funciona tambien en caso de tener una misma lista de elementos almacenadas dentro de el id de un elemento, esto recargara, ejemplo: youtube,(entras a uno de sus videos y ves más videos recomendados, al darle a otro, este recarga la ruta)
+        //Esto resuelve el error de que solo cargaba la ruta desde cada elemento y no manualmente.
+        this.router.routeReuseStrategy.shouldReuseRoute = function () { return false; };
     }
     NewsRouteActivator.prototype.canActivate = function (route) {
         var newsExists = !!this.NewsServiceComponent.getNews(+route.params['id']);
@@ -1025,7 +1473,7 @@ var NEWSS = [
         time: '10:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 599.99,
-        imageUrl: './assets/images/news/img-photos-1.jpg',
+        imageUrl: '/assets/images/news/img-photos-1.jpg',
         location: {
             address: '1057 DT',
             city: 'London',
@@ -1088,7 +1536,7 @@ var NEWSS = [
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 950.00,
-        imageUrl: './assets/images/news/img-photo-12.jpg',
+        imageUrl: '/assets/images/news/img-photo-12.jpg',
         location: {
             address: 'The NG-NL Convention Center & Scuba Shop',
             city: 'Amsterdam',
@@ -1142,7 +1590,7 @@ var NEWSS = [
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 759.00,
-        imageUrl: './assets/images/news/aguacate.jpg',
+        imageUrl: '/assets/images/news/aguacate.jpg',
         location: {
             address: 'The Palatial America Hotel',
             city: 'Salt Lake City',
@@ -1214,7 +1662,7 @@ var NEWSS = [
         time: '8:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 800.00,
-        imageUrl: './assets/images/news/img-photos-10.jpg',
+        imageUrl: '/assets/images/news/img-photos-10.jpg',
         location: {
             address: 'The UN Angular Center',
             city: 'New York',
@@ -1259,7 +1707,7 @@ var NEWSS = [
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
         price: 400.00,
-        imageUrl: './assets/images/news/img-photos-12.jpg',
+        imageUrl: '/assets/images/news/img-photos-12.jpg',
         location: {
             address: 'The Excalibur',
             city: 'Las Vegas',
@@ -1309,7 +1757,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-photos-section AAE-transition-sections\">\r\n    <article class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n          <h6 class=\"titles\">\r\n            PHOTOGRAPHIC INSPIRATION\r\n          </h6>\r\n        </div>\r\n        <div class=\"col-md-12\"><!--CARDS TRENDS-->\r\n          <div class=\"card-columns\">\r\n              <div class=\"card\">\r\n                <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-1.jpg\" alt=\"Card image cap\">\r\n              </div>\r\n              <div class=\"card p-3\">\r\n                  <img class=\"card-img\" src=\"./assets/images/photos/img-photos-2.jpg\" alt=\"Card image\">\r\n              </div>\r\n              <div class=\"card\">\r\n                <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-3.jpg\" alt=\"Card image cap\">\r\n              </div>\r\n              <div class=\"card text-center p-3\">\r\n                  <img class=\"card-img\" src=\"./assets/images/photos/img-photos-4.jpg\" alt=\"Card image\">\r\n              </div>\r\n              <div class=\"card\">\r\n                <img class=\"card-img\" src=\"./assets/images/photos/img-photos-5.jpg\" alt=\"Card image\">\r\n              </div>\r\n              <div class=\"card\">\r\n                  <img class=\"card-img\" src=\"./assets/images/photos/img-photos-6.jpg\" alt=\"Card image\">\r\n              </div> \r\n              <div class=\"card\">\r\n                  <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-7.jpg\" alt=\"Card image cap\">\r\n                </div>\r\n                <div class=\"card p-3\">\r\n                    <img class=\"card-img\" src=\"./assets/images/photos/img-photos-8.jpg\" alt=\"Card image\">\r\n                </div>\r\n                <div class=\"card\">\r\n                    <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-9.jpg\" alt=\"Card image cap\">\r\n                </div>\r\n   \r\n            </div>\r\n        </div>\r\n      </div>\r\n    </article>\r\n</section>"
+module.exports = "<section class=\"AAE-photos-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <h6 class=\"titles\">\r\n          PHOTOGRAPHIC INSPIRATION\r\n        </h6>\r\n      </div>\r\n      <div class=\"col-md-12\">\r\n        <!--CARDS TRENDS-->\r\n        <div class=\"card-columns\">\r\n          <div class=\"card\">\r\n            <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-1.jpg\" alt=\"Card image cap\">\r\n          </div>\r\n          <div class=\"card p-3\">\r\n            <img class=\"card-img\" src=\"./assets/images/photos/img-photos-2.jpg\" alt=\"Card image\">\r\n          </div>\r\n          <div class=\"card\">\r\n            <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-3.jpg\" alt=\"Card image cap\">\r\n          </div>\r\n          <div class=\"card text-center p-3\">\r\n            <img class=\"card-img\" src=\"./assets/images/photos/img-photos-4.jpg\" alt=\"Card image\">\r\n          </div>\r\n          <div class=\"card\">\r\n            <img class=\"card-img\" src=\"./assets/images/photos/img-photos-5.jpg\" alt=\"Card image\">\r\n          </div>\r\n          <div class=\"card\">\r\n            <img class=\"card-img\" src=\"./assets/images/photos/img-photos-6.jpg\" alt=\"Card image\">\r\n          </div>\r\n          <div class=\"card\">\r\n            <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-7.jpg\" alt=\"Card image cap\">\r\n          </div>\r\n          <div class=\"card p-3\">\r\n            <img class=\"card-img\" src=\"./assets/images/photos/img-photos-8.jpg\" alt=\"Card image\">\r\n          </div>\r\n          <div class=\"card\">\r\n            <img class=\"card-img-top\" src=\"./assets/images/photos/img-photos-9.jpg\" alt=\"Card image cap\">\r\n          </div>\r\n          \r\n        </div>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
 
 /***/ }),
 
@@ -1372,7 +1820,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\n    <article class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-md-12\">\n          <h6 class=\"titles\">\n            RECORD\n          </h6>\n        </div>\n      </div>\n    </article>\n</section>\n"
+module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          RECORD\n        </h6>\n      </div>\n    </div>\n  </article>\n</section>\n"
 
 /***/ }),
 
@@ -1435,7 +1883,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-trends-section AAE-transition-sections\">\r\n    <article class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles\">TRENDS</h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div>\r\n              <div class=\"btn-group\">\r\n                <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                  Category\r\n                </button>\r\n                <div class=\"dropdown-menu\">\r\n                  <a class=\"dropdown-item\" href=\"#\">UX Design</a>\r\n                  <a class=\"dropdown-item\" href=\"#\">Web Design</a>\r\n                  <a class=\"dropdown-item\" href=\"#\">General Design</a>\r\n                </div>\r\n              </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-md-12 d-flex justify-content-center\">\r\n          <!-- Grapiht MAP -->\r\n          <fusioncharts class=\"chart\"\r\n            type=\"world\"\r\n            width=\"800\"\r\n            height=\"500\"\r\n            dataFormat=\"json\"\r\n            [dataSource]=\"dataSource\"\r\n          ></fusioncharts>\r\n        </div>\r\n      </div>\r\n    </article>\r\n</section>"
+module.exports = "<section class=\"AAE-trends-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-6\">\r\n        <h6 class=\"titles\">TRENDS</h6>\r\n      </div>\r\n      <div class=\"col-md-6 d-flex justify-content-end\">\r\n        <div>\r\n          <div class=\"btn-group\">\r\n            <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n              Category\r\n            </button>\r\n            <div class=\"dropdown-menu\">\r\n              <a class=\"dropdown-item\" href=\"#\">UX Design</a>\r\n              <a class=\"dropdown-item\" href=\"#\">Web Design</a>\r\n              <a class=\"dropdown-item\" href=\"#\">General Design</a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-md-12 d-flex justify-content-center\">\r\n        <!-- Grapiht MAP -->\r\n        <fusioncharts class=\"chart\" \r\n          type=\"world\" \r\n          width=\"800\" \r\n          height=\"500\" \r\n          dataFormat=\"json\" \r\n          [dataSource]=\"dataSource\">\r\n        </fusioncharts>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
 
 /***/ }),
 
@@ -1703,7 +2151,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-post-seccion AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n          <h6 class=\"titles title-popular-topics\">\n            POPULAR TOPICS\n          </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n          <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n              <div>\n                <div class=\"btn-group\">\n                  <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                    Category\n                  </button>\n                  <div class=\"dropdown-menu\">\n                    <a class=\"dropdown-item\" href=\"#\">UX Design</a>\n                    <a class=\"dropdown-item\" href=\"#\">Web Design</a>\n                    <a class=\"dropdown-item\" href=\"#\">General Design</a>\n                  </div>\n                </div>\n              </div>\n          </div>\n          <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n      <div class=\"col-md-12\">\n          <app-graph></app-graph><!--GRAFICAS-->\n      </div>\n\n      <div class=\"col-md-12\">\n        <h6 class=\"titles titles-two\">ARTICLES</h6>\n      </div>\n\n      <div class=\"col-md-12\"><!--CARDS TRENDS-->\n        <div class=\"card-columns\">\n            <div id=\"card-ux-trends\" class=\"card\">\n              <img class=\"card-img-top\" src=\"./assets/images/post/ux/ux.png\" alt=\"Card image cap\">\n              <div class=\"card-body\">\n                <h5 class=\"card-title\">Version UX</h5>\n                <p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\n              </div>\n            </div>\n            <div id=\"card-designWeb-trends\" class=\"card p-3\">\n                <img class=\"card-img\" src=\"./assets/images/post/web-design/template.jpeg\" alt=\"Card image\">\n              <blockquote class=\"blockquote mb-0 card-body\">\n                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n                <footer class=\"blockquote-footer\">\n                  <small class=\"text-muted\">\n                    Someone famous in <cite title=\"Source Title\">Source Title</cite>\n                  </small>\n                </footer>\n              </blockquote>\n            </div>\n            <div id=\"card-ux-trends\" class=\"card\">\n              <img class=\"card-img-top\" src=\"./assets/images/post/ux/ux-2.jpg\" alt=\"Card image cap\">\n              <div class=\"card-body\">\n                <h5 class=\"card-title\">News UX</h5>\n                <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>\n                <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n              </div>\n            </div>\n            <div id=\"card-designWeb-trends\" class=\"card text-center p-3\">\n                <img class=\"card-img\" src=\"./assets/images/post/web-design/reacth.png\" alt=\"Card image\">\n              <blockquote class=\"blockquote mb-0\">\n                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>\n                <footer class=\"blockquote-footer\">\n                  <small>\n                    Someone famous in <cite title=\"Source Title\">Source Title</cite>\n                  </small>\n                </footer>\n              </blockquote>\n            </div>\n            <div id=\"card-design-trends\" class=\"card text-center\">\n              <div class=\"card-body\">\n                <h5 class=\"card-title\">Card title</h5>\n                <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>\n                <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n              </div>\n            </div>\n            <div id=\"card-designWeb-trends\" class=\"card\">\n              <img class=\"card-img\" src=\"./assets/images/post/web-design/angular.jpeg\" alt=\"Card image\">\n              <div class=\"card-body\">\n                <h5 class=\"card-title\">Update Angular</h5>\n              </div>\n            </div>\n            <div id=\"card-design-trends\" class=\"card p-3 text-right\">\n              <blockquote class=\"blockquote mb-0\">\n                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n                <footer class=\"blockquote-footer\">\n                  <small class=\"text-muted\">\n                    Someone famous in <cite title=\"Source Title\">Source Title</cite>\n                  </small>\n                </footer>\n              </blockquote>\n            </div>\n            <div id=\"card-design-trends\" class=\"card\">\n                <img class=\"card-img\" src=\"./assets/images/post/general-design/colors.png\" alt=\"Card image\">\n              <div class=\"card-body\">\n                <h5 class=\"card-title\">Color palette</h5>\n                <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>\n                <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n              </div>\n            </div>    \n          </div>\n      </div>\n      \n    </div>\n  </article>\n</section>"
+module.exports = "<section class=\"AAE-post-seccion AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <h6 class=\"titles title-popular-topics\">\n          POPULAR TOPICS\n        </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n        <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n          <div>\n            <div class=\"btn-group\">\n              <button type=\"button\" class=\"btn dropdown-toggle btn-category\" \n                data-toggle=\"dropdown\" \n                aria-haspopup=\"true\" \n                aria-expanded=\"false\">\n                Category\n              </button>\n              <div class=\"dropdown-menu\">\n                <a class=\"dropdown-item\" href=\"#\">UX Design</a>\n                <a class=\"dropdown-item\" href=\"#\">Web Design</a>\n                <a class=\"dropdown-item\" href=\"#\">General Design</a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n      <div class=\"col-md-12\">\n        <app-graph></app-graph>\n        <!--GRAFICAS-->\n      </div>\n\n      <div class=\"col-md-12\">\n        <h6 class=\"titles titles-two\">ARTICLES</h6>\n      </div>\n\n      <div class=\"col-md-12\">\n        <!--CARDS TRENDS-->\n        <div class=\"card-columns\">\n          <div id=\"card-ux-trends\" class=\"card\">\n            <img class=\"card-img-top\" src=\"./assets/images/post/ux/ux.png\" alt=\"Card image cap\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Version UX</h5>\n              <p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content.\n                This content is a little bit longer.</p>\n            </div>\n          </div>\n          <div id=\"card-designWeb-trends\" class=\"card p-3\">\n            <img class=\"card-img\" src=\"./assets/images/post/web-design/template.jpeg\" alt=\"Card image\">\n            <blockquote class=\"blockquote mb-0 card-body\">\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n              <footer class=\"blockquote-footer\">\n                <small class=\"text-muted\">\n                  Someone famous in <cite title=\"Source Title\">Source Title</cite>\n                </small>\n              </footer>\n            </blockquote>\n          </div>\n          <div id=\"card-ux-trends\" class=\"card\">\n            <img class=\"card-img-top\" src=\"./assets/images/post/ux/ux-2.jpg\" alt=\"Card image cap\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">News UX</h5>\n              <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>\n              <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n            </div>\n          </div>\n          <div id=\"card-designWeb-trends\" class=\"card text-center p-3\">\n            <img class=\"card-img\" src=\"./assets/images/post/web-design/reacth.png\" alt=\"Card image\">\n            <blockquote class=\"blockquote mb-0\">\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>\n              <footer class=\"blockquote-footer\">\n                <small>\n                  Someone famous in <cite title=\"Source Title\">Source Title</cite>\n                </small>\n              </footer>\n            </blockquote>\n          </div>\n          <div id=\"card-design-trends\" class=\"card text-center\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Card title</h5>\n              <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>\n              <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n            </div>\n          </div>\n          <div id=\"card-designWeb-trends\" class=\"card\">\n            <img class=\"card-img\" src=\"./assets/images/post/web-design/angular.jpeg\" alt=\"Card image\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Update Angular</h5>\n            </div>\n          </div>\n          <div id=\"card-design-trends\" class=\"card p-3 text-right\">\n            <blockquote class=\"blockquote mb-0\">\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n              <footer class=\"blockquote-footer\">\n                <small class=\"text-muted\">\n                  Someone famous in <cite title=\"Source Title\">Source Title</cite>\n                </small>\n              </footer>\n            </blockquote>\n          </div>\n          <div id=\"card-design-trends\" class=\"card\">\n            <img class=\"card-img\" src=\"./assets/images/post/general-design/colors.png\" alt=\"Card image\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Color palette</h5>\n              <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content.\n                This card has even longer content than the first to show that equal height action.</p>\n              <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </article>\n</section>"
 
 /***/ }),
 
@@ -1766,7 +2214,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\r\n    <article class=\"container\">\r\n      <div class=\"row\">\r\n        <div class=\"col-md-12\">\r\n          <h6 class=\"titles\">\r\n            WEB DESIGN\r\n          </h6>\r\n        </div>\r\n      </div>\r\n    </article>\r\n</section>"
+module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <h6 class=\"titles\">\r\n          WEB DESIGN\r\n        </h6>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
 
 /***/ }),
 
@@ -1823,19 +2271,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "appRoutes", function() { return appRoutes; });
 /* harmony import */ var _modules_common_errors_no_found_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/common/errors/no-found.component */ "./src/app/modules/common/errors/no-found.component.ts");
 /* harmony import */ var _modules_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/inicio/inicio.component */ "./src/app/modules/inicio/inicio.component.ts");
-/* harmony import */ var _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/trends/trends.component */ "./src/app/modules/trends/trends.component.ts");
-/* harmony import */ var _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/photo/photo.component */ "./src/app/modules/photo/photo.component.ts");
-/* harmony import */ var _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/web-design/web-design.component */ "./src/app/modules/web-design/web-design.component.ts");
-/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
-/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
-/* harmony import */ var _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/ux-designer/ux-designer.component */ "./src/app/modules/ux-designer/ux-designer.component.ts");
-/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
-/* harmony import */ var _modules_record_record_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/record/record.component */ "./src/app/modules/record/record.component.ts");
-/* harmony import */ var _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/news/news-list.component */ "./src/app/modules/news/news-list.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-detail.component */ "./src/app/modules/news/newss-detail/newss-detail.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-router-activate.service */ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts");
+/* harmony import */ var _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/inicio/videos-detail/videos-detail.component */ "./src/app/modules/inicio/videos-detail/videos-detail.component.ts");
+/* harmony import */ var _modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/inicio/videos-detail/videos-router-activate.service */ "./src/app/modules/inicio/videos-detail/videos-router-activate.service.ts");
+/* harmony import */ var _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/trends/trends.component */ "./src/app/modules/trends/trends.component.ts");
+/* harmony import */ var _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/photo/photo.component */ "./src/app/modules/photo/photo.component.ts");
+/* harmony import */ var _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/web-design/web-design.component */ "./src/app/modules/web-design/web-design.component.ts");
+/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
+/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
+/* harmony import */ var _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/ux-designer/ux-designer.component */ "./src/app/modules/ux-designer/ux-designer.component.ts");
+/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
+/* harmony import */ var _modules_record_record_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/record/record.component */ "./src/app/modules/record/record.component.ts");
+/* harmony import */ var _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/news/news-list.component */ "./src/app/modules/news/news-list.component.ts");
+/* harmony import */ var _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-detail.component */ "./src/app/modules/news/newss-detail/newss-detail.component.ts");
+/* harmony import */ var _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-router-activate.service */ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts");
 
 
+
+ //activando el error 404 en los items* (este es el 404 especial para los items)
 
 
 
@@ -1849,17 +2301,19 @@ __webpack_require__.r(__webpack_exports__);
  //activando el error 404 en los items* (este es el 404 especial para los items)
 //COMPONENTS ROUTER
 var appRoutes = [
+    // {path: 'inicio', component: InicioComponent},
+    { path: 'trends', component: _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_4__["TrendsComponent"] },
+    { path: 'photo', component: _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_5__["PhotoComponent"] },
+    { path: 'web-design', component: _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_6__["WebDesignComponent"] },
+    { path: 'color-palette', component: _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_7__["ColorPaletteComponent"] },
+    { path: 'directos', component: _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_8__["DirectosComponent"] },
+    { path: 'ux-designer', component: _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_9__["UxDesignerComponent"] },
+    { path: 'view-post', component: _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_10__["ViewPostComponent"] },
+    { path: 'record', component: _modules_record_record_component__WEBPACK_IMPORTED_MODULE_11__["RecordComponent"] },
     { path: 'inicio', component: _modules_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_1__["InicioComponent"] },
-    { path: 'trends', component: _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_2__["TrendsComponent"] },
-    { path: 'photo', component: _modules_photo_photo_component__WEBPACK_IMPORTED_MODULE_3__["PhotoComponent"] },
-    { path: 'web-design', component: _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_4__["WebDesignComponent"] },
-    { path: 'color-palette', component: _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_5__["ColorPaletteComponent"] },
-    { path: 'directos', component: _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_6__["DirectosComponent"] },
-    { path: 'ux-designer', component: _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_7__["UxDesignerComponent"] },
-    { path: 'view-post', component: _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_8__["ViewPostComponent"] },
-    { path: 'record', component: _modules_record_record_component__WEBPACK_IMPORTED_MODULE_9__["RecordComponent"] },
-    { path: 'news', component: _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_10__["NewsListComponent"] },
-    { path: 'newss/:id', component: _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_11__["NewssDetailComponent"], canActivate: [_modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_12__["NewsRouteActivator"]] },
+    { path: 'videos/:id', component: _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_2__["VideosDetailComponent"], canActivate: [_modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_3__["VideoRouteActivator"]] },
+    { path: 'news', component: _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_12__["NewsListComponent"] },
+    { path: 'newss/:id', component: _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_13__["NewssDetailComponent"], canActivate: [_modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_14__["NewsRouteActivator"]] },
     { path: '', redirectTo: 'inicio', pathMatch: 'full' },
     { path: '**', component: _modules_common_errors_no_found_component__WEBPACK_IMPORTED_MODULE_0__["NoFoundComponent"] },
 ];
@@ -1927,7 +2381,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\aalzatee\Desktop\proyect-aae\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\aalzatee\Desktop\ProyectoAAE\proyect-aae\src\main.ts */"./src/main.ts");
 
 
 /***/ })
