@@ -1,3 +1,4 @@
+//Nocturne Mode Activate
 $(document).ready(function(){
     $('.toggle-switch').on('click', function() {
         //Button active nightMode

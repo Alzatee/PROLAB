@@ -321,7 +321,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ngx-loading-bar color=\"#f9ba46\"></ngx-loading-bar>\n\n<header class=\"AAE-container-header\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n\n            <!-- LOGIN OCULTO :D -->\n            <div class=\"AAE-headerPage\">\n                <article class=\"container-fluid\">\n                    <div class=\"row\">\n                        <video class=\"video-background \" autoplay loop muted plays-inline>\n                            <source src=\"./assets/video/fondo-login.mp4\" type=\"video/mp4\">\n                        </video>\n                        <div id=\"AAE-inicio-mitad-login\" class=\"col-md-6 d-flex justify-content-center\">\n                            <div class=\"AAE-container-login\">\n                                <h2 class=\"AAE-title-principal\">\n                                    PROLAB\n                                </h2>\n                                <h6 class=\"AAE-subtitle-principal\">Your design ally</h6>\n                                <div class=\"AAE-container-form\">\n                                    <form class=\"AAE-form-inicio\">\n                                        <div class=\"form-group\">\n                                            <label for=\"exampleInputEmail1\">Email address</label>\n                                            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n                                            <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.\n                                            </small>\n                                        </div>\n                                        <div class=\"form-group\">\n                                            <label for=\"exampleInputPassword1\">Password</label>\n                                            <input id=\"password-field\" type=\"password\" class=\"form-control\" placeholder=\"Password\">\n                                            <span toggle=\"#password-field\" class=\"fa fa-fw fa-eye field-icon toggle-password\"></span>\n                                        </div>\n                                        <div class=\"form-group form-check\">\n                                            <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">\n                                            <label class=\"form-check-label\" for=\"exampleCheck1\">Remember credentials</label>\n                                        </div>\n                                        <button class=\"btn btn-primary\" routerLink=\"/inicio\"><a>LOG IN</a></button>\n                                        <div class=\"d-flex justify-content-between\">\n                                            <a class=\"AAE-reset-pasword\"><small id=\"emailHelp\" class=\"form-text\">¿Did you forget your password?\n                                                    :)</small></a>\n                                            <a class=\"AAE-reset-pasword\"><small id=\"emailHelp\" class=\"form-text\">Sign up here</small></a>\n                                        </div>\n                                        <small id=\"emailHelp\" class=\"form-text text-muted\">All rights reserved (AAE) 2018</small>\n                                    </form>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-6 d-flex justify-content-end\">\n                            <i id=\"AAE-close-login\" class=\"fas fa-angle-left\"></i>\n                        </div>\n                    </div>\n                </article>\n            </div>\n            <!--FINAL LOGIN-->\n                \n            <div class=\"col-md-2\">\n\n                <a class=\"open-nav open-close-nav float-left\"><i class=\"fas fa-bars\"></i></a>\n                <a class=\"open-nav open-nav-show hiden-nav\"><i class=\"fas fa-bars\"></i></a>\n                <div class=\"AAE-container-logo d-flex justify-content-center\">\n                    <a href=\"#\">\n                        <h1>\n                            <img class=\"img-fluid\" src=\"./assets/images/Logo.PNG\" alt=\"PL\"><span>co</span>\n                        </h1>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-7 d-flex align-items-center justify-content-center\">\n                <div class=\"input-group\">\n                    <input type=\"text\" class=\"form-control search-night\" placeholder=\"Search\" aria-label=\"Recipient's username\" aria-describedby=\"basic-addon2\">\n                    <div class=\"input-group-append\">\n                        <span class=\"input-group-text searh-icon-night\" id=\"basic-addon2\"><i class=\"fas fa-search\"></i></span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-3 d-flex align-items-center\">\n                <div class=\"AAE-var-optionsName disable-options-mobile\">\n                    <!-- <a class=\"item-option active-nocturne-mode\" href=\"#\"><i class=\"fas fa-moon\"></i></a> -->\n                    <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                    <input type=\"checkbox\" class=\"toggle-switch\">\n                    <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n            \n                    <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                </div>\n                <div class=\"AAE-option-sesion\">\n                    <a id=\"AAE-login-desplegate\" class=\"aae-inicio-sesion\">LOG IN</a>\n                </div>\n            </div>\n        </div>\n    </article>\n</header>\n\n<section class=\"AAE-section-principal\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n            <div id=\"menu-responsive\" class=\"col-md-2\">\n                <div class=\"aae-menu-hide\">\n                    <div class=\"group-style group-basic\">\n                        <nav>\n                            <ul>\n                                <div class=\"aditional-movil\">\n                                    <div class=\"options-nav\">\n                                        <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                                            <input type=\"checkbox\" class=\"toggle-switch\">\n                                        <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n                                    </div>\n                                    <div>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-th\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-comment\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                                    </div>\n                                </div>\n                                \n                                <li routerLink=\"/inicio\" class=\"active\"><a><i class=\"fas fa-home active-icon\"></i> Inicio</a></li>\n                                <li routerLink=\"/view-post\"><a><i class=\"fas fa-smile-beam active-icon\"></i> View Post</a></li>\n                                <li routerLink=\"/trends\"><a><i class=\"fas fa-fire active-icon\"></i> Trends</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-mejor\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">MOST RELEVANT</h6>\n                            <ul>\n                                <li [routerLink]=\"['/view-photo']\"><a><i class=\"fas fa-camera-retro active-icon\"></i> Photograpics</a></li>\n                                <li [routerLink]=\"['/news']\"><a><i class=\"far fa-newspaper active-icon\"></i> News</a></li>\n                                <li routerLink=\"/web-design\"><a><i class=\"fas fa-pen-nib active-icon\"></i> Web Design</a></li>\n                                <li routerLink=\"/color-palette\"><a><i class=\"fas fa-palette active-icon\"></i> Color palette</a></li>\n                                <li routerLink=\"/directos\"><a><i class=\"fas fa-fist-raised active-icon\"></i>In live</a></li>\n                                <li routerLink=\"/ux-designer\"><a><i class=\"far fa-object-group active-icon\"></i>UX Designer</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-spam-inicioSesion\">\n                        <p class=\"AAE-text-menu\">Invite your friends.</p>\n                        <a class=\"aae-inicio-sesion\" href=\"\">INVITE PEOPLE</a>\n                    </div>\n                    <div class=\"group-style group-mas\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">EDIT PROLAB</h6>\n                            <ul>\n                                <li><a><i class=\"fas fa-cog active-icon\"></i> Config</a></li>\n                                <li><a><i class=\"fas fa-question-circle active-icon\"></i> Ayuda</a></li>\n                                <li routerLink=\"/record\"><a><i class=\"far fa-clock active-icon\"></i> Record</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n\n                    <div class=\"group-style group-derechos\">\n                        <p class=\"AAE-text-menu\">© 2015 All rights reserved | Prolab - Medellin Colombia</p>\n                        <p class=\"AAE-text-menu\">©Prolab.com</p>\n                        <p class=\"AAE-text-menu\">Autor: Andrés Alzate (AAE)</p>\n                    </div>\n                </div>\n            </div>\n            <div id=\"absoluting\" class=\"col-md-10\">\n                <div class=\"AAE-container-principal\">\n                    <router-outlet></router-outlet>\n                </div>\n          </div>\n        </div>\n    </article>\n</section>\n\n\n"
+module.exports = "<ngx-loading-bar color=\"#f9ba46\"></ngx-loading-bar><!--Barra de carga-->\n<header class=\"AAE-container-header\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n            <!-- LOGIN OCULTO :D -->\n            <div class=\"AAE-headerPage\">\n                <article class=\"container-fluid\">\n                    <div class=\"row\">\n                        <video class=\"video-background \" autoplay loop muted plays-inline>\n                            <source src=\"./assets/video/fondo-login.mp4\" type=\"video/mp4\">\n                        </video>\n                        <div id=\"AAE-inicio-mitad-login\" class=\"col-md-6 d-flex justify-content-center\">\n                            <div class=\"AAE-container-login\">\n                                <h2 class=\"AAE-title-principal\">\n                                    PROLAB\n                                </h2>\n                                <h6 class=\"AAE-subtitle-principal\">Your design ally</h6>\n                                <div class=\"AAE-container-form\">\n                                    <form class=\"AAE-form-inicio\">\n                                        <div class=\"form-group\">\n                                            <label for=\"exampleInputEmail1\">Email address</label>\n                                            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\"\n                                                aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n                                            <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>\n                                        </div>\n                                        <div class=\"form-group\">\n                                            <label for=\"exampleInputPassword1\">Password</label>\n                                            <input id=\"password-field\" type=\"password\" class=\"form-control\" placeholder=\"Password\">\n                                            <span toggle=\"#password-field\" class=\"fa fa-fw fa-eye field-icon toggle-password\"></span>\n                                        </div>\n                                        <div class=\"form-group form-check\">\n                                            <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">\n                                            <label class=\"form-check-label\" for=\"exampleCheck1\">Remember credentials</label>\n                                        </div>\n                                        <button class=\"btn btn-primary\" routerLink=\"/inicio\"><a>LOG IN</a></button>\n                                        <div class=\"d-flex justify-content-between\">\n                                            <a class=\"AAE-reset-pasword\"><small id=\"emailHelp\" class=\"form-text\">¿Did you forget your password?:)</small></a>\n                                            <a class=\"AAE-reset-pasword\"><small id=\"emailHelp\" class=\"form-text\">Sign up here</small></a>\n                                        </div>\n                                        <small id=\"emailHelp\" class=\"form-text text-muted\">All rights reserved (AAE) 2018</small>\n                                    </form>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-6 d-flex justify-content-end\">\n                            <i id=\"AAE-close-login\" class=\"fas fa-angle-left\"></i>\n                        </div>\n                    </div>\n                </article>\n            </div>\n            <!--FINAL LOGIN-->\n\n            <div class=\"col-md-2\">\n                <a class=\"open-nav open-close-nav float-left\"><i class=\"fas fa-bars\"></i></a>\n                <a class=\"open-nav open-nav-show hiden-nav\"><i class=\"fas fa-bars\"></i></a>\n                <div class=\"AAE-container-logo d-flex justify-content-center\">\n                    <a href=\"#\">\n                        <h1>\n                            <img class=\"img-fluid\" src=\"./assets/images/Logo.PNG\" alt=\"PL\"><span>co</span>\n                        </h1>\n                    </a>\n                </div>\n            </div>\n\n            <div class=\"col-md-7 d-flex align-items-center justify-content-center\">\n                <div class=\"input-group\">\n                    <input type=\"text\" class=\"form-control search-night\" placeholder=\"Search\" aria-label=\"Recipient's username\"\n                        aria-describedby=\"basic-addon2\">\n                    <div class=\"input-group-append\">\n                        <span class=\"input-group-text searh-icon-night\" id=\"basic-addon2\"><i class=\"fas fa-search\"></i></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-md-3 d-flex align-items-center\">\n                <div class=\"AAE-var-optionsName disable-options-mobile\">\n                    <!-- <a class=\"item-option active-nocturne-mode\" href=\"#\"><i class=\"fas fa-moon\"></i></a> -->\n                    <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                    <input type=\"checkbox\" class=\"toggle-switch\">\n                    <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n\n                    <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                </div>\n                <div class=\"AAE-option-sesion\">\n                    <a id=\"AAE-login-desplegate\" class=\"aae-inicio-sesion\">LOG IN</a>\n                </div>\n            </div>\n        </div>\n    </article>\n</header>\n\n<section class=\"AAE-section-principal\">\n    <article class=\"container-fluid\">\n        <div class=\"row\">\n            <div id=\"menu-responsive\" class=\"col-md-2\">\n                <div class=\"aae-menu-hide\">\n                    <div class=\"group-style group-basic\">\n                        <nav>\n                            <ul>\n                                <div class=\"aditional-movil\">\n                                    <div class=\"options-nav\">\n                                        <i id=\"icon-sun\" class=\"fas fa-sun active\"></i>\n                                        <input type=\"checkbox\" class=\"toggle-switch\">\n                                        <i id=\"icon-moon\" class=\"fas fa-moon\"></i>\n                                    </div>\n                                    <div>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-th\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-comment\"></i></a>\n                                        <a class=\"item-option\" href=\"#\"><i class=\"fas fa-ellipsis-v\"></i></a>\n                                    </div>\n                                </div>\n\n                                <li routerLink=\"/inicio\" class=\"active\"><a><i class=\"fas fa-home active-icon\"></i> Inicio</a></li>\n                                <li routerLink=\"/view-post\"><a><i class=\"fas fa-smile-beam active-icon\"></i> View Post</a></li>\n                                <li routerLink=\"/trends\"><a><i class=\"fas fa-fire active-icon\"></i> Trends</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-mejor\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">MOST RELEVANT</h6>\n                            <ul>\n                                <li [routerLink]=\"['/view-photo']\"><a><i class=\"fas fa-camera-retro active-icon\"></i> Photograpics</a></li>\n                                <li [routerLink]=\"['/view-news']\"><a><i class=\"far fa-newspaper active-icon\"></i> News</a></li>\n                                <li routerLink=\"/color-palette\"><a><i class=\"fas fa-palette active-icon\"></i> Color palette</a></li>\n                                <li routerLink=\"/directos\"><a><i class=\"fas fa-fist-raised active-icon\"></i>In live</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-category\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">CATEGORY</h6>\n                            <ul>\n                                <li routerLink=\"/web-design\"><a><i class=\"fas fa-laptop-code active-icon\"></i> Web Design</a></li>\n                                <li routerLink=\"/ux-designer\"><a><i class=\"far fa-object-group active-icon\"></i>UX Designer</a></li>\n                                <li routerLink=\"/general-designer\"><a><i class=\"fas fa-pen-nib active-icon\"></i>General Designer</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                    <div class=\"group-style group-spam-inicioSesion\">\n                        <p class=\"AAE-text-menu\">Invite your friends.</p>\n                        <a class=\"aae-inicio-sesion\" href=\"\">INVITE PEOPLE</a>\n                    </div>\n                    <div class=\"group-style group-options\">\n                        <nav>\n                            <h6 class=\"AAE-title-section-menu\">EDIT PROLAB</h6>\n                            <ul>\n                                <li><a><i class=\"fas fa-cog active-icon\"></i> Config</a></li>\n                                <li><a><i class=\"fas fa-question-circle active-icon\"></i> Ayuda</a></li>\n                                <li><a><i class=\"far fa-clock active-icon\"></i> Record</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n\n                    <div class=\"group-style group-derechos\">\n                        <p class=\"AAE-text-menu\">© 2018 All rights reserved | Prolab - Medellin Colombia</p>\n                        <p class=\"AAE-text-menu\">©Prolab.com</p>\n                        <p class=\"AAE-text-menu\">Autor: Andrés Alzate (AAE)</p>\n                    </div>\n                </div>\n            </div>\n            <div id=\"absoluting\" class=\"col-md-10\">\n                <div class=\"AAE-container-principal\">\n                    <router-outlet></router-outlet>\n                </div>\n            </div>\n        </div>\n    </article>\n</section>"
 
 /***/ }),
 
@@ -397,59 +397,86 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! fusioncharts/themes/fusioncharts.theme.fusion */ "./node_modules/fusioncharts/themes/fusioncharts.theme.fusion.js");
 /* harmony import */ var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modules/photos/view-photo.component */ "./src/app/modules/photos/view-photo.component.ts");
-/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photo_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photo-list.component */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photo-list.component.ts");
-/* harmony import */ var _modules_photos_categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-ux-photo-service.component */ "./src/app/modules/photos/categories/shared/design-ux-photo-service.component.ts");
-/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/photo-design-web-list.component */ "./src/app/modules/photos/categories/design-web-items/photo-design-web-list.component.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photo_list_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photo-list.component */ "./src/app/modules/photos/categories/design-web-items/design-web-photo-list.component.ts");
-/* harmony import */ var _modules_photos_categories_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-web-photo-service.component */ "./src/app/modules/photos/categories/shared/design-web-photo-service.component.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/photo-design-general-list.component */ "./src/app/modules/photos/categories/design-general-items/photo-design-general-list.component.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photo_list_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photo-list.component */ "./src/app/modules/photos/categories/design-general-items/design-general-photo-list.component.ts");
-/* harmony import */ var _modules_photos_categories_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-general-photo-service.component */ "./src/app/modules/photos/categories/shared/design-general-photo-service.component.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/photo-design-others-list.component */ "./src/app/modules/photos/categories/design-others-items/photo-design-others-list.component.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photo_list_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photo-list.component */ "./src/app/modules/photos/categories/design-others-items/design-others-photo-list.component.ts");
-/* harmony import */ var _modules_photos_categories_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-others-photo-service.component */ "./src/app/modules/photos/categories/shared/design-others-photo-service.component.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service.ts");
-/* harmony import */ var _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./modules/web-design/web-design.component */ "./src/app/modules/web-design/web-design.component.ts");
-/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
-/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
-/* harmony import */ var _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./modules/ux-designer/ux-designer.component */ "./src/app/modules/ux-designer/ux-designer.component.ts");
-/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
-/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_post_list_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-post-list.component */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-post-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-ux-post-service.component */ "./src/app/modules/view-post/categories/shared/design-ux-post-service.component.ts");
-/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-list.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_post_list_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-post-list.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-post-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-web-post-service.component */ "./src/app/modules/view-post/categories/shared/design-web-post-service.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-list.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_post_list_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-post-list.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-post-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-general-post-service.component */ "./src/app/modules/view-post/categories/shared/design-general-post-service.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-list.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_post_list_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-post-list.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-post-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-others-post-service.component */ "./src/app/modules/view-post/categories/shared/design-others-post-service.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./modules/view-post/graph/graph.component */ "./src/app/modules/view-post/graph/graph.component.ts");
-/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
-/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_64__);
-/* harmony import */ var _modules_record_record_component__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./modules/record/record.component */ "./src/app/modules/record/record.component.ts");
-/* harmony import */ var _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./modules/news/news-list.component */ "./src/app/modules/news/news-list.component.ts");
-/* harmony import */ var _modules_news_news_thumbnail_component__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./modules/news/news-thumbnail.component */ "./src/app/modules/news/news-thumbnail.component.ts");
-/* harmony import */ var _modules_news_shared_news_service_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./modules/news/shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-detail.component */ "./src/app/modules/news/newss-detail/newss-detail.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-router-activate.service */ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts");
+/* harmony import */ var _modules_category_general_design_general_design_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modules/category/general-design/general-design.component */ "./src/app/modules/category/general-design/general-design.component.ts");
+/* harmony import */ var _modules_category_general_design_categories_general_design_items_post_general_design_items_post_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./modules/category/general-design/categories/general-design-items-post/general-design-items-post.component */ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.ts");
+/* harmony import */ var _modules_category_general_design_categories_general_design_items_photos_general_design_items_photos_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component */ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.ts");
+/* harmony import */ var _modules_category_general_design_categories_general_design_items_news_general_design_items_news_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modules/category/general-design/categories/general-design-items-news/general-design-items-news.component */ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.ts");
+/* harmony import */ var _modules_category_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./modules/category/ux-designer/ux-designer.component */ "./src/app/modules/category/ux-designer/ux-designer.component.ts");
+/* harmony import */ var _modules_category_ux_designer_categories_ux_designer_items_post_ux_designer_items_post_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.ts");
+/* harmony import */ var _modules_category_ux_designer_categories_ux_designer_items_photos_ux_designer_items_photos_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.ts");
+/* harmony import */ var _modules_category_ux_designer_categories_ux_designer_items_news_ux_designer_items_news_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.ts");
+/* harmony import */ var _modules_category_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./modules/category/web-design/web-design.component */ "./src/app/modules/category/web-design/web-design.component.ts");
+/* harmony import */ var _modules_category_web_design_categories_web_design_items_post_web_design_items_post_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./modules/category/web-design/categories/web-design-items-post/web-design-items-post.component */ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.ts");
+/* harmony import */ var _modules_category_web_design_categories_web_design_items_photos_web_design_items_photos_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component */ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.ts");
+/* harmony import */ var _modules_category_web_design_categories_web_design_items_news_web_design_items_news_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./modules/category/web-design/categories/web-design-items-news/web-design-items-news.component */ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.ts");
+/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
+/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
+/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_post_design_ux_list_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/post-design-ux-list.component */ "./src/app/modules/view-post/categories/ux-design-items/post-design-ux-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_post_list_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-post-list.component */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-post-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-ux-post-service.component */ "./src/app/modules/view-post/categories/shared/design-ux-post-service.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-list.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_post_list_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-post-list.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-post-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-web-post-service.component */ "./src/app/modules/view-post/categories/shared/design-web-post-service.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-list.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_post_list_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-post-list.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-post-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-general-post-service.component */ "./src/app/modules/view-post/categories/shared/design-general-post-service.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-list.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_post_list_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-post-list.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-post-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./modules/view-post/categories/shared/design-others-post-service.component */ "./src/app/modules/view-post/categories/shared/design-others-post-service.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./modules/view-post/graph/graph.component */ "./src/app/modules/view-post/graph/graph.component.ts");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/index.js");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(ng2_charts__WEBPACK_IMPORTED_MODULE_55__);
+/* harmony import */ var _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./modules/photos/view-photo.component */ "./src/app/modules/photos/view-photo.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_photo_design_ux_list_component__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/photo-design-ux-list.component */ "./src/app/modules/photos/categories/ux-design-items/photo-design-ux-list.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photo_list_component__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photo-list.component */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photo-list.component.ts");
+/* harmony import */ var _modules_photos_categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-ux-photo-service.component */ "./src/app/modules/photos/categories/shared/design-ux-photo-service.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/photo-design-web-list.component */ "./src/app/modules/photos/categories/design-web-items/photo-design-web-list.component.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photo_list_component__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photo-list.component */ "./src/app/modules/photos/categories/design-web-items/design-web-photo-list.component.ts");
+/* harmony import */ var _modules_photos_categories_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-web-photo-service.component */ "./src/app/modules/photos/categories/shared/design-web-photo-service.component.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/photo-design-general-list.component */ "./src/app/modules/photos/categories/design-general-items/photo-design-general-list.component.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photo_list_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photo-list.component */ "./src/app/modules/photos/categories/design-general-items/design-general-photo-list.component.ts");
+/* harmony import */ var _modules_photos_categories_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-general-photo-service.component */ "./src/app/modules/photos/categories/shared/design-general-photo-service.component.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/photo-design-others-list.component */ "./src/app/modules/photos/categories/design-others-items/photo-design-others-list.component.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photo_list_component__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photo-list.component */ "./src/app/modules/photos/categories/design-others-items/design-others-photo-list.component.ts");
+/* harmony import */ var _modules_photos_categories_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./modules/photos/categories/shared/design-others-photo-service.component */ "./src/app/modules/photos/categories/shared/design-others-photo-service.component.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service.ts");
+/* harmony import */ var _modules_news_view_news_component__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./modules/news/view-news.component */ "./src/app/modules/news/view-news.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_news_design_ux_list_component__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/news-design-ux-list.component */ "./src/app/modules/news/categories/ux-design-items/news-design-ux-list.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_design_ux_news_list_component__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/design-ux-news-list.component */ "./src/app/modules/news/categories/ux-design-items/design-ux-news-list.component.ts");
+/* harmony import */ var _modules_news_categories_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ./modules/news/categories/shared/design-ux-news-service.component */ "./src/app/modules/news/categories/shared/design-ux-news-service.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_detail_component__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component */ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-router-activate.service */ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-router-activate.service.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_news_design_web_list_component__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/news-design-web-list.component */ "./src/app/modules/news/categories/design-web-items/news-design-web-list.component.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_design_web_news_list_component__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/design-web-news-list.component */ "./src/app/modules/news/categories/design-web-items/design-web-news-list.component.ts");
+/* harmony import */ var _modules_news_categories_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ./modules/news/categories/shared/design-web-news-service.component */ "./src/app/modules/news/categories/shared/design-web-news-service.component.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_detail_component__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component */ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-router-activate.service */ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-router-activate.service.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_news_design_general_list_component__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/news-design-general-list.component */ "./src/app/modules/news/categories/design-general-items/news-design-general-list.component.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_design_general_news_list_component__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/design-general-news-list.component */ "./src/app/modules/news/categories/design-general-items/design-general-news-list.component.ts");
+/* harmony import */ var _modules_news_categories_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ./modules/news/categories/shared/design-general-news-service.component */ "./src/app/modules/news/categories/shared/design-general-news-service.component.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_detail_component__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component */ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-router-activate.service */ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-router-activate.service.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_news_design_others_list_component__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/news-design-others-list.component */ "./src/app/modules/news/categories/design-others-items/news-design-others-list.component.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_design_others_news_list_component__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/design-others-news-list.component */ "./src/app/modules/news/categories/design-others-items/design-others-news-list.component.ts");
+/* harmony import */ var _modules_news_categories_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ./modules/news/categories/shared/design-others-news-service.component */ "./src/app/modules/news/categories/shared/design-others-news-service.component.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_detail_component__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component */ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-router-activate.service */ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-router-activate.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -483,15 +510,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 // Add dependencies for FusionChartsModule
 angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"].fcRoot(fusioncharts__WEBPACK_IMPORTED_MODULE_15__, fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_16__, fusioncharts_maps_fusioncharts_world__WEBPACK_IMPORTED_MODULE_17__, fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_18__);
-//PHOTO COMPONENTS
-
-
-
-
-
-
-
-
+//CATEGORY COMPONENTS
 
 
 
@@ -505,8 +524,6 @@ angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"].fcRoot(
 
 
 //OTHER COMPONENTS
-
-
 
 
 //POSTS COMPONENTS
@@ -530,10 +547,48 @@ angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"].fcRoot(
 
 
 
+
  //Component Graphic
  //Graphic
+//PHOTO COMPONENTS
 
-//NEWS COMPONENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//NEWS COMPONENTS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -551,47 +606,69 @@ var AppModule = /** @class */ (function () {
                 _modules_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_8__["InicioComponent"],
                 _modules_inicio_video_list_component__WEBPACK_IMPORTED_MODULE_9__["VideoListComponent"],
                 _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_11__["VideosDetailComponent"],
-                //Photo components
-                _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_19__["ViewPhotoComponent"],
-                _modules_photos_categories_ux_design_items_design_ux_photo_list_component__WEBPACK_IMPORTED_MODULE_20__["DesignUxPhotoListComponent"],
-                _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_22__["DesignUxPhotosDetailComponent"],
-                _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_24__["PhotoDesignWebListComponent"],
-                _modules_photos_categories_design_web_items_design_web_photo_list_component__WEBPACK_IMPORTED_MODULE_25__["DesignWebPhotoListComponent"],
-                _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_27__["DesignWebPhotosDetailComponent"],
-                _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_29__["PhotoDesignGeneralListComponent"],
-                _modules_photos_categories_design_general_items_design_general_photo_list_component__WEBPACK_IMPORTED_MODULE_30__["DesignGeneralPhotoListComponent"],
-                _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_32__["DesignGeneralPhotosDetailComponent"],
-                _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_34__["PhotoDesignOthersListComponent"],
-                _modules_photos_categories_design_others_items_design_others_photo_list_component__WEBPACK_IMPORTED_MODULE_35__["DesignOthersPhotoListComponent"],
-                _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_37__["DesignOthersPhotosDetailComponent"],
-                //Trends components
+                //Category components
+                _modules_category_general_design_general_design_component__WEBPACK_IMPORTED_MODULE_19__["GeneralDesignComponent"],
+                _modules_category_general_design_categories_general_design_items_post_general_design_items_post_component__WEBPACK_IMPORTED_MODULE_20__["GeneralDesignItemsPostComponent"],
+                _modules_category_general_design_categories_general_design_items_photos_general_design_items_photos_component__WEBPACK_IMPORTED_MODULE_21__["GeneralDesignItemsPhotosComponent"],
+                _modules_category_general_design_categories_general_design_items_news_general_design_items_news_component__WEBPACK_IMPORTED_MODULE_22__["GeneralDesignItemsNewsComponent"],
+                _modules_category_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_23__["UxDesignerComponent"],
+                _modules_category_ux_designer_categories_ux_designer_items_post_ux_designer_items_post_component__WEBPACK_IMPORTED_MODULE_24__["UxDesignerItemsPostComponent"],
+                _modules_category_ux_designer_categories_ux_designer_items_photos_ux_designer_items_photos_component__WEBPACK_IMPORTED_MODULE_25__["UxDesignerItemsPhotosComponent"],
+                _modules_category_ux_designer_categories_ux_designer_items_news_ux_designer_items_news_component__WEBPACK_IMPORTED_MODULE_26__["UxDesignerItemsNewsComponent"],
+                _modules_category_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_27__["WebDesignComponent"],
+                _modules_category_web_design_categories_web_design_items_post_web_design_items_post_component__WEBPACK_IMPORTED_MODULE_28__["WebDesignItemsPostComponent"],
+                _modules_category_web_design_categories_web_design_items_photos_web_design_items_photos_component__WEBPACK_IMPORTED_MODULE_29__["WebDesignItemsPhotosComponent"],
+                _modules_category_web_design_categories_web_design_items_news_web_design_items_news_component__WEBPACK_IMPORTED_MODULE_30__["WebDesignItemsNewsComponent"],
+                //Others components
                 _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_13__["TrendsComponent"],
-                _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_39__["WebDesignComponent"],
-                _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_40__["ColorPaletteComponent"],
-                _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_41__["DirectosComponent"],
-                _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_42__["UxDesignerComponent"],
+                _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_31__["ColorPaletteComponent"],
+                _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_32__["DirectosComponent"],
                 //Posts components
-                _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_43__["ViewPostComponent"],
-                _modules_view_post_categories_ux_design_items_design_ux_post_list_component__WEBPACK_IMPORTED_MODULE_44__["DesignUxPostListComponent"],
-                _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_46__["DesignUxPostsDetailComponent"],
-                _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_63__["GraphComponent"],
-                _modules_record_record_component__WEBPACK_IMPORTED_MODULE_65__["RecordComponent"],
-                _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_48__["DesignWebListComponent"],
-                _modules_view_post_categories_design_web_items_design_web_post_list_component__WEBPACK_IMPORTED_MODULE_49__["DesignWebPostListComponent"],
-                _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_51__["DesignWebPostsDetailComponent"],
-                _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_53__["DesignGeneralListComponent"],
-                _modules_view_post_categories_design_general_items_design_general_post_list_component__WEBPACK_IMPORTED_MODULE_54__["DesignGeneralPostListComponent"],
-                _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_56__["DesignGeneralPostsDetailComponent"],
-                _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_58__["DesignOthersListComponent"],
-                _modules_view_post_categories_design_others_items_design_others_post_list_component__WEBPACK_IMPORTED_MODULE_59__["DesignOthersPostListComponent"],
-                _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_61__["DesignOthersPostsDetailComponent"],
-                //News components
-                _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_66__["NewsListComponent"],
-                _modules_news_news_thumbnail_component__WEBPACK_IMPORTED_MODULE_67__["NewsThumbnailComponent"],
-                _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_69__["NewssDetailComponent"],
+                _modules_view_post_graph_graph_component__WEBPACK_IMPORTED_MODULE_54__["GraphComponent"],
+                _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_33__["ViewPostComponent"],
+                _modules_view_post_categories_ux_design_items_post_design_ux_list_component__WEBPACK_IMPORTED_MODULE_34__["PostDesignUxListComponent"],
+                _modules_view_post_categories_ux_design_items_design_ux_post_list_component__WEBPACK_IMPORTED_MODULE_35__["DesignUxPostListComponent"],
+                _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_37__["DesignUxPostsDetailComponent"],
+                _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_39__["DesignWebListComponent"],
+                _modules_view_post_categories_design_web_items_design_web_post_list_component__WEBPACK_IMPORTED_MODULE_40__["DesignWebPostListComponent"],
+                _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_42__["DesignWebPostsDetailComponent"],
+                _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_44__["DesignGeneralListComponent"],
+                _modules_view_post_categories_design_general_items_design_general_post_list_component__WEBPACK_IMPORTED_MODULE_45__["DesignGeneralPostListComponent"],
+                _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_47__["DesignGeneralPostsDetailComponent"],
+                _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_49__["DesignOthersListComponent"],
+                _modules_view_post_categories_design_others_items_design_others_post_list_component__WEBPACK_IMPORTED_MODULE_50__["DesignOthersPostListComponent"],
+                _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_52__["DesignOthersPostsDetailComponent"],
+                //Photo components
+                _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_56__["ViewPhotoComponent"],
+                _modules_photos_categories_ux_design_items_photo_design_ux_list_component__WEBPACK_IMPORTED_MODULE_57__["PhotoDesignUxListComponent"],
+                _modules_photos_categories_ux_design_items_design_ux_photo_list_component__WEBPACK_IMPORTED_MODULE_58__["DesignUxPhotoListComponent"],
+                _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_60__["DesignUxPhotosDetailComponent"],
+                _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_62__["PhotoDesignWebListComponent"],
+                _modules_photos_categories_design_web_items_design_web_photo_list_component__WEBPACK_IMPORTED_MODULE_63__["DesignWebPhotoListComponent"],
+                _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_65__["DesignWebPhotosDetailComponent"],
+                _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_67__["PhotoDesignGeneralListComponent"],
+                _modules_photos_categories_design_general_items_design_general_photo_list_component__WEBPACK_IMPORTED_MODULE_68__["DesignGeneralPhotoListComponent"],
+                _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_70__["DesignGeneralPhotosDetailComponent"],
+                _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_72__["PhotoDesignOthersListComponent"],
+                _modules_photos_categories_design_others_items_design_others_photo_list_component__WEBPACK_IMPORTED_MODULE_73__["DesignOthersPhotoListComponent"],
+                _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_75__["DesignOthersPhotosDetailComponent"],
+                //News component
+                _modules_news_view_news_component__WEBPACK_IMPORTED_MODULE_77__["ViewNewsComponent"],
+                _modules_news_categories_ux_design_items_news_design_ux_list_component__WEBPACK_IMPORTED_MODULE_78__["NewsDesignUxListComponent"],
+                _modules_news_categories_ux_design_items_design_ux_news_list_component__WEBPACK_IMPORTED_MODULE_79__["DesignUxNewsListComponent"],
+                _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_detail_component__WEBPACK_IMPORTED_MODULE_81__["DesignUxNewssDetailComponent"],
+                _modules_news_categories_design_web_items_news_design_web_list_component__WEBPACK_IMPORTED_MODULE_83__["NewsDesignWebListComponent"],
+                _modules_news_categories_design_web_items_design_web_news_list_component__WEBPACK_IMPORTED_MODULE_84__["DesignWebNewsListComponent"],
+                _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_detail_component__WEBPACK_IMPORTED_MODULE_86__["DesignWebNewssDetailComponent"],
+                _modules_news_categories_design_general_items_news_design_general_list_component__WEBPACK_IMPORTED_MODULE_88__["NewsDesignGeneralListComponent"],
+                _modules_news_categories_design_general_items_design_general_news_list_component__WEBPACK_IMPORTED_MODULE_89__["DesignGeneralNewsListComponent"],
+                _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_detail_component__WEBPACK_IMPORTED_MODULE_91__["DesignGeneralNewssDetailComponent"],
+                _modules_news_categories_design_others_items_news_design_others_list_component__WEBPACK_IMPORTED_MODULE_93__["NewsDesignOthersListComponent"],
+                _modules_news_categories_design_others_items_design_others_news_list_component__WEBPACK_IMPORTED_MODULE_94__["DesignOthersNewsListComponent"],
+                _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_detail_component__WEBPACK_IMPORTED_MODULE_96__["DesignOthersNewssDetailComponent"],
             ],
             imports: [
-                ng2_charts__WEBPACK_IMPORTED_MODULE_64__["ChartsModule"],
+                ng2_charts__WEBPACK_IMPORTED_MODULE_55__["ChartsModule"],
                 _ngx_loading_bar_router__WEBPACK_IMPORTED_MODULE_3__["LoadingBarRouterModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"],
@@ -603,27 +680,33 @@ var AppModule = /** @class */ (function () {
                 //Video defauld component services
                 _modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_12__["VideoRouteActivator"],
                 _modules_inicio_shared_video_service_component__WEBPACK_IMPORTED_MODULE_10__["VideoServiceComponent"],
-                //News services
-                _modules_news_shared_news_service_component__WEBPACK_IMPORTED_MODULE_68__["NewsServiceComponent"],
-                _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_70__["NewsRouteActivator"],
-                //Photo services
-                _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_23__["DesignUxPhotoRouteActivator"],
-                _modules_photos_categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_21__["DesignUxPhotoServiceComponent"],
-                _modules_photos_categories_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_26__["DesignWebPhotoServiceComponent"],
-                _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_28__["DesignWebPhotoRouteActivator"],
-                _modules_photos_categories_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_31__["DesignGeneralPhotoServiceComponent"],
-                _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_33__["DesignGeneralPhotoRouteActivator"],
-                _modules_photos_categories_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_36__["DesignOthersPhotoServiceComponent"],
-                _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_38__["DesignOthersPhotoRouteActivator"],
                 //Posts services
-                _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_47__["DesignUxPostRouteActivator"],
-                _modules_view_post_categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_45__["DesignUxPostServiceComponent"],
-                _modules_view_post_categories_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_50__["DesignWebPostServiceComponent"],
-                _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_52__["DesignWebPostRouteActivator"],
-                _modules_view_post_categories_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_55__["DesignGeneralPostServiceComponent"],
-                _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_57__["DesignGeneralPostRouteActivator"],
-                _modules_view_post_categories_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_60__["DesignOthersPostServiceComponent"],
-                _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_62__["DesignOthersPostRouteActivator"],
+                _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_38__["DesignUxPostRouteActivator"],
+                _modules_view_post_categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_36__["DesignUxPostServiceComponent"],
+                _modules_view_post_categories_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_41__["DesignWebPostServiceComponent"],
+                _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_43__["DesignWebPostRouteActivator"],
+                _modules_view_post_categories_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_46__["DesignGeneralPostServiceComponent"],
+                _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_48__["DesignGeneralPostRouteActivator"],
+                _modules_view_post_categories_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_51__["DesignOthersPostServiceComponent"],
+                _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_53__["DesignOthersPostRouteActivator"],
+                //Photo services
+                _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_61__["DesignUxPhotoRouteActivator"],
+                _modules_photos_categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_59__["DesignUxPhotoServiceComponent"],
+                _modules_photos_categories_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_64__["DesignWebPhotoServiceComponent"],
+                _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_66__["DesignWebPhotoRouteActivator"],
+                _modules_photos_categories_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_69__["DesignGeneralPhotoServiceComponent"],
+                _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_71__["DesignGeneralPhotoRouteActivator"],
+                _modules_photos_categories_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_74__["DesignOthersPhotoServiceComponent"],
+                _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_76__["DesignOthersPhotoRouteActivator"],
+                //News services
+                _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_82__["DesignUxNewsRouteActivator"],
+                _modules_news_categories_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_80__["DesignUxNewsServiceComponent"],
+                _modules_news_categories_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_85__["DesignWebNewsServiceComponent"],
+                _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_87__["DesignWebNewsRouteActivator"],
+                _modules_news_categories_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_90__["DesignGeneralNewsServiceComponent"],
+                _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_92__["DesignGeneralNewsRouteActivator"],
+                _modules_news_categories_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_95__["DesignOthersNewsServiceComponent"],
+                _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_97__["DesignOthersNewsRouteActivator"],
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
@@ -631,14 +714,769 @@ var AppModule = /** @class */ (function () {
     return AppModule;
 }());
 
-//Requisitos de reinstalación de Node_module
+//Requisitos de reinstalación de Node_module (LAS DEPENDENCIAS QUEDARON ALMACENADAS EN EL PACKAJE, ASI QUE SE INSTALAN POR SU CUENTA )
 // npm install bootstrap
 //  npm install @ngx-loading-bar/router --save
 // npm install ng2-charts 
 // npm install angular-fusioncharts
-//LAS DEPENDENCIAS QUEDARON ALMACENADAS EN EL PACKAJE, ASI QUE SE INSTALAN POR SU CUENTA ************
-//EL POPPER:JS NO SE REGENERA YA QUE YO LO METÍ MANUALMENTE EN LA DEPENDENCIA DEL BOOTSTRAP, ASI QUE ESE HAY QUE VOLVERLO A PONER
-//Agregar el popper.min.js  (a: Node_modules/bootstrap/dist/js)
+//Comentario: El popperjs no es de bootstrap, por lo tanto no lo incluirlo en su dependencia
+//Este se incluye en los assets js y se importa directamente a los scripts de Angular.json
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.html ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                GENERAL DESIGN NEWS\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-news\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-news\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-news\">General Design</a>\r\n                            <a class=\"dropdown-item\" [routerLink]=\"['/view-news']\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <news-app-design-general-list></news-app-design-general-list>\r\n        </div>\r\n    </div>\r\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.ts":
+/*!*****************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.ts ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: GeneralDesignItemsNewsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GeneralDesignItemsNewsComponent", function() { return GeneralDesignItemsNewsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GeneralDesignItemsNewsComponent = /** @class */ (function () {
+    function GeneralDesignItemsNewsComponent() {
+    }
+    GeneralDesignItemsNewsComponent.prototype.ngOnInit = function () {
+    };
+    GeneralDesignItemsNewsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-general-design-items-news',
+            template: __webpack_require__(/*! ./general-design-items-news.component.html */ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.html"),
+            styles: [__webpack_require__(/*! ./general-design-items-news.component.css */ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], GeneralDesignItemsNewsComponent);
+    return GeneralDesignItemsNewsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.css":
+/*!**********************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.css ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.html":
+/*!***********************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.html ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                GENERAL DESIGN PHOTOGRAPHIC\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-photos\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-photos\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-photos\">General Design</a>\r\n                            <a class=\"dropdown-item\" [routerLink]=\"['/view-photo']\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <div class=\"card-columns transition-category\">\r\n                <photo-app-design-general-list></photo-app-design-general-list>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.ts":
+/*!*********************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.ts ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: GeneralDesignItemsPhotosComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GeneralDesignItemsPhotosComponent", function() { return GeneralDesignItemsPhotosComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GeneralDesignItemsPhotosComponent = /** @class */ (function () {
+    function GeneralDesignItemsPhotosComponent() {
+    }
+    GeneralDesignItemsPhotosComponent.prototype.ngOnInit = function () {
+    };
+    GeneralDesignItemsPhotosComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-general-design-items-photos',
+            template: __webpack_require__(/*! ./general-design-items-photos.component.html */ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.html"),
+            styles: [__webpack_require__(/*! ./general-design-items-photos.component.css */ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], GeneralDesignItemsPhotosComponent);
+    return GeneralDesignItemsPhotosComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.html ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                GENERAL DESIGN POSTS\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-post\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-post\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-post\">General Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/view-post\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <div class=\"card-columns transition-category\">\r\n                <app-design-general-list></app-design-general-list>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n\r\n\r\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.ts":
+/*!*****************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.ts ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: GeneralDesignItemsPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GeneralDesignItemsPostComponent", function() { return GeneralDesignItemsPostComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GeneralDesignItemsPostComponent = /** @class */ (function () {
+    function GeneralDesignItemsPostComponent() {
+    }
+    GeneralDesignItemsPostComponent.prototype.ngOnInit = function () {
+    };
+    GeneralDesignItemsPostComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-general-design-items-post',
+            template: __webpack_require__(/*! ./general-design-items-post.component.html */ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.html"),
+            styles: [__webpack_require__(/*! ./general-design-items-post.component.css */ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], GeneralDesignItemsPostComponent);
+    return GeneralDesignItemsPostComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/general-design.component.css":
+/*!******************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/general-design.component.css ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/general-design.component.html":
+/*!*******************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/general-design.component.html ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- <section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          GENERAL DESIGN CATEGORY\n        </h6>\n      </div>\n\n      <div class=\"col-md-4 d-flex justify-content-center\">\n        <button routerLink=\"/general-design-items-post\" class=\"btn btn-primary\">Post</button>\n      </div>\n      <div class=\"col-md-4 d-flex justify-content-center\">\n        <button routerLink=\"/general-design-items-photos\" class=\"btn btn-primary\">Photos</button>\n      </div>\n      <div class=\"col-md-4 d-flex justify-content-center\">\n        <button routerLink=\"/general-design-items-news\" class=\"btn btn-primary\">News</button>\n      </div>\n\n    </div>\n  </article>\n</section> -->\n\n\n<section class=\"AAE-category-section AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row justify-content-between d-flex align-items-center\">\n\n      <!--Reparar esto para que sean las categories solo html y css puro-->\n      <div class=\"col-md-4 ch-grid\">\n        <li>\n          <div routerLink=\"/general-design-items-post\" class=\"ch-item ch-img-1\">\n            <div class=\"ch-info-wrap\">\n              <div class=\"ch-info\">\n                <div class=\"ch-info-front ch-img-1\"></div>\n                <div class=\"ch-info-back\">\n                  <h3>Bears Type</h3>\n                  <p>by Josh Schott <a href=\"http://drbl.in/ewUW\">View on Dribbble</a></p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      </div>\n\n      <div class=\"col-md-4 ch-grid\">\n        <li routerLink=\"/general-design-items-photos\">\n          <div class=\"ch-item ch-img-2\">\n            <div class=\"ch-info-wrap\">\n              <div class=\"ch-info\">\n                <div class=\"ch-info-front ch-img-2\"></div>\n                <div class=\"ch-info-back\">\n                  <h3>Bears Type</h3>\n                  <p>by Josh Schott <a href=\"http://drbl.in/ewUW\">View on Dribbble</a></p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      </div>\n\n      <div class=\"col-md-4 ch-grid\">\n        <li>\n          <div routerLink=\"/general-design-items-news\" class=\"ch-item ch-img-3\">\n            <div class=\"ch-info-wrap\">\n              <div class=\"ch-info\">\n                <div class=\"ch-info-front ch-img-3\"></div>\n                <div class=\"ch-info-back\">\n                  <h3>Bears Type</h3>\n                  <p>by Josh Schott <a href=\"http://drbl.in/ewUW\">View on Dribbble</a></p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      </div>\n\n    </div>\n  </article>\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/general-design/general-design.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/modules/category/general-design/general-design.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: GeneralDesignComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GeneralDesignComponent", function() { return GeneralDesignComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GeneralDesignComponent = /** @class */ (function () {
+    function GeneralDesignComponent() {
+    }
+    GeneralDesignComponent.prototype.ngOnInit = function () {
+    };
+    GeneralDesignComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-general-design',
+            template: __webpack_require__(/*! ./general-design.component.html */ "./src/app/modules/category/general-design/general-design.component.html"),
+            styles: [__webpack_require__(/*! ./general-design.component.css */ "./src/app/modules/category/general-design/general-design.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], GeneralDesignComponent);
+    return GeneralDesignComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.html":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.html ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                UX DESIGN NEWS\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-news\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-news\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-news\">General Design</a>\r\n                            <a class=\"dropdown-item\" [routerLink]=\"['/view-news']\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <news-app-design-ux-list></news-app-design-ux-list>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.ts":
+/*!********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.ts ***!
+  \********************************************************************************************************************/
+/*! exports provided: UxDesignerItemsNewsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UxDesignerItemsNewsComponent", function() { return UxDesignerItemsNewsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var UxDesignerItemsNewsComponent = /** @class */ (function () {
+    function UxDesignerItemsNewsComponent() {
+    }
+    UxDesignerItemsNewsComponent.prototype.ngOnInit = function () {
+    };
+    UxDesignerItemsNewsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ux-designer-items-news',
+            template: __webpack_require__(/*! ./ux-designer-items-news.component.html */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.html"),
+            styles: [__webpack_require__(/*! ./ux-designer-items-news.component.css */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], UxDesignerItemsNewsComponent);
+    return UxDesignerItemsNewsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.css":
+/*!*************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.css ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.html":
+/*!**************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.html ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <h6 class=\"titles title-popular-topics\">\n        UX DESIGN PHOTOGRAPHIC\n      </h6>\n    </div>\n    <div class=\"col-md-6 d-flex justify-content-end\">\n      <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n        <div>\n          <div class=\"btn-group\">\n            <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n              aria-expanded=\"false\">\n              Category\n            </button>\n            <div class=\"dropdown-menu\">\n              <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-photos\">UX Design</a>\n              <a class=\"dropdown-item\" routerLink=\"/web-design-items-photos\">Web Design</a>\n              <a class=\"dropdown-item\" routerLink=\"/general-design-items-photos\">General Design</a>\n              <a class=\"dropdown-item\" [routerLink]=\"['/view-photo']\">Mixed</a>\n            </div>\n          </div>\n        </div>\n      </div>\n      <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n    </div>\n    <div class=\"col-md-12\">\n      <div class=\"card-columns transition-category\">\n        <photo-app-design-ux-list></photo-app-design-ux-list>\n      </div>\n    </div>\n  </div>\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.ts":
+/*!************************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.ts ***!
+  \************************************************************************************************************************/
+/*! exports provided: UxDesignerItemsPhotosComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UxDesignerItemsPhotosComponent", function() { return UxDesignerItemsPhotosComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var UxDesignerItemsPhotosComponent = /** @class */ (function () {
+    function UxDesignerItemsPhotosComponent() {
+    }
+    UxDesignerItemsPhotosComponent.prototype.ngOnInit = function () {
+    };
+    UxDesignerItemsPhotosComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ux-designer-items-photos',
+            template: __webpack_require__(/*! ./ux-designer-items-photos.component.html */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.html"),
+            styles: [__webpack_require__(/*! ./ux-designer-items-photos.component.css */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], UxDesignerItemsPhotosComponent);
+    return UxDesignerItemsPhotosComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.html":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.html ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-md-6\">\r\n      <h6 class=\"titles title-popular-topics\">\r\n        UX DESIGN POSTS\r\n      </h6>\r\n    </div>\r\n    <div class=\"col-md-6 d-flex justify-content-end\">\r\n      <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n        <div>\r\n          <div class=\"btn-group\">\r\n            <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\r\n              aria-expanded=\"false\">\r\n              Category\r\n            </button>\r\n            <div class=\"dropdown-menu\">\r\n              <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-post\">UX Design</a>\r\n              <a class=\"dropdown-item\" routerLink=\"/web-design-items-post\">Web Design</a>\r\n              <a class=\"dropdown-item\" routerLink=\"/general-design-items-post\">General Design</a>\r\n              <a class=\"dropdown-item\" routerLink=\"/view-post\">Mixed</a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n    </div>\r\n    <div class=\"col-md-12\">\r\n      <div class=\"card-columns transition-category\">\r\n        <post-app-design-ux-list></post-app-design-ux-list>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.ts":
+/*!********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.ts ***!
+  \********************************************************************************************************************/
+/*! exports provided: UxDesignerItemsPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UxDesignerItemsPostComponent", function() { return UxDesignerItemsPostComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var UxDesignerItemsPostComponent = /** @class */ (function () {
+    function UxDesignerItemsPostComponent() {
+    }
+    UxDesignerItemsPostComponent.prototype.ngOnInit = function () {
+    };
+    UxDesignerItemsPostComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ux-designer-items-post',
+            template: __webpack_require__(/*! ./ux-designer-items-post.component.html */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.html"),
+            styles: [__webpack_require__(/*! ./ux-designer-items-post.component.css */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], UxDesignerItemsPostComponent);
+    return UxDesignerItemsPostComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/ux-designer.component.css":
+/*!************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/ux-designer.component.css ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/ux-designer.component.html":
+/*!*************************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/ux-designer.component.html ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          UX DESIGNER CATEGORY\n        </h6>\n      </div>\n\n      <div class=\"col-md-4 d-flex justify-content-center\">\n        <button routerLink=\"/ux-designer-items-post\" class=\"btn btn-primary\">Post</button>\n      </div>\n      <div class=\"col-md-4 d-flex justify-content-center\">\n        <button routerLink=\"/ux-designer-items-photos\" class=\"btn btn-primary\">Photos</button>\n      </div>\n      <div class=\"col-md-4 d-flex justify-content-center\">\n        <button routerLink=\"/ux-designer-items-news\" class=\"btn btn-primary\">News</button>\n      </div>\n\n    </div>\n  </article>\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/ux-designer/ux-designer.component.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/modules/category/ux-designer/ux-designer.component.ts ***!
+  \***********************************************************************/
+/*! exports provided: UxDesignerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UxDesignerComponent", function() { return UxDesignerComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var UxDesignerComponent = /** @class */ (function () {
+    function UxDesignerComponent() {
+    }
+    UxDesignerComponent.prototype.ngOnInit = function () {
+    };
+    UxDesignerComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ux-designer',
+            template: __webpack_require__(/*! ./ux-designer.component.html */ "./src/app/modules/category/ux-designer/ux-designer.component.html"),
+            styles: [__webpack_require__(/*! ./ux-designer.component.css */ "./src/app/modules/category/ux-designer/ux-designer.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], UxDesignerComponent);
+    return UxDesignerComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.css":
+/*!******************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.css ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.html ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                WEB DESIGN NEWS\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-news\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-news\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-news\">General Design</a>\r\n                            <a class=\"dropdown-item\" [routerLink]=\"['/view-news']\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <news-app-design-web-list></news-app-design-web-list>\r\n        </div>\r\n    </div>\r\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.ts":
+/*!*****************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.ts ***!
+  \*****************************************************************************************************************/
+/*! exports provided: WebDesignItemsNewsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebDesignItemsNewsComponent", function() { return WebDesignItemsNewsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var WebDesignItemsNewsComponent = /** @class */ (function () {
+    function WebDesignItemsNewsComponent() {
+    }
+    WebDesignItemsNewsComponent.prototype.ngOnInit = function () {
+    };
+    WebDesignItemsNewsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-web-design-items-news',
+            template: __webpack_require__(/*! ./web-design-items-news.component.html */ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.html"),
+            styles: [__webpack_require__(/*! ./web-design-items-news.component.css */ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], WebDesignItemsNewsComponent);
+    return WebDesignItemsNewsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.css":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.css ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.html ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                WEB DESIGN PHOTOGRAPHIC\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-photos\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-photos\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-photos\">General Design</a>\r\n                            <a class=\"dropdown-item\" [routerLink]=\"['/view-photo']\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <div class=\"card-columns transition-category\">\r\n                <photo-app-design-web-list></photo-app-design-web-list>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.ts":
+/*!*********************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.ts ***!
+  \*********************************************************************************************************************/
+/*! exports provided: WebDesignItemsPhotosComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebDesignItemsPhotosComponent", function() { return WebDesignItemsPhotosComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var WebDesignItemsPhotosComponent = /** @class */ (function () {
+    function WebDesignItemsPhotosComponent() {
+    }
+    WebDesignItemsPhotosComponent.prototype.ngOnInit = function () {
+    };
+    WebDesignItemsPhotosComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-web-design-items-photos',
+            template: __webpack_require__(/*! ./web-design-items-photos.component.html */ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.html"),
+            styles: [__webpack_require__(/*! ./web-design-items-photos.component.css */ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], WebDesignItemsPhotosComponent);
+    return WebDesignItemsPhotosComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.css":
+/*!******************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.css ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.html ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6\">\r\n            <h6 class=\"titles title-popular-topics\">\r\n                WEB DESIGN POSTS\r\n            </h6>\r\n        </div>\r\n        <div class=\"col-md-6 d-flex justify-content-end\">\r\n            <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\r\n                <div>\r\n                    <div class=\"btn-group\">\r\n                        <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n                            aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Category\r\n                        </button>\r\n                        <div class=\"dropdown-menu\">\r\n                            <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-post\">UX Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/web-design-items-post\">Web Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/general-design-items-post\">General Design</a>\r\n                            <a class=\"dropdown-item\" routerLink=\"/view-post\">Mixed</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\r\n        </div>\r\n        <div class=\"col-md-12\">\r\n            <div class=\"card-columns transition-category\">\r\n                <app-design-web-list></app-design-web-list>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.ts":
+/*!*****************************************************************************************************************!*\
+  !*** ./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.ts ***!
+  \*****************************************************************************************************************/
+/*! exports provided: WebDesignItemsPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebDesignItemsPostComponent", function() { return WebDesignItemsPostComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var WebDesignItemsPostComponent = /** @class */ (function () {
+    function WebDesignItemsPostComponent() {
+    }
+    WebDesignItemsPostComponent.prototype.ngOnInit = function () {
+    };
+    WebDesignItemsPostComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-web-design-items-post',
+            template: __webpack_require__(/*! ./web-design-items-post.component.html */ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.html"),
+            styles: [__webpack_require__(/*! ./web-design-items-post.component.css */ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], WebDesignItemsPostComponent);
+    return WebDesignItemsPostComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/web-design.component.css":
+/*!**********************************************************************!*\
+  !*** ./src/app/modules/category/web-design/web-design.component.css ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/web-design.component.html":
+/*!***********************************************************************!*\
+  !*** ./src/app/modules/category/web-design/web-design.component.html ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"AAE-photo-section\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n\r\n      <div class=\"col-md-12\">\r\n        <h6 class=\"titles\">\r\n          WEB DESIGN CATEGORY\r\n        </h6>\r\n      </div>\r\n\r\n      <div class=\"col-md-4 d-flex justify-content-center\">\r\n        <button routerLink=\"/web-design-items-post\" class=\"btn btn-primary\">Post</button>\r\n      </div>\r\n      <div class=\"col-md-4 d-flex justify-content-center\">\r\n        <button routerLink=\"/web-design-items-photos\" class=\"btn btn-primary\">Photos</button>\r\n      </div>\r\n      <div class=\"col-md-4 d-flex justify-content-center\">\r\n        <button routerLink=\"/web-design-items-news\" class=\"btn btn-primary\">News</button>\r\n      </div>\r\n\r\n    </div>\r\n  </article>\r\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/category/web-design/web-design.component.ts":
+/*!*********************************************************************!*\
+  !*** ./src/app/modules/category/web-design/web-design.component.ts ***!
+  \*********************************************************************/
+/*! exports provided: WebDesignComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebDesignComponent", function() { return WebDesignComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var WebDesignComponent = /** @class */ (function () {
+    function WebDesignComponent() {
+    }
+    WebDesignComponent.prototype.ngOnInit = function () {
+    };
+    WebDesignComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-web-design',
+            template: __webpack_require__(/*! ./web-design.component.html */ "./src/app/modules/category/web-design/web-design.component.html"),
+            styles: [__webpack_require__(/*! ./web-design.component.css */ "./src/app/modules/category/web-design/web-design.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], WebDesignComponent);
+    return WebDesignComponent;
+}());
+
 
 
 /***/ }),
@@ -734,7 +1572,7 @@ var NoFoundComponent = /** @class */ (function () {
     NoFoundComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             template: "\n    <section class=\"AAE-404-component\">\n      <article class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-12 d-flex justify-content-center\">\n            <div>\n              <img class=\"img-fluid\" src=\"./assets/images/img-404.png\">\n            </div>\n            <h1 class=\"errorMessage\">404</h1>\n            <p class=\"sub-errorMessage\">Parece que te has perdido, elije otra opci\u00F3n del men\u00FA, o en el buscador :)</p>\n          </div>\n        </div>\n      </article>\n    </section>\n  ",
-            styles: ["\n    .errorMessage {\n      position: absolute; \n      color: #555;\n      font-weight: 100;\n      margin-top: 185px; \n      font-size: 100px;\n      text-align: center;\n    }\n    .sub-errorMessage {\n      position: absolute; \n      margin-top: 300px;\n      padding: 50px; \n      color: #555;\n      font-size: 30px;\n      text-align: center;\n      font-weight: 300;\n    }\n    .AAE-404-component img{\n      width: 800px;\n      pointer-events: none;\n    }\n\n    "]
+            styles: ["\n    .errorMessage {\n      position: absolute; \n      color: #555;\n      font-weight: 100;\n      margin-top: 185px; \n      font-size: 100px;\n      text-align: center;\n    }\n    .sub-errorMessage {\n      position: absolute; \n      margin-top: 300px;\n      padding: 50px; \n      color: #555;\n      font-size: 30px;\n      text-align: center;\n      font-weight: 300;\n    }\n    .AAE-404-component img{\n      width: 800px;\n      pointer-events: none;\n    }\n  "]
         }),
         __metadata("design:paramtypes", [])
     ], NoFoundComponent);
@@ -806,7 +1644,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-directos-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          IN LIVE\n        </h6>\n      </div>\n    </div>\n  </article>\n</section>"
+module.exports = "<section class=\"AAE-directos-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          IN LIVE\n        </h6>\n      </div>\n    </div>\n  </article>\n</section>\n\n"
 
 /***/ }),
 
@@ -858,7 +1696,7 @@ var DirectosComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"AAE-container-videos\">\n  <!--SECCIÓN PUBLICIDAD-->\n  <!--Sin sección de publicidad, por el momento-->\n\n  <!-- LLAMANDO SECCIÓN VIDEOS -->\n  <div class=\"AAE-video-section\">\n    <h6 class=\"AAE-title-section\">VIDEO CORNER</h6>\n    <div *ngFor=\"let video of videos\">\n      <app-video-list (click)=\"handeThumbnailClick(video.name)\" [video]=\"video\"></app-video-list>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"AAE-container-videos\">\n  <!-- LLAMANDO SECCIÓN VIDEOS -->\n  <div class=\"AAE-video-section\">\n    <h6 class=\"AAE-title-section\">VIDEO CORNER</h6>\n    <div *ngFor=\"let video of videos\">\n      <app-video-list (click)=\"handeThumbnailClick(video.name)\" [video]=\"video\"></app-video-list>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1213,7 +2051,7 @@ var VideoListComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".AAE-header-view-new{\r\n    border-bottom: 1px solid rgba(85, 85, 85, 0.137);\r\n    padding: 5px;\r\n}\r\n\r\n.AAE-header-view-new .container .container-image-view-news{/*Container img view new*/\r\n    width: 100%;\r\n    height: 300px;\r\n    background-color: #ccc;\r\n    box-shadow: 4px 4px 4px 0px rgba(85, 85, 85, 0.274);\r\n    border-radius: 7px;\r\n    overflow: hidden;\r\n}\r\n\r\n.AAE-header-view-new .container .container-image-view-news img { \r\n    width: 100%;\r\n    border-radius: 3px;\r\n}\r\n\r\n.AAE-photo-section .container h2{\r\n    font-family: \"Roboto\", sans-serif;\r\n    font-weight: 100;\r\n    margin-top: 20px;\r\n    text-align: center;\r\n}\r\n\r\n.AAE-container-descript-news{\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 20px;\r\n    border-radius: 10px;\r\n}\r\n\r\n.AAE-container-descript-news span{\r\n    font-weight: bold;\r\n    color: #555;\r\n}\r\n\r\n.AAE-container-descript-news h2{\r\n    font-weight: 100;\r\n}\r\n\r\n.AAE-container-descript-news h6{\r\n    font-weight: bold;\r\n    color: #555;\r\n}\r\n\r\n.AAE-container-descript-news h6 span{\r\n    color: #2793E8;\r\n}"
+module.exports = ""
 
 /***/ }),
 
@@ -1224,7 +2062,7 @@ module.exports = ".AAE-header-view-new{\r\n    border-bottom: 1px solid rgba(85,
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Details Video Component Item-->\n<section class=\"AAE-videos-detail\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-8\">\n        <div class=\"AAE-container-video\">\n          <video class=\"video-formato img-fluid\" controls>\n            <source [src]=\"video.videoUrl\" type=\"video/mp4\">\n            <source [src]=\"video.videoUrl\" type=\"video/ogg\"> Your browser does not support the video tag.\n          </video>\n          <div class=\"row\">\n            <div class=\"col-md-6\">\n              <h5 class=\"title-video-detail\">{{video.title}}</h5>\n            </div>\n            <div class=\"col-md-6 d-flex justify-content-end\">\n              <nav>\n                <ul class=\"container-reactions\">\n                  <i class=\"fas fa-thumbs-up\"></i>\n                  <i class=\"fas fa-heart\"></i>\n                  <i class=\"fas fa-thumbs-down\"></i>\n                </ul>\n              </nav>\n            </div>\n          </div>\n          <h6 class=\"spam-views\">{{video.numViews}} of views</h6>\n        </div>\n\n        <button class=\"btn btn-category dropdown-toggle\" mat-raised-button (click)=\"toggle()\">{{buttonName}}</button>\n        <div class=\"container-descript-video\">\n          <div *ngIf=\"!(show)\">\n            <!--preview de la descripcción-->\n            <div class=\"AAE-video-descript d-flex\">\n              <div class=\"img-avatar-videos-container\">\n                <img class=\"AAE-user-avatar img-fluid\" [src]=\"video?.imageUser\" [alt]=\"video?.user\">\n              </div>\n              <div>\n                Description:\n              </div>\n            </div>\n            <p class=\"sub-description-video\">{{video.descrip}}</p>\n          </div>\n\n          <div *ngIf=\"show\">\n            <!--Información de descripcción-->\n            <div class=\"AAE-video-descript d-flex\">\n              <div class=\"img-avatar-videos-container\">\n                <img class=\"AAE-user-avatar img-fluid\" [src]=\"video?.imageUser\" [alt]=\"video?.user\">\n              </div>\n              <div>\n                <h6><span class=\"prefix-date-descript\">By:</span> {{video.canalName}}</h6>\n                <h6><span class=\"prefix-date-descript\">Date:</span> {{video.date}} </h6>\n                <span class=\"prefix-date-descript\">Location:</span> {{ video.location.address }}\n              </div>\n            </div>\n            <!--span de vistas-->\n            <div class=\"descript-span-views\">\n              <h6><span class=\"span-views-descript\">{{video.numViews}}</span> of views</h6>\n            </div>\n            <!--descripcción del video-->\n            <div class=\"AAE-text-descript\">\n              <p>{{video.descrip}}</p>\n            </div>\n          </div>\n\n        </div>\n      </div>\n\n      <div class=\"col-md-4\">\n        <div class=\"AAE-container-spam-videos d-flex justify-content-end\">\n          <app-inicio></app-inicio>\n        </div>\n      </div>\n\n      <!--Comentarios-->\n      <div class=\"col-md-8\">\n        <div class=\"AAE-container-comments-video\">\n          <h6>Coments</h6>\n\n          <div id=\"comentarios\" class=\"aae-comments\">\n            <div id=\"nuevo\" class=\"form-group\">\n              <textarea class=\"form-control comments-control\" id=\"textarea\" placeholder=\"Comment\"></textarea>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </article>\n</section>\n\n"
+module.exports = "<!--Details Video Component Item-->\n<section class=\"AAE-videos-detail\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-8\">\n        <div class=\"AAE-container-video\">\n          <!--Agregar pausa-->\n          <video class=\"video-formato img-fluid\" controls autoplay>\n            <source [src]=\"video.videoUrl\" type=\"video/mp4\">\n            <source [src]=\"video.videoUrl\" type=\"video/ogg\"> Your browser does not support the video tag.\n          </video>\n          <div class=\"row\">\n            <div class=\"col-md-6\">\n              <h5 class=\"title-video-detail\">{{video.title}}</h5>\n            </div>\n            <div class=\"col-md-6 d-flex justify-content-end\">\n              <nav>\n                <ul class=\"container-reactions\">\n                  <i class=\"fas fa-thumbs-up\"></i>\n                  <i class=\"fas fa-heart\"></i>\n                  <i class=\"fas fa-thumbs-down\"></i>\n                </ul>\n              </nav>\n            </div>\n          </div>\n          <h6 class=\"spam-views\">{{video.numViews}} of views</h6>\n        </div>\n\n        <button class=\"btn btn-category dropdown-toggle\" mat-raised-button (click)=\"toggle()\">{{buttonName}}</button>\n        <div class=\"container-descript-video\">\n          <div *ngIf=\"!(show)\">\n            <!--preview de la descripcción-->\n            <div class=\"AAE-video-descript d-flex\">\n              <div class=\"img-avatar-videos-container\">\n                <img class=\"AAE-user-avatar img-fluid\" [src]=\"video?.imageUser\" [alt]=\"video?.user\">\n              </div>\n              <div>\n                Description:\n              </div>\n            </div>\n            <p class=\"sub-description-video\">{{video.descrip}}</p>\n          </div>\n\n          <div *ngIf=\"show\">\n            <!--Información de descripcción-->\n            <div class=\"AAE-video-descript d-flex\">\n              <div class=\"img-avatar-videos-container\">\n                <img class=\"AAE-user-avatar img-fluid\" [src]=\"video?.imageUser\" [alt]=\"video?.user\">\n              </div>\n              <div>\n                <h6><span class=\"prefix-date-descript\">By:</span> {{video.canalName}}</h6>\n                <h6><span class=\"prefix-date-descript\">Date:</span> {{video.date}} </h6>\n                <span class=\"prefix-date-descript\">Location:</span> {{ video.location.address }}\n              </div>\n            </div>\n            <!--span de vistas-->\n            <div class=\"descript-span-views\">\n              <h6><span class=\"span-views-descript\">{{video.numViews}}</span> of views</h6>\n            </div>\n            <!--descripcción del video-->\n            <div class=\"AAE-text-descript\">\n              <p>{{video.descrip}}</p>\n            </div>\n          </div>\n\n        </div>\n      </div>\n\n      <div class=\"col-md-4\">\n        <div class=\"AAE-container-spam-videos d-flex justify-content-end\">\n          <app-inicio></app-inicio>\n        </div>\n      </div>\n\n      <!--Comentarios-->\n      <div class=\"col-md-8\">\n        <div class=\"AAE-container-comments-video\">\n          <h6>Coments</h6>\n\n          <div id=\"comentarios\" class=\"aae-comments\">\n            <div id=\"nuevo\" class=\"form-group\">\n              <textarea class=\"form-control comments-control\" id=\"textarea\" placeholder=\"Comment\"></textarea>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </article>\n</section>"
 
 /***/ }),
 
@@ -1341,18 +2179,194 @@ var VideoRouteActivator = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/modules/news/news-list.component.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/modules/news/news-list.component.ts ***!
-  \*****************************************************/
-/*! exports provided: NewsListComponent */
+/***/ "./src/app/modules/news/categories/design-general-items/design-general-news-list.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/design-general-news-list.component.html ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Componente, noticias de la categoría \"General Design\" object-->\n<div [routerLink]=\"['/designgeneralnewss', designgeneralnews.id]\" class=\"AAE-news-section encabezado-news AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 d-flex justify-content-center\">\n        <div class=\"AAE-container-image-news\">\n          <div id=\"card-design-trends\"></div>\n          <img class=\"img-fluid\" [src]=\"designgeneralnews?.imageUrl\" [alt]=\"designgeneralnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h5 class=\"title-news\">{{designgeneralnews.name}} </h5>\n          <h6 class=\"descrip-news\"><span>By:</span> {{designgeneralnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designgeneralnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designgeneralnews.date}} </div>\n          <div>\n            <span><span>Location:</span> {{ designgeneralnews.location.address }} </span>\n            <span>&nbsp;</span>\n            <span> {{ designgeneralnews.location.city }}, {{ designgeneralnews.location.country }} </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</div>\n\n  \n  \n\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-general-items/design-general-news-list.component.ts":
+/*!****************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/design-general-news-list.component.ts ***!
+  \****************************************************************************************************/
+/*! exports provided: DesignGeneralNewsListComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsListComponent", function() { return NewsListComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignGeneralNewsListComponent", function() { return DesignGeneralNewsListComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DesignGeneralNewsListComponent = /** @class */ (function () {
+    function DesignGeneralNewsListComponent() {
+    }
+    DesignGeneralNewsListComponent.prototype.ngOnInit = function () {
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], DesignGeneralNewsListComponent.prototype, "designgeneralnews", void 0);
+    DesignGeneralNewsListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'design-general-news-list',
+            template: __webpack_require__(/*! ./design-general-news-list.component.html */ "./src/app/modules/news/categories/design-general-items/design-general-news-list.component.html"),
+        }),
+        __metadata("design:paramtypes", [])
+    ], DesignGeneralNewsListComponent);
+    return DesignGeneralNewsListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.html":
+/*!*************************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.html ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Sección de Detalles del componente de noticias de la categoría \"General Design\"-->\n<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <div id=\"card-design-trends\"></div>\n          <img class=\"img fluid\" [src]=\"designgeneralnews?.imageUrl\" [alt]=\"designgeneralnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{designgeneralnews.name}} </h2>\n          <h6><span>By:</span> {{designgeneralnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designgeneralnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designgeneralnews.date}} </div>\n          <div>\n            <span>Location:</span> {{ designgeneralnews.location.address }}\n            <span>&nbsp;</span>\n            {{ designgeneralnews.location.city }}, {{ designgeneralnews.location.country }}\n          </div>\n          <div>\n            <img class=\"AAE-user-avatar img-fluid\" [src]=\"designgeneralnews?.imageUser\" [alt]=\"designgeneralnews?.user\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n\n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h2>{{designgeneralnews?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{designgeneralnews.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.ts":
+/*!***********************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.ts ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: DesignGeneralNewssDetailComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignGeneralNewssDetailComponent", function() { return DesignGeneralNewssDetailComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-general-news-service.component */ "./src/app/modules/news/categories/shared/design-general-news-service.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DesignGeneralNewssDetailComponent = /** @class */ (function () {
+    function DesignGeneralNewssDetailComponent(DesignGeneralNewsServiceComponent, route) {
+        this.DesignGeneralNewsServiceComponent = DesignGeneralNewsServiceComponent;
+        this.route = route;
+    }
+    DesignGeneralNewssDetailComponent.prototype.ngOnInit = function () {
+        this.designgeneralnews = this.DesignGeneralNewsServiceComponent.getDesignGeneralNews(+this.route.snapshot.params['id']);
+    };
+    DesignGeneralNewssDetailComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'design-general-news-detail',
+            template: __webpack_require__(/*! ./design-general-newss-detail.component.html */ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.html"),
+            styles: [__webpack_require__(/*! ./design-general-newss-detail.component.css */ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.css")]
+        }),
+        __metadata("design:paramtypes", [_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignGeneralNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+    ], DesignGeneralNewssDetailComponent);
+    return DesignGeneralNewssDetailComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-router-activate.service.ts":
+/*!******************************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-router-activate.service.ts ***!
+  \******************************************************************************************************************************************/
+/*! exports provided: DesignGeneralNewsRouteActivator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignGeneralNewsRouteActivator", function() { return DesignGeneralNewsRouteActivator; });
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/design-general-news-service.component */ "./src/app/modules/news/categories/shared/design-general-news-service.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DesignGeneralNewsRouteActivator = /** @class */ (function () {
+    function DesignGeneralNewsRouteActivator(DesignGeneralNewsServiceComponent, router) {
+        this.DesignGeneralNewsServiceComponent = DesignGeneralNewsServiceComponent;
+        this.router = router;
+        //Codigo que agregué para que la ruta id por parametros se recarge, es decir
+        // Funciona tambien en caso de tener una misma lista de elementos almacenadas dentro de el id de un elemento, esto recargara, ejemplo: youtube,(entras a uno de sus videos y ves más videos recomendados, al darle a otro, este recarga la ruta)
+        //Esto resuelve el error de que solo cargaba la ruta desde cada elemento y no manualmente.
+        this.router.routeReuseStrategy.shouldReuseRoute = function () { return false; };
+    }
+    DesignGeneralNewsRouteActivator.prototype.canActivate = function (route) {
+        var designgeneralnewsExists = !!this.DesignGeneralNewsServiceComponent.getDesignGeneralNews(+route.params['id']);
+        if (!designgeneralnewsExists)
+            this.router.navigate(['./common/errorr']); //Redirecciona al error 404 original
+        return designgeneralnewsExists;
+    };
+    DesignGeneralNewsRouteActivator = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        __metadata("design:paramtypes", [_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignGeneralNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_0__["Router"]])
+    ], DesignGeneralNewsRouteActivator);
+    return DesignGeneralNewsRouteActivator;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-general-items/news-design-general-list.component.ts":
+/*!****************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-general-items/news-design-general-list.component.ts ***!
+  \****************************************************************************************************/
+/*! exports provided: NewsDesignGeneralListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsDesignGeneralListComponent", function() { return NewsDesignGeneralListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-general-news-service.component */ "./src/app/modules/news/categories/shared/design-general-news-service.component.ts");
 /* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
 //AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
 //Y LE DAMOS LA FUNCION EL CLICK ROUTER
@@ -1368,52 +2382,49 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var NewsListComponent = /** @class */ (function () {
-    function NewsListComponent(NewsServiceComponent, toastr) {
-        this.NewsServiceComponent = NewsServiceComponent;
+var NewsDesignGeneralListComponent = /** @class */ (function () {
+    function NewsDesignGeneralListComponent(DesignGeneralNewsServiceComponent, toastr) {
+        this.DesignGeneralNewsServiceComponent = DesignGeneralNewsServiceComponent;
         this.toastr = toastr;
     }
-    NewsListComponent.prototype.ngOnInit = function () {
-        this.newss = this.NewsServiceComponent.getNewss();
+    NewsDesignGeneralListComponent.prototype.ngOnInit = function () {
+        this.designgeneralnewss = this.DesignGeneralNewsServiceComponent.getDesignGeneralNewss();
     };
-    NewsListComponent.prototype.handeThumbnailClick = function (newsName) {
-        this.toastr.success(newsName);
-    };
-    NewsListComponent = __decorate([
+    NewsDesignGeneralListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-news-list',
-            template: "\n      <section class=\"aae-news-section\">\n      <article class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-12\">\n            <h6 class=\"titles\"><span>NEWS</span> OF DESIGNERS</h6>\n          </div>\n          <div *ngFor=\"let news of newss\" class=\"col-md-12\">\n            <app-news-thumbnail (click)=\"handeThumbnailClick(news.name)\" [news]=\"news\"></app-news-thumbnail>\n          </div>\n        </div>\n      </article>\n    </section>\n  ",
+            selector: 'news-app-design-general-list',
+            template: "\n    <div *ngFor=\"let designgeneralnews of designgeneralnewss\">\n      <design-general-news-list (click)=\"handeDesignGeneralClick(designgeneralnews.name)\" [designgeneralnews]=\"designgeneralnews\"></design-general-news-list>\n    </div>\n  ",
         }),
-        __metadata("design:paramtypes", [_shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__["NewsServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
-    ], NewsListComponent);
-    return NewsListComponent;
+        __metadata("design:paramtypes", [_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignGeneralNewsServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+    ], NewsDesignGeneralListComponent);
+    return NewsDesignGeneralListComponent;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/modules/news/news-thumbnail.component.html":
-/*!************************************************************!*\
-  !*** ./src/app/modules/news/news-thumbnail.component.html ***!
-  \************************************************************/
+/***/ "./src/app/modules/news/categories/design-others-items/design-others-news-list.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/design-others-news-list.component.html ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Component Item News: Componente de noticias: Object-->\n<section [routerLink]=\"['/newss', news.id]\" class=\"AAE-news-section encabezado-news AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 d-flex justify-content-center\">\n        <div class=\"AAE-container-image-news\">\n          <img class=\"img fluid\" [src]=\"news?.imageUrl\" [alt]=\"news?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h5 class=\"title-news\">{{news.name}} </h5>\n          <h6 class=\"descrip-news\"><span>By:</span> {{news.user}}</h6>\n          <div>\n            <span>Category:</span> {{news.category}}\n          </div>\n\n          <div><span>Date:</span> {{news.date}} </div>\n          <div>\n            <span><span>Location:</span> {{ news.location.address }} </span>\n            <span>&nbsp;</span>\n            <span> {{ news.location.city }}, {{ news.location.country }} </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n\n\n  \n  \n\n"
+module.exports = "<!--Componente, noticias de la categoría \"General Design\" object-->\n<div [routerLink]=\"['/designothersnewss', designothersnews.id]\" class=\"AAE-news-section encabezado-news AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 d-flex justify-content-center\">\n        <div class=\"AAE-container-image-news\">\n          <div id=\"card-others-trends\"></div>\n          <img class=\"img-fluid\" [src]=\"designothersnews?.imageUrl\" [alt]=\"designothersnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h5 class=\"title-news\">{{designothersnews.name}} </h5>\n          <h6 class=\"descrip-news\"><span>By:</span> {{designothersnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designothersnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designothersnews.date}} </div>\n          <div>\n            <span><span>Location:</span> {{ designothersnews.location.address }} </span>\n            <span>&nbsp;</span>\n            <span> {{ designothersnews.location.city }}, {{ designothersnews.location.country }} </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</div>\n\n\n  \n  \n\n"
 
 /***/ }),
 
-/***/ "./src/app/modules/news/news-thumbnail.component.ts":
-/*!**********************************************************!*\
-  !*** ./src/app/modules/news/news-thumbnail.component.ts ***!
-  \**********************************************************/
-/*! exports provided: NewsThumbnailComponent */
+/***/ "./src/app/modules/news/categories/design-others-items/design-others-news-list.component.ts":
+/*!**************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/design-others-news-list.component.ts ***!
+  \**************************************************************************************************/
+/*! exports provided: DesignOthersNewsListComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsThumbnailComponent", function() { return NewsThumbnailComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignOthersNewsListComponent", function() { return DesignOthersNewsListComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1425,33 +2436,33 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var NewsThumbnailComponent = /** @class */ (function () {
-    function NewsThumbnailComponent() {
+var DesignOthersNewsListComponent = /** @class */ (function () {
+    function DesignOthersNewsListComponent() {
     }
-    NewsThumbnailComponent.prototype.ngOnInit = function () {
+    DesignOthersNewsListComponent.prototype.ngOnInit = function () {
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", Object)
-    ], NewsThumbnailComponent.prototype, "news", void 0);
-    NewsThumbnailComponent = __decorate([
+    ], DesignOthersNewsListComponent.prototype, "designothersnews", void 0);
+    DesignOthersNewsListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-news-thumbnail',
-            template: __webpack_require__(/*! ./news-thumbnail.component.html */ "./src/app/modules/news/news-thumbnail.component.html"),
+            selector: 'design-others-news-list',
+            template: __webpack_require__(/*! ./design-others-news-list.component.html */ "./src/app/modules/news/categories/design-others-items/design-others-news-list.component.html"),
         }),
         __metadata("design:paramtypes", [])
-    ], NewsThumbnailComponent);
-    return NewsThumbnailComponent;
+    ], DesignOthersNewsListComponent);
+    return DesignOthersNewsListComponent;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/modules/news/newss-detail/newss-detail.component.css":
-/*!**********************************************************************!*\
-  !*** ./src/app/modules/news/newss-detail/newss-detail.component.css ***!
-  \**********************************************************************/
+/***/ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.css":
+/*!*********************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.css ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1459,29 +2470,29 @@ module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/modules/news/newss-detail/newss-detail.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/modules/news/newss-detail/newss-detail.component.html ***!
-  \***********************************************************************/
+/***/ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.html":
+/*!**********************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.html ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <img class=\"img fluid\" [src]=\"news?.imageUrl\" [alt]=\"news?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{news.name}} </h2>\n          <h6><span>By:</span> {{news.user}}</h6>\n          <div>\n            <span>Category:</span> {{news.category}}\n          </div>\n\n          <div><span>Date:</span> {{news.date}} </div>\n          <div>\n            <span>Location:</span> {{ news.location.address }}\n            <span>&nbsp;</span>\n            {{ news.location.city }}, {{ news.location.country }}\n          </div>\n          <div>\n            <img class=\"AAE-user-avatar img-fluid\" [src]=\"news?.imageUser\" [alt]=\"news?.user\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n\n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h2>{{news?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{news.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>\n"
+module.exports = "<!--Sección de Detalles del componente de noticias de la categoría \"General Design\"-->\n<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <div id=\"card-others-trends\"></div>\n          <img class=\"img fluid\" [src]=\"designothersnews?.imageUrl\" [alt]=\"designothersnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{designothersnews.name}} </h2>\n          <h6><span>By:</span> {{designothersnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designothersnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designothersnews.date}} </div>\n          <div>\n            <span>Location:</span> {{ designothersnews.location.address }}\n            <span>&nbsp;</span>\n            {{ designothersnews.location.city }}, {{ designothersnews.location.country }}\n          </div>\n          <div>\n            <img class=\"AAE-user-avatar img-fluid\" [src]=\"designothersnews?.imageUser\" [alt]=\"designothersnews?.user\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n  \n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h2>{{designothersnews?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{designothersnews.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>\n  "
 
 /***/ }),
 
-/***/ "./src/app/modules/news/newss-detail/newss-detail.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/modules/news/newss-detail/newss-detail.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: NewssDetailComponent */
+/***/ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.ts":
+/*!********************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.ts ***!
+  \********************************************************************************************************************************/
+/*! exports provided: DesignOthersNewssDetailComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewssDetailComponent", function() { return NewssDetailComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignOthersNewssDetailComponent", function() { return DesignOthersNewssDetailComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
+/* harmony import */ var _shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-others-news-service.component */ "./src/app/modules/news/categories/shared/design-others-news-service.component.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1495,42 +2506,42 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var NewssDetailComponent = /** @class */ (function () {
-    function NewssDetailComponent(NewsServiceComponent, route) {
-        this.NewsServiceComponent = NewsServiceComponent;
+var DesignOthersNewssDetailComponent = /** @class */ (function () {
+    function DesignOthersNewssDetailComponent(DesignOthersNewsServiceComponent, route) {
+        this.DesignOthersNewsServiceComponent = DesignOthersNewsServiceComponent;
         this.route = route;
     }
-    NewssDetailComponent.prototype.ngOnInit = function () {
-        this.news = this.NewsServiceComponent.getNews(+this.route.snapshot.params['id']);
+    DesignOthersNewssDetailComponent.prototype.ngOnInit = function () {
+        this.designothersnews = this.DesignOthersNewsServiceComponent.getDesignOthersNews(+this.route.snapshot.params['id']);
     };
-    NewssDetailComponent = __decorate([
+    DesignOthersNewssDetailComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-news-detail',
-            template: __webpack_require__(/*! ./newss-detail.component.html */ "./src/app/modules/news/newss-detail/newss-detail.component.html"),
-            styles: [__webpack_require__(/*! ./newss-detail.component.css */ "./src/app/modules/news/newss-detail/newss-detail.component.css")]
+            selector: 'design-others-news-detail',
+            template: __webpack_require__(/*! ./design-others-newss-detail.component.html */ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.html"),
+            styles: [__webpack_require__(/*! ./design-others-newss-detail.component.css */ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.css")]
         }),
-        __metadata("design:paramtypes", [_shared_news_service_component__WEBPACK_IMPORTED_MODULE_1__["NewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
-    ], NewssDetailComponent);
-    return NewssDetailComponent;
+        __metadata("design:paramtypes", [_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignOthersNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+    ], DesignOthersNewssDetailComponent);
+    return DesignOthersNewssDetailComponent;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts":
-/*!****************************************************************************!*\
-  !*** ./src/app/modules/news/newss-detail/newss-router-activate.service.ts ***!
-  \****************************************************************************/
-/*! exports provided: NewsRouteActivator */
+/***/ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-router-activate.service.ts":
+/*!***************************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-router-activate.service.ts ***!
+  \***************************************************************************************************************************************/
+/*! exports provided: DesignOthersNewsRouteActivator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsRouteActivator", function() { return NewsRouteActivator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignOthersNewsRouteActivator", function() { return DesignOthersNewsRouteActivator; });
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _shared_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/news-service.component */ "./src/app/modules/news/shared/news-service.component.ts");
+/* harmony import */ var _shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/design-others-news-service.component */ "./src/app/modules/news/categories/shared/design-others-news-service.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1543,42 +2554,102 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var NewsRouteActivator = /** @class */ (function () {
-    function NewsRouteActivator(NewsServiceComponent, router) {
-        this.NewsServiceComponent = NewsServiceComponent;
+var DesignOthersNewsRouteActivator = /** @class */ (function () {
+    function DesignOthersNewsRouteActivator(DesignOthersNewsServiceComponent, router) {
+        this.DesignOthersNewsServiceComponent = DesignOthersNewsServiceComponent;
         this.router = router;
         //Codigo que agregué para que la ruta id por parametros se recarge, es decir
         // Funciona tambien en caso de tener una misma lista de elementos almacenadas dentro de el id de un elemento, esto recargara, ejemplo: youtube,(entras a uno de sus videos y ves más videos recomendados, al darle a otro, este recarga la ruta)
         //Esto resuelve el error de que solo cargaba la ruta desde cada elemento y no manualmente.
         this.router.routeReuseStrategy.shouldReuseRoute = function () { return false; };
     }
-    NewsRouteActivator.prototype.canActivate = function (route) {
-        var newsExists = !!this.NewsServiceComponent.getNews(+route.params['id']);
-        if (!newsExists)
+    DesignOthersNewsRouteActivator.prototype.canActivate = function (route) {
+        var designothersnewsExists = !!this.DesignOthersNewsServiceComponent.getDesignOthersNews(+route.params['id']);
+        if (!designothersnewsExists)
             this.router.navigate(['./common/errorr']); //Redirecciona al error 404 original
-        return newsExists;
+        return designothersnewsExists;
     };
-    NewsRouteActivator = __decorate([
+    DesignOthersNewsRouteActivator = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-        __metadata("design:paramtypes", [_shared_news_service_component__WEBPACK_IMPORTED_MODULE_2__["NewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_0__["Router"]])
-    ], NewsRouteActivator);
-    return NewsRouteActivator;
+        __metadata("design:paramtypes", [_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignOthersNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_0__["Router"]])
+    ], DesignOthersNewsRouteActivator);
+    return DesignOthersNewsRouteActivator;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/modules/news/shared/news-service.component.ts":
-/*!***************************************************************!*\
-  !*** ./src/app/modules/news/shared/news-service.component.ts ***!
-  \***************************************************************/
-/*! exports provided: NewsServiceComponent */
+/***/ "./src/app/modules/news/categories/design-others-items/news-design-others-list.component.ts":
+/*!**************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-others-items/news-design-others-list.component.ts ***!
+  \**************************************************************************************************/
+/*! exports provided: NewsDesignOthersListComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsServiceComponent", function() { return NewsServiceComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsDesignOthersListComponent", function() { return NewsDesignOthersListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-others-news-service.component */ "./src/app/modules/news/categories/shared/design-others-news-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+//AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
+//Y LE DAMOS LA FUNCION EL CLICK ROUTER
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var NewsDesignOthersListComponent = /** @class */ (function () {
+    function NewsDesignOthersListComponent(DesignOthersNewsServiceComponent, toastr) {
+        this.DesignOthersNewsServiceComponent = DesignOthersNewsServiceComponent;
+        this.toastr = toastr;
+    }
+    NewsDesignOthersListComponent.prototype.ngOnInit = function () {
+        this.designothersnewss = this.DesignOthersNewsServiceComponent.getDesignOthersNewss();
+    };
+    NewsDesignOthersListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'news-app-design-others-list',
+            template: "\n    <div *ngFor=\"let designothersnews of designothersnewss\">\n      <design-others-news-list (click)=\"handeDesignOthersClick(designothersnews.name)\" [designothersnews]=\"designothersnews\"></design-others-news-list>\n    </div>\n  ",
+        }),
+        __metadata("design:paramtypes", [_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignOthersNewsServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+    ], NewsDesignOthersListComponent);
+    return NewsDesignOthersListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/design-web-news-list.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/design-web-news-list.component.html ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Componente, noticias de la categoría \"General Design\" object-->\n<div [routerLink]=\"['/designwebnewss', designwebnews.id]\" class=\"AAE-news-section encabezado-news AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 d-flex justify-content-center\">\n        <div class=\"AAE-container-image-news\">\n          <div id=\"card-designWeb-trends\"></div>\n          <img class=\"img-fluid\" [src]=\"designwebnews?.imageUrl\" [alt]=\"designwebnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h5 class=\"title-news\">{{designwebnews.name}} </h5>\n          <h6 class=\"descrip-news\"><span>By:</span> {{designwebnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designwebnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designwebnews.date}} </div>\n          <div>\n            <span><span>Location:</span> {{ designwebnews.location.address }} </span>\n            <span>&nbsp;</span>\n            <span> {{ designwebnews.location.city }}, {{ designwebnews.location.country }} </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</div>\n\n\n\n\n  \n  \n\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/design-web-news-list.component.ts":
+/*!********************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/design-web-news-list.component.ts ***!
+  \********************************************************************************************/
+/*! exports provided: DesignWebNewsListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignWebNewsListComponent", function() { return DesignWebNewsListComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1590,25 +2661,459 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var NewsServiceComponent = /** @class */ (function () {
-    function NewsServiceComponent() {
+var DesignWebNewsListComponent = /** @class */ (function () {
+    function DesignWebNewsListComponent() {
     }
-    NewsServiceComponent.prototype.ngOnInit = function () {
+    DesignWebNewsListComponent.prototype.ngOnInit = function () {
     };
-    NewsServiceComponent.prototype.getNewss = function () {
-        return NEWSS;
-    };
-    NewsServiceComponent.prototype.getNews = function (id) {
-        return NEWSS.find(function (news) { return news.id === id; });
-    };
-    NewsServiceComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], DesignWebNewsListComponent.prototype, "designwebnews", void 0);
+    DesignWebNewsListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'design-web-news-list',
+            template: __webpack_require__(/*! ./design-web-news-list.component.html */ "./src/app/modules/news/categories/design-web-items/design-web-news-list.component.html"),
+        }),
         __metadata("design:paramtypes", [])
-    ], NewsServiceComponent);
-    return NewsServiceComponent;
+    ], DesignWebNewsListComponent);
+    return DesignWebNewsListComponent;
 }());
 
-var NEWSS = [
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.css":
+/*!************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.html ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Sección de Detalles del componente de noticias de la categoría \"General Design\"-->\n<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <div id=\"card-designWeb-trends\"></div>\n          <img class=\"img fluid\" [src]=\"designwebnews?.imageUrl\" [alt]=\"designwebnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{designwebnews.name}} </h2>\n          <h6><span>By:</span> {{designwebnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designwebnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designwebnews.date}} </div>\n          <div>\n            <span>Location:</span> {{ designwebnews.location.address }}\n            <span>&nbsp;</span>\n            {{ designwebnews.location.city }}, {{ designwebnews.location.country }}\n          </div>\n          <div>\n            <img class=\"AAE-user-avatar img-fluid\" [src]=\"designwebnews?.imageUser\" [alt]=\"designwebnews?.user\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n  \n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h2>{{designwebnews?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{designwebnews.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>\n  "
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.ts":
+/*!***********************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.ts ***!
+  \***********************************************************************************************************************/
+/*! exports provided: DesignWebNewssDetailComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignWebNewssDetailComponent", function() { return DesignWebNewssDetailComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-web-news-service.component */ "./src/app/modules/news/categories/shared/design-web-news-service.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DesignWebNewssDetailComponent = /** @class */ (function () {
+    function DesignWebNewssDetailComponent(DesignWebNewsServiceComponent, route) {
+        this.DesignWebNewsServiceComponent = DesignWebNewsServiceComponent;
+        this.route = route;
+    }
+    DesignWebNewssDetailComponent.prototype.ngOnInit = function () {
+        this.designwebnews = this.DesignWebNewsServiceComponent.getDesignWebNews(+this.route.snapshot.params['id']);
+    };
+    DesignWebNewssDetailComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'design-web-news-detail',
+            template: __webpack_require__(/*! ./design-web-newss-detail.component.html */ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.html"),
+            styles: [__webpack_require__(/*! ./design-web-newss-detail.component.css */ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.css")]
+        }),
+        __metadata("design:paramtypes", [_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignWebNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+    ], DesignWebNewssDetailComponent);
+    return DesignWebNewssDetailComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-router-activate.service.ts":
+/*!******************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-router-activate.service.ts ***!
+  \******************************************************************************************************************************/
+/*! exports provided: DesignWebNewsRouteActivator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignWebNewsRouteActivator", function() { return DesignWebNewsRouteActivator; });
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/design-web-news-service.component */ "./src/app/modules/news/categories/shared/design-web-news-service.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DesignWebNewsRouteActivator = /** @class */ (function () {
+    function DesignWebNewsRouteActivator(DesignWebNewsServiceComponent, router) {
+        this.DesignWebNewsServiceComponent = DesignWebNewsServiceComponent;
+        this.router = router;
+        //Codigo que agregué para que la ruta id por parametros se recarge, es decir
+        // Funciona tambien en caso de tener una misma lista de elementos almacenadas dentro de el id de un elemento, esto recargara, ejemplo: youtube,(entras a uno de sus videos y ves más videos recomendados, al darle a otro, este recarga la ruta)
+        //Esto resuelve el error de que solo cargaba la ruta desde cada elemento y no manualmente.
+        this.router.routeReuseStrategy.shouldReuseRoute = function () { return false; };
+    }
+    DesignWebNewsRouteActivator.prototype.canActivate = function (route) {
+        var designwebnewsExists = !!this.DesignWebNewsServiceComponent.getDesignWebNews(+route.params['id']);
+        if (!designwebnewsExists)
+            this.router.navigate(['./common/errorr']); //Redirecciona al error 404 original
+        return designwebnewsExists;
+    };
+    DesignWebNewsRouteActivator = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        __metadata("design:paramtypes", [_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignWebNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_0__["Router"]])
+    ], DesignWebNewsRouteActivator);
+    return DesignWebNewsRouteActivator;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/design-web-items/news-design-web-list.component.ts":
+/*!********************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/design-web-items/news-design-web-list.component.ts ***!
+  \********************************************************************************************/
+/*! exports provided: NewsDesignWebListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsDesignWebListComponent", function() { return NewsDesignWebListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-web-news-service.component */ "./src/app/modules/news/categories/shared/design-web-news-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+//AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
+//Y LE DAMOS LA FUNCION EL CLICK ROUTER
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var NewsDesignWebListComponent = /** @class */ (function () {
+    function NewsDesignWebListComponent(DesignWebNewsServiceComponent, toastr) {
+        this.DesignWebNewsServiceComponent = DesignWebNewsServiceComponent;
+        this.toastr = toastr;
+    }
+    NewsDesignWebListComponent.prototype.ngOnInit = function () {
+        this.designwebnewss = this.DesignWebNewsServiceComponent.getDesignWebNewss();
+    };
+    NewsDesignWebListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'news-app-design-web-list',
+            template: "\n    <div *ngFor=\"let designwebnews of designwebnewss\">\n      <design-web-news-list (click)=\"handeDesignWebClick(designwebnews.name)\" [designwebnews]=\"designwebnews\"></design-web-news-list>\n    </div>\n  ",
+        }),
+        __metadata("design:paramtypes", [_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignWebNewsServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+    ], NewsDesignWebListComponent);
+    return NewsDesignWebListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/shared/design-general-news-service.component.ts":
+/*!*****************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/shared/design-general-news-service.component.ts ***!
+  \*****************************************************************************************/
+/*! exports provided: DesignGeneralNewsServiceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignGeneralNewsServiceComponent", function() { return DesignGeneralNewsServiceComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DesignGeneralNewsServiceComponent = /** @class */ (function () {
+    function DesignGeneralNewsServiceComponent() {
+    }
+    DesignGeneralNewsServiceComponent.prototype.ngOnInit = function () {
+    };
+    DesignGeneralNewsServiceComponent.prototype.getDesignGeneralNewss = function () {
+        return DESIGNGENERALNEWSS;
+    };
+    DesignGeneralNewsServiceComponent.prototype.getDesignGeneralNews = function (id) {
+        return DESIGNGENERALNEWSS.find(function (designgeneralnews) { return designgeneralnews.id === id; });
+    };
+    DesignGeneralNewsServiceComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [])
+    ], DesignGeneralNewsServiceComponent);
+    return DesignGeneralNewsServiceComponent;
+}());
+
+var DESIGNGENERALNEWSS = [
+    {
+        id: 1,
+        name: 'Angular Connect',
+        user: 'Jake Cols',
+        category: 'General Design',
+        date: '9/26/2036',
+        time: '10:00 am',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        newsCreate: "Lorem Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet",
+        price: 599.99,
+        imageUrl: './assets/images/news/aguacate.jpg',
+        imageUser: './assets/images/user_img/avatar_user.png',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+        sessions: [
+            {
+                id: 1,
+                name: "Using Angular 4 Pipes",
+                presenter: "Peter Bacon Darwin",
+                duration: 1,
+                level: "Intermediate",
+                abstract: "Learn all about the new pipes in Angular 4, both \n        how to write them, and how to get the new AI CLI to write \n        them for you. Given by the famous PBD, president of Angular \n        University (formerly Oxford University)",
+                voters: ['bradgreen', 'igorminar', 'martinfowler']
+            },
+            {
+                id: 2,
+                name: "Getting the most out of your dev team",
+                presenter: "Jeff Cross",
+                duration: 1,
+                level: "Intermediate",
+                abstract: "We all know that our dev teams work hard, but with \n        the right management they can be even more productive, without \n        overworking them. In this session I'll show you how to get the \n        best results from the talent you already have on staff.",
+                voters: ['johnpapa', 'bradgreen', 'igorminar', 'martinfowler']
+            },
+            {
+                id: 3,
+                name: "Angular 4 Performance Metrics",
+                presenter: "Rob Wormald",
+                duration: 2,
+                level: "Advanced",
+                abstract: "Angular 4 Performance is hot. In this session, we'll see \n        how Angular gets such great performance by preloading data on \n        your users devices before they even hit your site using the \n        new predictive algorithms and thought reading software \n        built into Angular 4.",
+                voters: []
+            },
+            {
+                id: 4,
+                name: "Angular 5 Look Ahead",
+                presenter: "Brad Green",
+                duration: 2,
+                level: "Advanced",
+                abstract: "Even though Angular 5 is still 6 years away, we all want \n        to know all about it so that we can spend endless hours in meetings \n        debating if we should use Angular 4 or not. This talk will look at \n        Angular 6 even though no code has yet been written for it. We'll \n        look at what it might do, and how to convince your manager to \n        hold off on any new apps until it's released",
+                voters: []
+            },
+            {
+                id: 5,
+                name: "Basics of Angular 4",
+                presenter: "John Papa",
+                duration: 2,
+                level: "Beginner",
+                abstract: "It's time to learn the basics of Angular 4. This talk \n        will give you everything you need to know about Angular 4 to \n        get started with it today and be building UI's for your self \n        driving cars and butler-bots in no time.",
+                voters: ['bradgreen', 'igorminar']
+            }
+        ]
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/shared/design-others-news-service.component.ts":
+/*!****************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/shared/design-others-news-service.component.ts ***!
+  \****************************************************************************************/
+/*! exports provided: DesignOthersNewsServiceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignOthersNewsServiceComponent", function() { return DesignOthersNewsServiceComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DesignOthersNewsServiceComponent = /** @class */ (function () {
+    function DesignOthersNewsServiceComponent() {
+    }
+    DesignOthersNewsServiceComponent.prototype.ngOnInit = function () {
+    };
+    DesignOthersNewsServiceComponent.prototype.getDesignOthersNewss = function () {
+        return DESIGNOTHERSNEWSS;
+    };
+    DesignOthersNewsServiceComponent.prototype.getDesignOthersNews = function (id) {
+        return DESIGNOTHERSNEWSS.find(function (designothersnews) { return designothersnews.id === id; });
+    };
+    DesignOthersNewsServiceComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [])
+    ], DesignOthersNewsServiceComponent);
+    return DesignOthersNewsServiceComponent;
+}());
+
+var DESIGNOTHERSNEWSS = [
+    {
+        id: 1,
+        name: 'Angular Connect',
+        user: 'Jake Cols',
+        category: 'Others',
+        date: '9/26/2036',
+        time: '10:00 am',
+        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        newsCreate: "Lorem Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet",
+        price: 599.99,
+        imageUrl: './assets/images/news/img-photo-12.jpg',
+        imageUser: './assets/images/user_img/avatar_user.png',
+        location: {
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
+        },
+        sessions: [
+            {
+                id: 1,
+                name: "Using Angular 4 Pipes",
+                presenter: "Peter Bacon Darwin",
+                duration: 1,
+                level: "Intermediate",
+                abstract: "Learn all about the new pipes in Angular 4, both \n        how to write them, and how to get the new AI CLI to write \n        them for you. Given by the famous PBD, president of Angular \n        University (formerly Oxford University)",
+                voters: ['bradgreen', 'igorminar', 'martinfowler']
+            },
+            {
+                id: 2,
+                name: "Getting the most out of your dev team",
+                presenter: "Jeff Cross",
+                duration: 1,
+                level: "Intermediate",
+                abstract: "We all know that our dev teams work hard, but with \n        the right management they can be even more productive, without \n        overworking them. In this session I'll show you how to get the \n        best results from the talent you already have on staff.",
+                voters: ['johnpapa', 'bradgreen', 'igorminar', 'martinfowler']
+            },
+            {
+                id: 3,
+                name: "Angular 4 Performance Metrics",
+                presenter: "Rob Wormald",
+                duration: 2,
+                level: "Advanced",
+                abstract: "Angular 4 Performance is hot. In this session, we'll see \n        how Angular gets such great performance by preloading data on \n        your users devices before they even hit your site using the \n        new predictive algorithms and thought reading software \n        built into Angular 4.",
+                voters: []
+            },
+            {
+                id: 4,
+                name: "Angular 5 Look Ahead",
+                presenter: "Brad Green",
+                duration: 2,
+                level: "Advanced",
+                abstract: "Even though Angular 5 is still 6 years away, we all want \n        to know all about it so that we can spend endless hours in meetings \n        debating if we should use Angular 4 or not. This talk will look at \n        Angular 6 even though no code has yet been written for it. We'll \n        look at what it might do, and how to convince your manager to \n        hold off on any new apps until it's released",
+                voters: []
+            },
+            {
+                id: 5,
+                name: "Basics of Angular 4",
+                presenter: "John Papa",
+                duration: 2,
+                level: "Beginner",
+                abstract: "It's time to learn the basics of Angular 4. This talk \n        will give you everything you need to know about Angular 4 to \n        get started with it today and be building UI's for your self \n        driving cars and butler-bots in no time.",
+                voters: ['bradgreen', 'igorminar']
+            }
+        ]
+    },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/shared/design-ux-news-service.component.ts":
+/*!************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/shared/design-ux-news-service.component.ts ***!
+  \************************************************************************************/
+/*! exports provided: DesignUxNewsServiceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignUxNewsServiceComponent", function() { return DesignUxNewsServiceComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DesignUxNewsServiceComponent = /** @class */ (function () {
+    function DesignUxNewsServiceComponent() {
+    }
+    DesignUxNewsServiceComponent.prototype.ngOnInit = function () {
+    };
+    DesignUxNewsServiceComponent.prototype.getDesignUxNewss = function () {
+        return DESIGNUXNEWSS;
+    };
+    DesignUxNewsServiceComponent.prototype.getDesignUxNews = function (id) {
+        return DESIGNUXNEWSS.find(function (designuxnews) { return designuxnews.id === id; });
+    };
+    DesignUxNewsServiceComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [])
+    ], DesignUxNewsServiceComponent);
+    return DesignUxNewsServiceComponent;
+}());
+
+var DESIGNUXNEWSS = [
     {
         id: 1,
         name: 'Angular Connect',
@@ -1617,8 +3122,9 @@ var NEWSS = [
         date: '9/26/2036',
         time: '10:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        newsCreate: "Lorem Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet",
         price: 599.99,
-        imageUrl: './assets/images/news/img-photos-1.jpg',
+        imageUrl: './assets/images/news/img-photos-10.jpg',
         imageUser: './assets/images/user_img/avatar_user.png',
         location: {
             address: '1057 DT',
@@ -1677,12 +3183,13 @@ var NEWSS = [
         id: 2,
         name: 'ng-nl',
         user: 'Nicky Morthon',
-        category: 'Frontend',
+        category: 'UX',
         date: '4/15/2037',
         time: '9:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
+        newsCreate: "Lorem Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet",
         price: 950.00,
-        imageUrl: './assets/images/news/img-photo-12.jpg',
+        imageUrl: './assets/images/news/img-photos-12.jpg',
         imageUser: './assets/images/user_img/avatar_user.png',
         location: {
             address: 'The NG-NL Convention Center & Scuba Shop',
@@ -1728,163 +3235,442 @@ var NEWSS = [
             },
         ]
     },
+];
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/shared/design-web-news-service.component.ts":
+/*!*************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/shared/design-web-news-service.component.ts ***!
+  \*************************************************************************************/
+/*! exports provided: DesignWebNewsServiceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignWebNewsServiceComponent", function() { return DesignWebNewsServiceComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DesignWebNewsServiceComponent = /** @class */ (function () {
+    function DesignWebNewsServiceComponent() {
+    }
+    DesignWebNewsServiceComponent.prototype.ngOnInit = function () {
+    };
+    DesignWebNewsServiceComponent.prototype.getDesignWebNewss = function () {
+        return DESIGNWEBNEWSS;
+    };
+    DesignWebNewsServiceComponent.prototype.getDesignWebNews = function (id) {
+        return DESIGNWEBNEWSS.find(function (designwebnews) { return designwebnews.id === id; });
+    };
+    DesignWebNewsServiceComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [])
+    ], DesignWebNewsServiceComponent);
+    return DesignWebNewsServiceComponent;
+}());
+
+var DESIGNWEBNEWSS = [
     {
-        id: 3,
-        name: 'ng-conf 2037',
-        user: 'Hector Braga',
-        category: 'Design',
-        date: '5/4/2037',
-        time: '9:00 am',
+        id: 1,
+        name: 'Angular Connect',
+        user: 'Jake Cols',
+        category: 'Web Design',
+        date: '9/26/2036',
+        time: '10:00 am',
         descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
-        price: 759.00,
-        imageUrl: './assets/images/news/aguacate.jpg',
+        newsCreate: "Lorem Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet",
+        price: 599.99,
+        imageUrl: './assets/images/news/img-photos-1.jpg',
         imageUser: './assets/images/user_img/avatar_user.png',
         location: {
-            address: 'The Palatial America Hotel',
-            city: 'Salt Lake City',
-            country: 'USA'
+            address: '1057 DT',
+            city: 'London',
+            country: 'England'
         },
         sessions: [
             {
                 id: 1,
-                name: "How Elm Powers Angular 4",
-                presenter: "Murphy Randle",
-                duration: 2,
+                name: "Using Angular 4 Pipes",
+                presenter: "Peter Bacon Darwin",
+                duration: 1,
                 level: "Intermediate",
-                abstract: "We all know that Angular is written in Elm, but did you\n        know how the source code is really written? In this exciting look\n        into the internals of Angular 4, we'll see exactly how Elm powers\n        the framework, and what you can do to take advantage of this knowledge.",
-                voters: ['bradgreen', 'martinfowler', 'igorminar']
+                abstract: "Learn all about the new pipes in Angular 4, both \n        how to write them, and how to get the new AI CLI to write \n        them for you. Given by the famous PBD, president of Angular \n        University (formerly Oxford University)",
+                voters: ['bradgreen', 'igorminar', 'martinfowler']
             },
             {
                 id: 2,
-                name: "Angular and React together",
-                presenter: "Jamison Dance",
-                duration: 2,
+                name: "Getting the most out of your dev team",
+                presenter: "Jeff Cross",
+                duration: 1,
                 level: "Intermediate",
-                abstract: "React v449.6 has just been released. Let's see how to use \n        this new version with Angular to create even more impressive applications.",
-                voters: ['bradgreen', 'martinfowler']
+                abstract: "We all know that our dev teams work hard, but with \n        the right management they can be even more productive, without \n        overworking them. In this session I'll show you how to get the \n        best results from the talent you already have on staff.",
+                voters: ['johnpapa', 'bradgreen', 'igorminar', 'martinfowler']
             },
             {
                 id: 3,
-                name: "Redux Woes",
+                name: "Angular 4 Performance Metrics",
                 presenter: "Rob Wormald",
-                duration: 1,
-                level: "Intermediate",
-                abstract: "Everyone is using Redux for everything from Angular to React to \n        Excel macros, but you're still having trouble grasping it? We'll take a look\n        at how farmers use Redux when harvesting grain as a great introduction to \n        this game changing technology.",
-                voters: ['bradgreen', 'martinfowler', 'johnpapa']
+                duration: 2,
+                level: "Advanced",
+                abstract: "Angular 4 Performance is hot. In this session, we'll see \n        how Angular gets such great performance by preloading data on \n        your users devices before they even hit your site using the \n        new predictive algorithms and thought reading software \n        built into Angular 4.",
+                voters: []
             },
             {
                 id: 4,
-                name: "ng-wat again!!",
-                presenter: "Shai Reznik",
-                duration: 1,
-                level: "Beginner",
-                abstract: "Let's take a look at some of the stranger pieces of Angular 4,\n        including neural net nets, Android in Androids, and using pipes with actual pipes.",
-                voters: ['bradgreen', 'martinfowler', 'igorminar', 'johnpapa']
+                name: "Angular 5 Look Ahead",
+                presenter: "Brad Green",
+                duration: 2,
+                level: "Advanced",
+                abstract: "Even though Angular 5 is still 6 years away, we all want \n        to know all about it so that we can spend endless hours in meetings \n        debating if we should use Angular 4 or not. This talk will look at \n        Angular 6 even though no code has yet been written for it. We'll \n        look at what it might do, and how to convince your manager to \n        hold off on any new apps until it's released",
+                voters: []
             },
             {
                 id: 5,
-                name: "Dressed for Success",
-                presenter: "Ward Bell",
-                duration: 2,
-                level: "Beginner",
-                abstract: "Being a developer in 2037 is about more than just writing bug-free code. \n        You also have to look the part. In this amazing expose, Ward will talk you through\n        how to pick out the right clothes to make your coworkers and boss not only\n        respect you, but also want to be your buddy.",
-                voters: ['bradgreen', 'martinfowler']
-            },
-            {
-                id: 6,
-                name: "These aren't the directives you're looking for",
+                name: "Basics of Angular 4",
                 presenter: "John Papa",
                 duration: 2,
-                level: "Intermediate",
-                abstract: "Coinciding with the release of Star Wars Episode 18, this talk will show how\n        to use directives in your Angular 4 development while drawing lessons from the new movie,\n        featuring all your favorite characters like Han Solo's ghost and Darth Jar Jar.",
-                voters: ['bradgreen', 'martinfowler']
-            },
-        ]
-    },
-    {
-        id: 4,
-        name: 'UN Angular Summit',
-        user: 'Andrés Alzate',
-        category: 'UX',
-        date: '6/10/2037',
-        time: '8:00 am',
-        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
-        price: 800.00,
-        imageUrl: './assets/images/news/img-photos-10.jpg',
-        imageUser: './assets/images/user_img/avatar_user.png',
-        location: {
-            address: 'The UN Angular Center',
-            city: 'New York',
-            country: 'USA'
-        },
-        sessions: [
-            {
-                id: 1,
-                name: "Diversity in Tech",
-                presenter: "Sir Dave Smith",
-                duration: 2,
                 level: "Beginner",
-                abstract: "Yes, we all work with cyborgs and androids and Martians, but \n        we probably don't realize that sometimes our internal biases can make it difficult for\n        these well-designed coworkers to really feel at home coding alongside us. This talk will\n        look at things we can do to recognize our biases and counteract them.",
+                abstract: "It's time to learn the basics of Angular 4. This talk \n        will give you everything you need to know about Angular 4 to \n        get started with it today and be building UI's for your self \n        driving cars and butler-bots in no time.",
                 voters: ['bradgreen', 'igorminar']
-            },
-            {
-                id: 2,
-                name: "World Peace and Angular",
-                presenter: "US Secretary of State Zach Galifianakis",
-                duration: 2,
-                level: "Beginner",
-                abstract: "Angular has been used in most of the major peace brokering that has\n        happened in the last decade, but there is still much we can do to remove all\n        war from the world, and Angular will be a key part of that effort.",
-                voters: ['bradgreen', 'igorminar', 'johnpapa']
-            },
-            {
-                id: 3,
-                name: "Using Angular with Androids",
-                presenter: "Dan Wahlin",
-                duration: 3,
-                level: "Advanced",
-                abstract: "Androids may do everything for us now, allowing us to spend all day playing \n        the latest Destiny DLC, but we can still improve the massages they give and the handmade\n        brie they make using Angular 4. This session will show you how.",
-                voters: ['igorminar', 'johnpapa']
-            },
-        ]
-    },
-    {
-        id: 5,
-        name: 'ng-vegas',
-        category: 'UX',
-        user: 'Johan Smith',
-        date: '2/10/2037',
-        time: '9:00 am',
-        descrip: 'Lorem ipsum dolor sit amet consectetur adipiscing elit fames natoque, diam dictum id ridiculus parturient torquent potenti aptent, urna suspendisse dui aenean dignissim cubilia tempus aliquam. Ornare praesent eu rhoncus integer laoreet commodo tellus hac cum etiam, in platea nullam mollis quam lectus sagittis nunc vivamus, potenti suspendisse nisi elementum bibendum ut purus arcu nec. Mattis sagittis tempus molestie phasellus non, id habitant dis fusce, dapibus accumsan turpis venenatis. Curae leo dapibus mi gravida aliquet, placerat ante potenti sodales, fusce porttitor orci in. Eget volutpat arcu nulla odio nec accumsan imperdiet turpis duis sed, erat egestas auctor libero diam rhoncus sociosqu urna et sodales class, himenaeos id tellus per lacinia at magnis tempor cursus. Cubilia potenti egestas nibh interdum elementum donec rutrum erat, turpis semper nostra maecenas luctus morbi senectus consequat mattis, lacus eleifend est vestibulum gravida imperdiet laoreet',
-        price: 400.00,
-        imageUrl: './assets/images/news/img-photos-12.jpg',
-        imageUser: './assets/images/user_img/avatar_user.png',
-        location: {
-            address: 'The Excalibur',
-            city: 'Las Vegas',
-            country: 'USA'
-        },
-        sessions: [
-            {
-                id: 1,
-                name: "Gambling with Angular",
-                presenter: "John Papa",
-                duration: 1,
-                level: "Intermediate",
-                abstract: "No, this talk isn't about slot machines. We all know that \n        Angular is used in most waiter-bots and coke vending machines, but\n        did you know that was also used to write the core engine in the majority\n        of voting machines? This talk will look at how all presidential elections\n        are now determined by Angular code.",
-                voters: ['bradgreen', 'igorminar']
-            },
-            {
-                id: 2,
-                name: "Angular 4 in 60ish Minutes",
-                presenter: "Dan Wahlin",
-                duration: 2,
-                level: "Beginner",
-                abstract: "Get the skinny on Angular 4 for anyone new to this great new technology.\n        Dan Wahlin will show you how you can get started with Angular in 60ish minutes, \n        guaranteed!",
-                voters: ['bradgreen', 'igorminar', 'johnpapa']
             }
         ]
-    }
+    },
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/design-ux-news-list.component.html":
+/*!********************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/design-ux-news-list.component.html ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Componente, noticias de la categoría \"General Design\" object-->\n<div [routerLink]=\"['/designuxnewss', designuxnews.id]\" class=\"AAE-news-section encabezado-news AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 d-flex justify-content-center\">\n        <div class=\"AAE-container-image-news\">\n          <div id=\"card-ux-trends\"></div>\n          <img class=\"img-fluid\" [src]=\"designuxnews?.imageUrl\" [alt]=\"designuxnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h5 class=\"title-news\">{{designuxnews.name}} </h5>\n          <h6 class=\"descrip-news\"><span>By:</span> {{designuxnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designuxnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designuxnews.date}} </div>\n          <div>\n            <span><span>Location:</span> {{ designuxnews.location.address }} </span>\n            <span>&nbsp;</span>\n            <span> {{ designuxnews.location.city }}, {{ designuxnews.location.country }} </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</div>\n\n  \n  \n\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/design-ux-news-list.component.ts":
+/*!******************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/design-ux-news-list.component.ts ***!
+  \******************************************************************************************/
+/*! exports provided: DesignUxNewsListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignUxNewsListComponent", function() { return DesignUxNewsListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DesignUxNewsListComponent = /** @class */ (function () {
+    function DesignUxNewsListComponent() {
+    }
+    DesignUxNewsListComponent.prototype.ngOnInit = function () {
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], DesignUxNewsListComponent.prototype, "designuxnews", void 0);
+    DesignUxNewsListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'news-design-ux-news-list',
+            template: __webpack_require__(/*! ./design-ux-news-list.component.html */ "./src/app/modules/news/categories/ux-design-items/design-ux-news-list.component.html"),
+        }),
+        __metadata("design:paramtypes", [])
+    ], DesignUxNewsListComponent);
+    return DesignUxNewsListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.html":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.html ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Sección de Detalles del componente de noticias de la categoría \"General Design\"-->\n<section class=\"AAE-header-view-new\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-3\">\n        <div class=\"container-image-view-news\">\n          <div id=\"card-ux-trends\"></div>\n          <img class=\"img fluid\" [src]=\"designuxnews?.imageUrl\" [alt]=\"designuxnews?.name\">\n        </div>\n      </div>\n      <div class=\"col-md-9\">\n        <div class=\"AAE-container-descript-news\">\n          <h2>{{designuxnews.name}} </h2>\n          <h6><span>By:</span> {{designuxnews.user}}</h6>\n          <div>\n            <span>Category:</span> {{designuxnews.category}}\n          </div>\n\n          <div><span>Date:</span> {{designuxnews.date}} </div>\n          <div>\n            <span>Location:</span> {{ designuxnews.location.address }}\n            <span>&nbsp;</span>\n            {{ designuxnews.location.city }}, {{ designuxnews.location.country }}\n          </div>\n          <div>\n            <img class=\"AAE-user-avatar img-fluid\" [src]=\"designuxnews?.imageUser\" [alt]=\"designuxnews?.user\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </article>\n</section>\n  \n<section class=\"AAE-photo-section\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h2>{{designuxnews?.name}} </h2>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\">\n        <p>{{designuxnews.descrip}}</p>\n      </div>\n    </div>\n  </article>\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.ts":
+/*!********************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.ts ***!
+  \********************************************************************************************************************/
+/*! exports provided: DesignUxNewssDetailComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignUxNewssDetailComponent", function() { return DesignUxNewssDetailComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-ux-news-service.component */ "./src/app/modules/news/categories/shared/design-ux-news-service.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DesignUxNewssDetailComponent = /** @class */ (function () {
+    function DesignUxNewssDetailComponent(DesignUxNewsServiceComponent, route) {
+        this.DesignUxNewsServiceComponent = DesignUxNewsServiceComponent;
+        this.route = route;
+    }
+    DesignUxNewssDetailComponent.prototype.ngOnInit = function () {
+        this.designuxnews = this.DesignUxNewsServiceComponent.getDesignUxNews(+this.route.snapshot.params['id']);
+    };
+    DesignUxNewssDetailComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'design-ux-news-detail',
+            template: __webpack_require__(/*! ./design-ux-newss-detail.component.html */ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.html"),
+            styles: [__webpack_require__(/*! ./design-ux-newss-detail.component.css */ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.css")]
+        }),
+        __metadata("design:paramtypes", [_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+    ], DesignUxNewssDetailComponent);
+    return DesignUxNewssDetailComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-router-activate.service.ts":
+/*!***************************************************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-router-activate.service.ts ***!
+  \***************************************************************************************************************************/
+/*! exports provided: DesignUxNewsRouteActivator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DesignUxNewsRouteActivator", function() { return DesignUxNewsRouteActivator; });
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shared/design-ux-news-service.component */ "./src/app/modules/news/categories/shared/design-ux-news-service.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DesignUxNewsRouteActivator = /** @class */ (function () {
+    function DesignUxNewsRouteActivator(DesignUxNewsServiceComponent, router) {
+        this.DesignUxNewsServiceComponent = DesignUxNewsServiceComponent;
+        this.router = router;
+        //Codigo que agregué para que la ruta id por parametros se recarge, es decir
+        // Funciona tambien en caso de tener una misma lista de elementos almacenadas dentro de el id de un elemento, esto recargara, ejemplo: youtube,(entras a uno de sus videos y ves más videos recomendados, al darle a otro, este recarga la ruta)
+        //Esto resuelve el error de que solo cargaba la ruta desde cada elemento y no manualmente.
+        this.router.routeReuseStrategy.shouldReuseRoute = function () { return false; };
+    }
+    DesignUxNewsRouteActivator.prototype.canActivate = function (route) {
+        var designuxnewsExists = !!this.DesignUxNewsServiceComponent.getDesignUxNews(+route.params['id']);
+        if (!designuxnewsExists)
+            this.router.navigate(['./common/errorr']); //Redirecciona al error 404 original
+        return designuxnewsExists;
+    };
+    DesignUxNewsRouteActivator = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        __metadata("design:paramtypes", [_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignUxNewsServiceComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_0__["Router"]])
+    ], DesignUxNewsRouteActivator);
+    return DesignUxNewsRouteActivator;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/categories/ux-design-items/news-design-ux-list.component.ts":
+/*!******************************************************************************************!*\
+  !*** ./src/app/modules/news/categories/ux-design-items/news-design-ux-list.component.ts ***!
+  \******************************************************************************************/
+/*! exports provided: NewsDesignUxListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewsDesignUxListComponent", function() { return NewsDesignUxListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-ux-news-service.component */ "./src/app/modules/news/categories/shared/design-ux-news-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+//AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
+//Y LE DAMOS LA FUNCION EL CLICK ROUTER
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var NewsDesignUxListComponent = /** @class */ (function () {
+    function NewsDesignUxListComponent(DesignUxNewsServiceComponent, toastr) {
+        this.DesignUxNewsServiceComponent = DesignUxNewsServiceComponent;
+        this.toastr = toastr;
+    }
+    NewsDesignUxListComponent.prototype.ngOnInit = function () {
+        this.designuxnewss = this.DesignUxNewsServiceComponent.getDesignUxNewss();
+    };
+    NewsDesignUxListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'news-app-design-ux-list',
+            template: "\n    <div *ngFor=\"let designuxnews of designuxnewss\">\n      <news-design-ux-news-list (click)=\"handeThumbnailClick(designuxnews.name)\" [designuxnews]=\"designuxnews\"></news-design-ux-news-list>\n    </div>\n  ",
+        }),
+        __metadata("design:paramtypes", [_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxNewsServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+    ], NewsDesignUxListComponent);
+    return NewsDesignUxListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/modules/news/view-news.component.css":
+/*!******************************************************!*\
+  !*** ./src/app/modules/news/view-news.component.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/modules/news/view-news.component.html":
+/*!*******************************************************!*\
+  !*** ./src/app/modules/news/view-news.component.html ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--Sección donde llamamos todos los objetos y servicios de fotos-->\n<section class=\"aae-news-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <h6 class=\"titles title-popular-topics\">\n          <span>NEWS</span> OF DESIGNERS\n        </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n        <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n          <div>\n            <div class=\"btn-group\">\n              <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n                aria-expanded=\"false\">\n                Category\n              </button>\n              <div class=\"dropdown-menu\">\n                <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-news\">UX Design</a>\n                <a class=\"dropdown-item\" routerLink=\"/web-design-items-news\">Web Design</a>\n                <a class=\"dropdown-item\" routerLink=\"/general-design-items-news\">General Design</a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n\n      <!--Id aae_aLearoty_items tiene la funcción de el order ramdom de los items-->\n      <div id=\"aae_aleatory_items\" class=\"col-md-12\">\n        <!--Categorie ux design-->\n        <div *ngFor=\"let designuxnews of designuxnewss\">\n          <news-design-ux-news-list (click)=\"handeThumbnailClick(designuxnews.name)\" [designuxnews]=\"designuxnews\"></news-design-ux-news-list>\n        </div>\n\n        <!--Categorie design web-->\n        <div *ngFor=\"let designwebnews of designwebnewss\">\n          <design-web-news-list (click)=\"handeDesignWebClick(designwebnews.name)\" [designwebnews]=\"designwebnews\"></design-web-news-list>\n        </div>\n\n        <!--Categorie general design-->\n        <div *ngFor=\"let designgeneralnews of designgeneralnewss\">\n          <design-general-news-list (click)=\"handeDesignGeneralClick(designgeneralnews.name)\" [designgeneralnews]=\"designgeneralnews\"></design-general-news-list>\n        </div>\n\n        <!--Categorie others design-->\n        <div *ngFor=\"let designothersnews of designothersnewss\">\n          <design-others-news-list (click)=\"handeDesignOthersClick(designothersnews.name)\" [designothersnews]=\"designothersnews\"></design-others-news-list>\n        </div>\n\n      </div>\n    </div>\n  </article>\n</section>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/modules/news/view-news.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/modules/news/view-news.component.ts ***!
+  \*****************************************************/
+/*! exports provided: ViewNewsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewNewsComponent", function() { return ViewNewsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _categories_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./categories/shared/design-ux-news-service.component */ "./src/app/modules/news/categories/shared/design-ux-news-service.component.ts");
+/* harmony import */ var _categories_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./categories/shared/design-web-news-service.component */ "./src/app/modules/news/categories/shared/design-web-news-service.component.ts");
+/* harmony import */ var _categories_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./categories/shared/design-general-news-service.component */ "./src/app/modules/news/categories/shared/design-general-news-service.component.ts");
+/* harmony import */ var _categories_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./categories/shared/design-others-news-service.component */ "./src/app/modules/news/categories/shared/design-others-news-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var ViewNewsComponent = /** @class */ (function () {
+    function ViewNewsComponent(
+    //Metodos de los items News en este componente
+    DesignUxNewsServiceComponent, DesignWebNewsServiceComponent, DesignGeneralNewsServiceComponent, DesignOthersNewsServiceComponent, toastr) {
+        this.DesignUxNewsServiceComponent = DesignUxNewsServiceComponent;
+        this.DesignWebNewsServiceComponent = DesignWebNewsServiceComponent;
+        this.DesignGeneralNewsServiceComponent = DesignGeneralNewsServiceComponent;
+        this.DesignOthersNewsServiceComponent = DesignOthersNewsServiceComponent;
+        this.toastr = toastr;
+    }
+    ViewNewsComponent.prototype.ngOnInit = function () {
+        //Ejecutar con el router la muestra de los items News
+        this.designuxnewss = this.DesignUxNewsServiceComponent.getDesignUxNewss();
+        this.designwebnewss = this.DesignWebNewsServiceComponent.getDesignWebNewss();
+        this.designgeneralnewss = this.DesignGeneralNewsServiceComponent.getDesignGeneralNewss();
+        this.designothersnewss = this.DesignOthersNewsServiceComponent.getDesignOthersNewss();
+        //Llamando el método para el order random de los items
+        this.randomOrder();
+    };
+    //Funcionalidad del metodo del order random para los items
+    ViewNewsComponent.prototype.randomOrder = function () {
+        $(document).ready(function () {
+            var aae_aleatory_items = document.querySelector('#aae_aleatory_items');
+            for (var Aleatories = aae_aleatory_items.children.length; Aleatories >= 0; Aleatories--) {
+                aae_aleatory_items.appendChild(aae_aleatory_items.children[Math.random() * Aleatories | 0]);
+            }
+        });
+    };
+    ViewNewsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-view-news',
+            template: __webpack_require__(/*! ./view-news.component.html */ "./src/app/modules/news/view-news.component.html"),
+            styles: [__webpack_require__(/*! ./view-news.component.css */ "./src/app/modules/news/view-news.component.css")]
+        }),
+        __metadata("design:paramtypes", [_categories_shared_design_ux_news_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxNewsServiceComponent"],
+            _categories_shared_design_web_news_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignWebNewsServiceComponent"],
+            _categories_shared_design_general_news_service_component__WEBPACK_IMPORTED_MODULE_3__["DesignGeneralNewsServiceComponent"],
+            _categories_shared_design_others_news_service_component__WEBPACK_IMPORTED_MODULE_4__["DesignOthersNewsServiceComponent"],
+            _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_5__["ToastrService"]])
+    ], ViewNewsComponent);
+    return ViewNewsComponent;
+}());
+
 
 
 /***/ }),
@@ -2100,13 +3886,10 @@ var PhotoDesignGeneralListComponent = /** @class */ (function () {
     PhotoDesignGeneralListComponent.prototype.ngOnInit = function () {
         this.designgeneralphotos = this.DesignGeneralPhotoServiceComponent.getDesignGeneralPhotos();
     };
-    PhotoDesignGeneralListComponent.prototype.handeThumbnailClick = function (designgeneralphotoName) {
-        this.toastr.success(designgeneralphotoName);
-    };
     PhotoDesignGeneralListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'photo-app-design-general-list',
-            template: "\n        <div *ngFor=\"let designgeneralphoto of designgeneralphotos\">\n          <design-general-photo-list (click)=\"handeDesignGeneralClick(designgeneralphoto.name)\" [designgeneralphoto]=\"designgeneralphoto\"></design-general-photo-list>\n        </div>\n  ",
+            template: "\n    <div *ngFor=\"let designgeneralphoto of designgeneralphotos\">\n      <design-general-photo-list (click)=\"handeDesignGeneralClick(designgeneralphoto.name)\" [designgeneralphoto]=\"designgeneralphoto\"></design-general-photo-list>\n    </div>\n  ",
         }),
         __metadata("design:paramtypes", [_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignGeneralPhotoServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], PhotoDesignGeneralListComponent);
@@ -2328,13 +4111,10 @@ var PhotoDesignOthersListComponent = /** @class */ (function () {
     PhotoDesignOthersListComponent.prototype.ngOnInit = function () {
         this.designothersphotos = this.DesignOthersPhotoServiceComponent.getDesignOthersPhotos();
     };
-    PhotoDesignOthersListComponent.prototype.handeThumbnailClick = function (designothersphotoName) {
-        this.toastr.success(designothersphotoName);
-    };
     PhotoDesignOthersListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'photo-app-design-others-list',
-            template: "\n      <div *ngFor=\"let designothersphoto of designothersphotos\">\n        <design-others-photo-list (click)=\"handeDesignOthersClick(designothersphoto.name)\" [designothersphoto]=\"designothersphoto\"></design-others-photo-list>\n      </div>\n  ",
+            template: "\n    <div *ngFor=\"let designothersphoto of designothersphotos\">\n      <design-others-photo-list (click)=\"handeDesignOthersClick(designothersphoto.name)\" [designothersphoto]=\"designothersphoto\"></design-others-photo-list>\n    </div>\n  ",
         }),
         __metadata("design:paramtypes", [_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignOthersPhotoServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], PhotoDesignOthersListComponent);
@@ -2556,13 +4336,10 @@ var PhotoDesignWebListComponent = /** @class */ (function () {
     PhotoDesignWebListComponent.prototype.ngOnInit = function () {
         this.designwebphotos = this.DesignWebPhotoServiceComponent.getDesignWebPhotos();
     };
-    PhotoDesignWebListComponent.prototype.handeThumbnailClick = function (designwebphotoName) {
-        this.toastr.success(designwebphotoName);
-    };
     PhotoDesignWebListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'photo-app-design-web-list',
-            template: "\n      <div *ngFor=\"let designwebphoto of designwebphotos\">\n        <design-web-photo-list (click)=\"handeDesignWebClick(designwebphoto.name)\" [designwebphoto]=\"designwebphoto\"></design-web-photo-list>\n      </div>\n  ",
+            template: "\n    <div *ngFor=\"let designwebphoto of designwebphotos\">\n      <design-web-photo-list (click)=\"handeDesignWebClick(designwebphoto.name)\" [designwebphoto]=\"designwebphoto\"></design-web-photo-list>\n    </div>\n  ",
         }),
         __metadata("design:paramtypes", [_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignWebPhotoServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], PhotoDesignWebListComponent);
@@ -3163,10 +4940,10 @@ var DesignWebPhotoServiceComponent = /** @class */ (function () {
     DesignWebPhotoServiceComponent.prototype.ngOnInit = function () {
     };
     DesignWebPhotoServiceComponent.prototype.getDesignWebPhotos = function () {
-        return DESIGNWEBPOSTS;
+        return DESIGNWEBPHOTOS;
     };
     DesignWebPhotoServiceComponent.prototype.getDesignWebPhoto = function (id) {
-        return DESIGNWEBPOSTS.find(function (designwebphoto) { return designwebphoto.id === id; });
+        return DESIGNWEBPHOTOS.find(function (designwebphoto) { return designwebphoto.id === id; });
     };
     DesignWebPhotoServiceComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
@@ -3175,7 +4952,7 @@ var DesignWebPhotoServiceComponent = /** @class */ (function () {
     return DesignWebPhotoServiceComponent;
 }());
 
-var DESIGNWEBPOSTS = [
+var DESIGNWEBPHOTOS = [
     {
         id: 1,
         name: 'Angular Connect',
@@ -3478,6 +5255,55 @@ var DesignUxPhotoRouteActivator = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/modules/photos/categories/ux-design-items/photo-design-ux-list.component.ts":
+/*!*********************************************************************************************!*\
+  !*** ./src/app/modules/photos/categories/ux-design-items/photo-design-ux-list.component.ts ***!
+  \*********************************************************************************************/
+/*! exports provided: PhotoDesignUxListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhotoDesignUxListComponent", function() { return PhotoDesignUxListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-ux-photo-service.component */ "./src/app/modules/photos/categories/shared/design-ux-photo-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+//AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
+//Y LE DAMOS LA FUNCION EL CLICK ROUTER
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var PhotoDesignUxListComponent = /** @class */ (function () {
+    function PhotoDesignUxListComponent(DesignUxPhotoServiceComponent, toastr) {
+        this.DesignUxPhotoServiceComponent = DesignUxPhotoServiceComponent;
+        this.toastr = toastr;
+    }
+    PhotoDesignUxListComponent.prototype.ngOnInit = function () {
+        this.designuxphotos = this.DesignUxPhotoServiceComponent.getDesignUxPhotos();
+    };
+    PhotoDesignUxListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'photo-app-design-ux-list',
+            template: "\n    <div *ngFor=\"let designuxphoto of designuxphotos\">\n      <photo-design-ux-photo-list (click)=\"handeUxThumbnailClick(designuxphoto.name)\" [designuxphoto]=\"designuxphoto\"></photo-design-ux-photo-list>\n    </div>\n  ",
+        }),
+        __metadata("design:paramtypes", [_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxPhotoServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+    ], PhotoDesignUxListComponent);
+    return PhotoDesignUxListComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/modules/photos/view-photo.component.css":
 /*!*********************************************************!*\
   !*** ./src/app/modules/photos/view-photo.component.css ***!
@@ -3496,7 +5322,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Sección donde llamamos todos los objetos y servicios de fotos-->\n<section class=\"AAE-photo-seccion AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <h6 class=\"titles title-popular-topics\">\n          PHOTOGRAPHIC INSPIRATION\n        </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n        <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n          <div>\n            <div class=\"btn-group\">\n              <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n                aria-expanded=\"false\">\n                Category\n              </button>\n              <div class=\"dropdown-menu\">\n                <a class=\"dropdown-item\" href=\"#\">UX Design</a>\n                <a class=\"dropdown-item\" href=\"#\">Web Design</a>\n                <a class=\"dropdown-item\" href=\"#\">General Design</a>\n                <a class=\"dropdown-item\" href=\"#\">Others</a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n\n\n      <div class=\"col-md-12\">\n        <div class=\"card-columns\">\n          <div *ngFor=\"let designuxphoto of designuxphotos\">\n            <!--Categorie ux design-->\n            <photo-design-ux-photo-list (click)=\"handeThumbnailClick(designuxphoto.name)\" [designuxphoto]=\"designuxphoto\"></photo-design-ux-photo-list>\n          </div>\n          <!--Categorie design web-->\n          <photo-app-design-web-list></photo-app-design-web-list>\n          <!--Categorie general design-->\n          <photo-app-design-general-list></photo-app-design-general-list>\n          <!--Categorie others design-->\n          <photo-app-design-others-list></photo-app-design-others-list>\n\n        </div>\n      </div>\n    </div>\n  </article>\n</section>"
+module.exports = "<!--Sección donde llamamos todos los objetos y servicios de fotos-->\n<section class=\"AAE-photo-seccion AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <h6 class=\"titles title-popular-topics\">\n          PHOTOGRAPHIC INSPIRATION\n        </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n        <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n          <div>\n            <div class=\"btn-group\">\n              <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n                aria-expanded=\"false\">\n                Category\n              </button>\n              <div class=\"dropdown-menu\">\n                <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-photos\">UX Design</a>\n                <a class=\"dropdown-item\" routerLink=\"/web-design-items-photos\">Web Design</a>\n                <a class=\"dropdown-item\" routerLink=\"/general-design-items-photos\">General Design</a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n\n\n      <div class=\"col-md-12\">\n        <!--Id aae_aLearoty_items tiene la funcción de el order ramdom de los items-->\n        <div id=\"aae_aleatory_items\" class=\"card-columns\">\n          <!--Categorie ux design-->\n          <div *ngFor=\"let designuxphoto of designuxphotos\">\n            <photo-design-ux-photo-list (click)=\"handeUxThumbnailClick(designuxphoto.name)\" [designuxphoto]=\"designuxphoto\"></photo-design-ux-photo-list>\n          </div>\n\n          <!--Categorie design web-->\n          <div *ngFor=\"let designwebphoto of designwebphotos\">\n            <design-web-photo-list (click)=\"handeDesignWebClick(designwebphoto.name)\" [designwebphoto]=\"designwebphoto\"></design-web-photo-list>\n          </div>\n\n          <!--Categorie general design-->\n          <div *ngFor=\"let designgeneralphoto of designgeneralphotos\">\n            <design-general-photo-list (click)=\"handeDesignGeneralClick(designgeneralphoto.name)\" [designgeneralphoto]=\"designgeneralphoto\"></design-general-photo-list>\n          </div>\n\n          <!--Categorie others design-->\n          <div *ngFor=\"let designothersphoto of designothersphotos\">\n            <design-others-photo-list (click)=\"handeOthersThumbnailClick(designothersphoto.name)\" [designothersphoto]=\"designothersphoto\"></design-others-photo-list>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </article>\n</section>"
 
 /***/ }),
 
@@ -3512,7 +5338,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewPhotoComponent", function() { return ViewPhotoComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./categories/shared/design-ux-photo-service.component */ "./src/app/modules/photos/categories/shared/design-ux-photo-service.component.ts");
-/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+/* harmony import */ var _categories_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./categories/shared/design-others-photo-service.component */ "./src/app/modules/photos/categories/shared/design-others-photo-service.component.ts");
+/* harmony import */ var _categories_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./categories/shared/design-web-photo-service.component */ "./src/app/modules/photos/categories/shared/design-web-photo-service.component.ts");
+/* harmony import */ var _categories_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./categories/shared/design-general-photo-service.component */ "./src/app/modules/photos/categories/shared/design-general-photo-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3525,16 +5354,36 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
+
+
 var ViewPhotoComponent = /** @class */ (function () {
-    function ViewPhotoComponent(DesignUxPhotoServiceComponent, toastr) {
+    function ViewPhotoComponent(
+    //Metodos de los items photos en este componente
+    DesignUxPhotoServiceComponent, DesignOthersPhotoServiceComponent, DesignWebPhotoServiceComponent, DesignGeneralPhotoServiceComponent, toastr) {
         this.DesignUxPhotoServiceComponent = DesignUxPhotoServiceComponent;
+        this.DesignOthersPhotoServiceComponent = DesignOthersPhotoServiceComponent;
+        this.DesignWebPhotoServiceComponent = DesignWebPhotoServiceComponent;
+        this.DesignGeneralPhotoServiceComponent = DesignGeneralPhotoServiceComponent;
         this.toastr = toastr;
     }
     ViewPhotoComponent.prototype.ngOnInit = function () {
+        //Ejecutar con el router la muestra de los items Photos
         this.designuxphotos = this.DesignUxPhotoServiceComponent.getDesignUxPhotos();
+        this.designothersphotos = this.DesignOthersPhotoServiceComponent.getDesignOthersPhotos();
+        this.designwebphotos = this.DesignWebPhotoServiceComponent.getDesignWebPhotos();
+        this.designgeneralphotos = this.DesignGeneralPhotoServiceComponent.getDesignGeneralPhotos();
+        //Llamando el método para el order random de los items
+        this.randomOrder();
     };
-    ViewPhotoComponent.prototype.handeThumbnailClick = function (designuxphotoName) {
-        this.toastr.success(designuxphotoName);
+    //Funcionalidad del metodo del order random para los items
+    ViewPhotoComponent.prototype.randomOrder = function () {
+        $(document).ready(function () {
+            var aae_aleatory_items = document.querySelector('#aae_aleatory_items');
+            for (var Aleatories = aae_aleatory_items.children.length; Aleatories >= 0; Aleatories--) {
+                aae_aleatory_items.appendChild(aae_aleatory_items.children[Math.random() * Aleatories | 0]);
+            }
+        });
     };
     ViewPhotoComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3542,72 +5391,13 @@ var ViewPhotoComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./view-photo.component.html */ "./src/app/modules/photos/view-photo.component.html"),
             styles: [__webpack_require__(/*! ./view-photo.component.css */ "./src/app/modules/photos/view-photo.component.css")]
         }),
-        __metadata("design:paramtypes", [_categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxPhotoServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+        __metadata("design:paramtypes", [_categories_shared_design_ux_photo_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxPhotoServiceComponent"],
+            _categories_shared_design_others_photo_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignOthersPhotoServiceComponent"],
+            _categories_shared_design_web_photo_service_component__WEBPACK_IMPORTED_MODULE_3__["DesignWebPhotoServiceComponent"],
+            _categories_shared_design_general_photo_service_component__WEBPACK_IMPORTED_MODULE_4__["DesignGeneralPhotoServiceComponent"],
+            _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_5__["ToastrService"]])
     ], ViewPhotoComponent);
     return ViewPhotoComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/modules/record/record.component.css":
-/*!*****************************************************!*\
-  !*** ./src/app/modules/record/record.component.css ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/modules/record/record.component.html":
-/*!******************************************************!*\
-  !*** ./src/app/modules/record/record.component.html ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          RECORD\n        </h6>\n      </div>\n    </div>\n  </article>\n</section>\n"
-
-/***/ }),
-
-/***/ "./src/app/modules/record/record.component.ts":
-/*!****************************************************!*\
-  !*** ./src/app/modules/record/record.component.ts ***!
-  \****************************************************/
-/*! exports provided: RecordComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RecordComponent", function() { return RecordComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var RecordComponent = /** @class */ (function () {
-    function RecordComponent() {
-    }
-    RecordComponent.prototype.ngOnInit = function () {
-    };
-    RecordComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-record',
-            template: __webpack_require__(/*! ./record.component.html */ "./src/app/modules/record/record.component.html"),
-            styles: [__webpack_require__(/*! ./record.component.css */ "./src/app/modules/record/record.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], RecordComponent);
-    return RecordComponent;
 }());
 
 
@@ -3632,7 +5422,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Sección de Tendencias \"Trends\"-->\r\n<section class=\"AAE-trends-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-6\">\r\n        <h6 class=\"titles\">TRENDS</h6>\r\n      </div>\r\n      <div class=\"col-md-6 d-flex justify-content-end\">\r\n        <div>\r\n          <div class=\"btn-group\">\r\n            <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\r\n              aria-expanded=\"false\">\r\n              Category\r\n            </button>\r\n            <div class=\"dropdown-menu\">\r\n              <a class=\"dropdown-item\" href=\"#\">UX Design</a>\r\n              <a class=\"dropdown-item\" href=\"#\">Web Design</a>\r\n              <a class=\"dropdown-item\" href=\"#\">General Design</a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-md-12 d-flex justify-content-center\">\r\n        <!-- Grapiht MAP -->\r\n        <fusioncharts class=\"chart\" type=\"world\" width=\"800\" height=\"500\" dataFormat=\"json\" [dataSource]=\"dataSource\">\r\n        </fusioncharts>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
+module.exports = "<!--Sección de Tendencias \"Trends\"-->\r\n<section class=\"AAE-trends-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-6\">\r\n        <h6 class=\"titles\">TRENDS</h6>\r\n      </div>\r\n      <div class=\"col-md-6 d-flex justify-content-end\">\r\n        <div>\r\n          <div class=\"btn-group\">\r\n            <button disabled type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\"\r\n              aria-haspopup=\"true\" aria-expanded=\"false\">\r\n              Category\r\n            </button>\r\n            <div class=\"dropdown-menu\">\r\n              <a class=\"dropdown-item\" href=\"#\">UX Design</a>\r\n              <a class=\"dropdown-item\" href=\"#\">Web Design</a>\r\n              <a class=\"dropdown-item\" href=\"#\">General Design</a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-md-12 d-flex justify-content-center\">\r\n        <!-- Grapiht MAP -->\r\n        <fusioncharts class=\"chart\" type=\"world\" width=\"800\" height=\"500\" dataFormat=\"json\" [dataSource]=\"dataSource\">\r\n        </fusioncharts>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
 
 /***/ }),
 
@@ -3741,69 +5531,6 @@ var TrendsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/modules/ux-designer/ux-designer.component.css":
-/*!***************************************************************!*\
-  !*** ./src/app/modules/ux-designer/ux-designer.component.css ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/modules/ux-designer/ux-designer.component.html":
-/*!****************************************************************!*\
-  !*** ./src/app/modules/ux-designer/ux-designer.component.html ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">\n          UX DESSIGNER\n        </h6>\n      </div>\n    </div>\n  </article>\n</section>"
-
-/***/ }),
-
-/***/ "./src/app/modules/ux-designer/ux-designer.component.ts":
-/*!**************************************************************!*\
-  !*** ./src/app/modules/ux-designer/ux-designer.component.ts ***!
-  \**************************************************************/
-/*! exports provided: UxDesignerComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UxDesignerComponent", function() { return UxDesignerComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var UxDesignerComponent = /** @class */ (function () {
-    function UxDesignerComponent() {
-    }
-    UxDesignerComponent.prototype.ngOnInit = function () {
-    };
-    UxDesignerComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-ux-designer',
-            template: __webpack_require__(/*! ./ux-designer.component.html */ "./src/app/modules/ux-designer/ux-designer.component.html"),
-            styles: [__webpack_require__(/*! ./ux-designer.component.css */ "./src/app/modules/ux-designer/ux-designer.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], UxDesignerComponent);
-    return UxDesignerComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/modules/view-post/categories/design-general-items/design-general-list.component.ts":
 /*!****************************************************************************************************!*\
   !*** ./src/app/modules/view-post/categories/design-general-items/design-general-list.component.ts ***!
@@ -3839,13 +5566,10 @@ var DesignGeneralListComponent = /** @class */ (function () {
     DesignGeneralListComponent.prototype.ngOnInit = function () {
         this.designgeneralposts = this.DesignGeneralPostServiceComponent.getDesignGeneralPosts();
     };
-    DesignGeneralListComponent.prototype.handeThumbnailClick = function (designgeneralpostName) {
-        this.toastr.success(designgeneralpostName);
-    };
     DesignGeneralListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-design-general-list',
-            template: "\n        <div *ngFor=\"let designgeneralpost of designgeneralposts\">\n          <design-general-post-list (click)=\"handeDesignGeneralClick(designgeneralpost.name)\" [designgeneralpost]=\"designgeneralpost\"></design-general-post-list>\n        </div>\n  ",
+            template: "\n    <div *ngFor=\"let designgeneralpost of designgeneralposts\">\n      <design-general-post-list (click)=\"handeDesignGeneralClick(designgeneralpost.name)\" [designgeneralpost]=\"designgeneralpost\"></design-general-post-list>\n    </div>\n  ",
         }),
         __metadata("design:paramtypes", [_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignGeneralPostServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], DesignGeneralListComponent);
@@ -4067,13 +5791,10 @@ var DesignOthersListComponent = /** @class */ (function () {
     DesignOthersListComponent.prototype.ngOnInit = function () {
         this.designothersposts = this.DesignOthersPostServiceComponent.getDesignOthersPosts();
     };
-    DesignOthersListComponent.prototype.handeThumbnailClick = function (designotherspostName) {
-        this.toastr.success(designotherspostName);
-    };
     DesignOthersListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-design-others-list',
-            template: "\n      <div *ngFor=\"let designotherspost of designothersposts\">\n        <design-others-post-list (click)=\"handeDesignOthersClick(designotherspost.name)\" [designotherspost]=\"designotherspost\"></design-others-post-list>\n      </div>\n  ",
+            template: "\n    <div *ngFor=\"let designotherspost of designothersposts\">\n      <design-others-post-list (click)=\"handeDesignOthersClick(designotherspost.name)\" [designotherspost]=\"designotherspost\"></design-others-post-list>\n    </div>\n  ",
         }),
         __metadata("design:paramtypes", [_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignOthersPostServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], DesignOthersListComponent);
@@ -4295,13 +6016,10 @@ var DesignWebListComponent = /** @class */ (function () {
     DesignWebListComponent.prototype.ngOnInit = function () {
         this.designwebposts = this.DesignWebPostServiceComponent.getDesignWebPosts();
     };
-    DesignWebListComponent.prototype.handeThumbnailClick = function (designwebpostName) {
-        this.toastr.success(designwebpostName);
-    };
     DesignWebListComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-design-web-list',
-            template: "\n      <div *ngFor=\"let designwebpost of designwebposts\">\n        <design-web-post-list (click)=\"handeDesignWebClick(designwebpost.name)\" [designwebpost]=\"designwebpost\"></design-web-post-list>\n      </div>\n  ",
+            template: "\n    <div *ngFor=\"let designwebpost of designwebposts\">\n      <design-web-post-list (click)=\"handeDesignWebClick(designwebpost.name)\" [designwebpost]=\"designwebpost\"></design-web-post-list>\n    </div>\n  ",
         }),
         __metadata("design:paramtypes", [_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignWebPostServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
     ], DesignWebListComponent);
@@ -4319,7 +6037,7 @@ var DesignWebListComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Component-Item/object Posts Categoría: \"Web design\"-->\n<div [routerLink]=\"['/designwebposts', designwebpost.id]\" class=\"AAE-transition-sections\">\n  <div id=\"card-designWeb-trends\" class=\"card p-3\">\n    <img class=\"card-img\" [src]=\"designwebpost?.imageUrl\" [alt]=\"designwebpost?.name\">\n    <blockquote class=\"blockquote mb-0 card-body\">\n      <h5 class=\"card-title\">Design Web</h5>\n      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n      <footer class=\"blockquote-footer\">\n        <small class=\"text-muted\">\n          Someone famous in <cite title=\"Source Title\">Source Title</cite>\n        </small>\n      </footer>\n    </blockquote>\n  </div>\n</div>\n\n\n\n\n\n  \n  \n\n"
+module.exports = "<!--Component-Item/object Posts Categoría: \"Web design\"-->\n<div [routerLink]=\"['/designwebposts', designwebpost.id]\" class=\"AAE-transition-sections\">\n  <div id=\"card-designWeb-trends\" class=\"card p-3\">\n    <img class=\"card-img\" [src]=\"designwebpost?.imageUrl\" [alt]=\"designwebpost?.name\">\n    <blockquote class=\"blockquote mb-0 card-body\">\n      <h5 class=\"card-title\">Design Web</h5>\n      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n      <footer class=\"blockquote-footer\">\n        <small class=\"text-muted\">\n          Someone famous in <cite title=\"Source Title\">Source Title</cite>\n        </small>\n      </footer>\n    </blockquote>\n  </div>\n</div>\n\n\n\n\n  \n  \n\n"
 
 /***/ }),
 
@@ -5337,6 +7055,55 @@ var DesignUxPostRouteActivator = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/modules/view-post/categories/ux-design-items/post-design-ux-list.component.ts":
+/*!***********************************************************************************************!*\
+  !*** ./src/app/modules/view-post/categories/ux-design-items/post-design-ux-list.component.ts ***!
+  \***********************************************************************************************/
+/*! exports provided: PostDesignUxListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostDesignUxListComponent", function() { return PostDesignUxListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/design-ux-post-service.component */ "./src/app/modules/view-post/categories/shared/design-ux-post-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+//AQUI VAMOS A TRAER EL MODULO QUE MUESTRA LA INFO INICIAL DEL PRODUCTO
+//Y LE DAMOS LA FUNCION EL CLICK ROUTER
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var PostDesignUxListComponent = /** @class */ (function () {
+    function PostDesignUxListComponent(DesignUxPostServiceComponent, toastr) {
+        this.DesignUxPostServiceComponent = DesignUxPostServiceComponent;
+        this.toastr = toastr;
+    }
+    PostDesignUxListComponent.prototype.ngOnInit = function () {
+        this.designuxposts = this.DesignUxPostServiceComponent.getDesignUxPosts();
+    };
+    PostDesignUxListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'post-app-design-ux-list',
+            template: "\n    <div *ngFor=\"let designuxpost of designuxposts\">\n      <design-ux-post-list (click)=\"handeThumbnailClick(designuxpost.name)\" [designuxpost]=\"designuxpost\"></design-ux-post-list>\n    </div>\n  ",
+        }),
+        __metadata("design:paramtypes", [_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxPostServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+    ], PostDesignUxListComponent);
+    return PostDesignUxListComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/modules/view-post/graph/graph.component.css":
 /*!*************************************************************!*\
   !*** ./src/app/modules/view-post/graph/graph.component.css ***!
@@ -5355,7 +7122,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Gráfica Service Item/Object-->\n<section class=\"AAE-photo-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n \n        <canvas baseChart\n                    [data]=\"lineChartData\"\n                    [labels]=\"lineChartLabels\"\n                    [options]=\"lineChartOptions\"\n                    [chartType]=\"lineChartType\"\n                    (chartHover)=\"chartHovered($event)\"\n                    (chartClick)=\"chartClicked($event)\"></canvas>\n      </div>\n      <div class=\"col-md-6\">\n        <canvas baseChart\n                    [data]=\"pieChartData\"\n                    [labels]=\"pieChartLabels\"\n                    [chartType]=\"pieChartType\"\n                    (chartHover)=\"chartHovered($event)\"\n                    (chartClick)=\"chartClicked($event)\"></canvas>\n      </div>\n      <div class=\"col-md-12 d-flex justify-content-center\" style=\"margin-top: 10px;height: 50%\">\n        <button class=\"btn btn-outline-warning\" (click)=\"randomizeType()\" style=\"display: inline-block\">\n          Another version</button>\n      </div>\n    </div>\n  </article>\n</section>"
+module.exports = "<!--Gráfica Service Item/Object-->\n<section class=\"AAE-photo-section AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n\n      <div class=\"col-md-6\">\n        <canvas baseChart\n                    [data]=\"lineChartData\"\n                    [labels]=\"lineChartLabels\"\n                    [options]=\"lineChartOptions\"\n                    [chartType]=\"lineChartType\"\n                    (chartHover)=\"chartHovered($event)\"\n                    (chartClick)=\"chartClicked($event)\"></canvas>\n      </div>\n\n      <div class=\"col-md-6\">\n        <canvas baseChart\n                    [data]=\"pieChartData\"\n                    [labels]=\"pieChartLabels\"\n                    [chartType]=\"pieChartType\"\n                    (chartHover)=\"chartHovered($event)\"\n                    (chartClick)=\"chartClicked($event)\"></canvas>\n      </div>\n\n      <div class=\"col-md-12 d-flex justify-content-center\" style=\"margin-top: 10px;height: 50%\">\n        <button class=\"btn btn-outline-warning\" (click)=\"randomizeType()\" style=\"display: inline-block\">\n          Another version</button>\n      </div>\n      \n    </div>\n  </article>\n</section>"
 
 /***/ }),
 
@@ -5375,6 +7142,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 //Datos quemados de la gráfica Service
 
@@ -5407,7 +7177,8 @@ var GraphComponent = /** @class */ (function () {
             selector: 'app-graph',
             template: __webpack_require__(/*! ./graph.component.html */ "./src/app/modules/view-post/graph/graph.component.html"),
             styles: [__webpack_require__(/*! ./graph.component.css */ "./src/app/modules/view-post/graph/graph.component.css")]
-        })
+        }),
+        __metadata("design:paramtypes", [])
     ], GraphComponent);
     return GraphComponent;
 }());
@@ -5434,7 +7205,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--Sección donde se mostrarán los objects/items de post, con sus categorías-->\n<section class=\"AAE-post-seccion AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <h6 class=\"titles title-popular-topics\">\n          POPULAR TOPICS\n        </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n        <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n          <div>\n            <div class=\"btn-group\">\n              <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n                aria-expanded=\"false\">\n                Category\n              </button>\n              <div class=\"dropdown-menu\">\n                <a class=\"dropdown-item\" href=\"#\">UX Design</a>\n                <a class=\"dropdown-item\" href=\"#\">Web Design</a>\n                <a class=\"dropdown-item\" href=\"#\">General Design</a>\n                <a class=\"dropdown-item\" href=\"#\">Others</a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n      <div class=\"col-md-12\">\n        <app-graph></app-graph>\n        <!--GRAFICAS-->\n      </div>\n\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">POSTS</h6>\n      </div>\n\n      <div class=\"col-md-12\">\n        <div class=\"card-columns\">\n          <div *ngFor=\"let designuxpost of designuxposts\">\n            <!--Categorie ux design-->\n            <design-ux-post-list (click)=\"handeThumbnailClick(designuxpost.name)\" [designuxpost]=\"designuxpost\"></design-ux-post-list>\n          </div>\n          <!--Categorie design web-->\n          <app-design-web-list></app-design-web-list>\n          <!--Categorie general design-->\n          <app-design-general-list></app-design-general-list>\n          <!--Categorie others design-->\n          <app-design-others-list></app-design-others-list>\n\n        </div>\n      </div>\n    </div>\n  </article>\n</section>"
+module.exports = "<!--Sección donde se mostrarán los objects/items de post, con sus categorías-->\n<section class=\"AAE-post-seccion AAE-transition-sections\">\n  <article class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <h6 class=\"titles title-popular-topics\">\n          POPULAR TOPICS\n        </h6>\n      </div>\n      <div class=\"col-md-6 d-flex justify-content-end\">\n        <div class=\"col-md-6 d-flex justify-content-center align-items-star\">\n          <div>\n            <div class=\"btn-group\">\n              <button type=\"button\" class=\"btn dropdown-toggle btn-category\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n                aria-expanded=\"false\">\n                Category\n              </button>\n              <div class=\"dropdown-menu\">\n                <a class=\"dropdown-item\" routerLink=\"/ux-designer-items-post\">UX Design</a>\n                <a class=\"dropdown-item\" routerLink=\"/web-design-items-post\">Web Design</a>\n                <a class=\"dropdown-item\" routerLink=\"/general-design-items-post\">General Design</a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <a class=\"titles icon-add-post\" href=\"...\"><i class=\"fas fa-plus-square\"></i></a>\n      </div>\n      <div class=\"col-md-12\">\n        <app-graph></app-graph>\n        <!--GRAFICAS-->\n      </div>\n\n      <div class=\"col-md-12\">\n        <h6 class=\"titles\">POSTS</h6>\n      </div>\n\n      <div class=\"col-md-12\">\n        <!--Id aae_aLearoty_items tiene la funcción de el order ramdom de los items-->\n        <div id=\"aae_aleatory_items\" class=\"card-columns\">\n          <!--Categorie ux design-->\n          <div *ngFor=\"let designuxpost of designuxposts\">\n            <design-ux-post-list (click)=\"handeThumbnailClick(designuxpost.name)\" [designuxpost]=\"designuxpost\"></design-ux-post-list>\n          </div>\n\n          <!--Categorie design web-->\n          <div *ngFor=\"let designwebpost of designwebposts\">\n            <design-web-post-list (click)=\"handeDesignWebClick(designwebpost.name)\" [designwebpost]=\"designwebpost\"></design-web-post-list>\n          </div>\n\n          <!--Categorie general design-->\n          <div *ngFor=\"let designgeneralpost of designgeneralposts\">\n            <design-general-post-list (click)=\"handeDesignGeneralClick(designgeneralpost.name)\" [designgeneralpost]=\"designgeneralpost\"></design-general-post-list>\n          </div>\n\n          <!--Categorie others design-->\n          <div *ngFor=\"let designotherspost of designothersposts\">\n            <design-others-post-list (click)=\"handeDesignOthersClick(designotherspost.name)\" [designotherspost]=\"designotherspost\"></design-others-post-list>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </article>\n</section>"
 
 /***/ }),
 
@@ -5450,7 +7221,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewPostComponent", function() { return ViewPostComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./categories/shared/design-ux-post-service.component */ "./src/app/modules/view-post/categories/shared/design-ux-post-service.component.ts");
-/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
+/* harmony import */ var _categories_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./categories/shared/design-web-post-service.component */ "./src/app/modules/view-post/categories/shared/design-web-post-service.component.ts");
+/* harmony import */ var _categories_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./categories/shared/design-general-post-service.component */ "./src/app/modules/view-post/categories/shared/design-general-post-service.component.ts");
+/* harmony import */ var _categories_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./categories/shared/design-others-post-service.component */ "./src/app/modules/view-post/categories/shared/design-others-post-service.component.ts");
+/* harmony import */ var _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./common/services/toastr.service */ "./src/app/modules/common/services/toastr.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5463,17 +7237,36 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
+
+
 var ViewPostComponent = /** @class */ (function () {
-    function ViewPostComponent(DesignUxPostServiceComponent, toastr) {
+    function ViewPostComponent(
+    //Metodos de los items Post en este componente
+    DesignUxPostServiceComponent, DesignWebPostServiceComponent, DesignGeneralPostServiceComponent, DesignOthersPostServiceComponent, toastr) {
         this.DesignUxPostServiceComponent = DesignUxPostServiceComponent;
+        this.DesignWebPostServiceComponent = DesignWebPostServiceComponent;
+        this.DesignGeneralPostServiceComponent = DesignGeneralPostServiceComponent;
+        this.DesignOthersPostServiceComponent = DesignOthersPostServiceComponent;
         this.toastr = toastr;
     }
     ViewPostComponent.prototype.ngOnInit = function () {
+        //Ejecutar con el router la muestra de los items Post
         this.designuxposts = this.DesignUxPostServiceComponent.getDesignUxPosts();
-        // this.designuxposts =  this.DesignUxPostServiceComponent.getDesignUxPosts()
+        this.designwebposts = this.DesignWebPostServiceComponent.getDesignWebPosts();
+        this.designgeneralposts = this.DesignGeneralPostServiceComponent.getDesignGeneralPosts();
+        this.designothersposts = this.DesignOthersPostServiceComponent.getDesignOthersPosts();
+        //Llamando el método para el order random de los items
+        this.randomOrder();
     };
-    ViewPostComponent.prototype.handeThumbnailClick = function (designuxpostName) {
-        this.toastr.success(designuxpostName);
+    //Funcionalidad del metodo del order random para los items
+    ViewPostComponent.prototype.randomOrder = function () {
+        $(document).ready(function () {
+            var aae_aleatory_items = document.querySelector('#aae_aleatory_items');
+            for (var Aleatories = aae_aleatory_items.children.length; Aleatories >= 0; Aleatories--) {
+                aae_aleatory_items.appendChild(aae_aleatory_items.children[Math.random() * Aleatories | 0]);
+            }
+        });
     };
     ViewPostComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -5481,72 +7274,13 @@ var ViewPostComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./view-post.component.html */ "./src/app/modules/view-post/view-post.component.html"),
             styles: [__webpack_require__(/*! ./view-post.component.css */ "./src/app/modules/view-post/view-post.component.css")]
         }),
-        __metadata("design:paramtypes", [_categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxPostServiceComponent"], _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_2__["ToastrService"]])
+        __metadata("design:paramtypes", [_categories_shared_design_ux_post_service_component__WEBPACK_IMPORTED_MODULE_1__["DesignUxPostServiceComponent"],
+            _categories_shared_design_web_post_service_component__WEBPACK_IMPORTED_MODULE_2__["DesignWebPostServiceComponent"],
+            _categories_shared_design_general_post_service_component__WEBPACK_IMPORTED_MODULE_3__["DesignGeneralPostServiceComponent"],
+            _categories_shared_design_others_post_service_component__WEBPACK_IMPORTED_MODULE_4__["DesignOthersPostServiceComponent"],
+            _common_services_toastr_service__WEBPACK_IMPORTED_MODULE_5__["ToastrService"]])
     ], ViewPostComponent);
     return ViewPostComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/modules/web-design/web-design.component.css":
-/*!*************************************************************!*\
-  !*** ./src/app/modules/web-design/web-design.component.css ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/modules/web-design/web-design.component.html":
-/*!**************************************************************!*\
-  !*** ./src/app/modules/web-design/web-design.component.html ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<section class=\"AAE-photo-section AAE-transition-sections\">\r\n  <article class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <h6 class=\"titles\">\r\n          WEB DESIGN\r\n        </h6>\r\n      </div>\r\n    </div>\r\n  </article>\r\n</section>"
-
-/***/ }),
-
-/***/ "./src/app/modules/web-design/web-design.component.ts":
-/*!************************************************************!*\
-  !*** ./src/app/modules/web-design/web-design.component.ts ***!
-  \************************************************************/
-/*! exports provided: WebDesignComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebDesignComponent", function() { return WebDesignComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var WebDesignComponent = /** @class */ (function () {
-    function WebDesignComponent() {
-    }
-    WebDesignComponent.prototype.ngOnInit = function () {
-    };
-    WebDesignComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-web-design',
-            template: __webpack_require__(/*! ./web-design.component.html */ "./src/app/modules/web-design/web-design.component.html"),
-            styles: [__webpack_require__(/*! ./web-design.component.css */ "./src/app/modules/web-design/web-design.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], WebDesignComponent);
-    return WebDesignComponent;
 }());
 
 
@@ -5568,44 +7302,91 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/inicio/videos-detail/videos-detail.component */ "./src/app/modules/inicio/videos-detail/videos-detail.component.ts");
 /* harmony import */ var _modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/inicio/videos-detail/videos-router-activate.service */ "./src/app/modules/inicio/videos-detail/videos-router-activate.service.ts");
 /* harmony import */ var _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/trends/trends.component */ "./src/app/modules/trends/trends.component.ts");
-/* harmony import */ var _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/web-design/web-design.component */ "./src/app/modules/web-design/web-design.component.ts");
-/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
-/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
-/* harmony import */ var _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/ux-designer/ux-designer.component */ "./src/app/modules/ux-designer/ux-designer.component.ts");
-/* harmony import */ var _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/photos/view-photo.component */ "./src/app/modules/photos/view-photo.component.ts");
-/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/photo-design-web-list.component */ "./src/app/modules/photos/categories/design-web-items/photo-design-web-list.component.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/photo-design-general-list.component */ "./src/app/modules/photos/categories/design-general-items/photo-design-general-list.component.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/photo-design-others-list.component */ "./src/app/modules/photos/categories/design-others-items/photo-design-others-list.component.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component.ts");
-/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
-/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-list.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-list.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-list.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-list.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component.ts");
-/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service.ts");
-/* harmony import */ var _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./modules/news/news-list.component */ "./src/app/modules/news/news-list.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-detail.component */ "./src/app/modules/news/newss-detail/newss-detail.component.ts");
-/* harmony import */ var _modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./modules/news/newss-detail/newss-router-activate.service */ "./src/app/modules/news/newss-detail/newss-router-activate.service.ts");
-/* harmony import */ var _modules_record_record_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./modules/record/record.component */ "./src/app/modules/record/record.component.ts");
+/* harmony import */ var _modules_category_general_design_general_design_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/category/general-design/general-design.component */ "./src/app/modules/category/general-design/general-design.component.ts");
+/* harmony import */ var _modules_category_general_design_categories_general_design_items_post_general_design_items_post_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/category/general-design/categories/general-design-items-post/general-design-items-post.component */ "./src/app/modules/category/general-design/categories/general-design-items-post/general-design-items-post.component.ts");
+/* harmony import */ var _modules_category_general_design_categories_general_design_items_photos_general_design_items_photos_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component */ "./src/app/modules/category/general-design/categories/general-design-items-photos/general-design-items-photos.component.ts");
+/* harmony import */ var _modules_category_general_design_categories_general_design_items_news_general_design_items_news_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/category/general-design/categories/general-design-items-news/general-design-items-news.component */ "./src/app/modules/category/general-design/categories/general-design-items-news/general-design-items-news.component.ts");
+/* harmony import */ var _modules_category_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/category/ux-designer/ux-designer.component */ "./src/app/modules/category/ux-designer/ux-designer.component.ts");
+/* harmony import */ var _modules_category_ux_designer_categories_ux_designer_items_post_ux_designer_items_post_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-post/ux-designer-items-post.component.ts");
+/* harmony import */ var _modules_category_ux_designer_categories_ux_designer_items_photos_ux_designer_items_photos_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-photos/ux-designer-items-photos.component.ts");
+/* harmony import */ var _modules_category_ux_designer_categories_ux_designer_items_news_ux_designer_items_news_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component */ "./src/app/modules/category/ux-designer/categories/ux-designer-items-news/ux-designer-items-news.component.ts");
+/* harmony import */ var _modules_category_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./modules/category/web-design/web-design.component */ "./src/app/modules/category/web-design/web-design.component.ts");
+/* harmony import */ var _modules_category_web_design_categories_web_design_items_post_web_design_items_post_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./modules/category/web-design/categories/web-design-items-post/web-design-items-post.component */ "./src/app/modules/category/web-design/categories/web-design-items-post/web-design-items-post.component.ts");
+/* harmony import */ var _modules_category_web_design_categories_web_design_items_photos_web_design_items_photos_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component */ "./src/app/modules/category/web-design/categories/web-design-items-photos/web-design-items-photos.component.ts");
+/* harmony import */ var _modules_category_web_design_categories_web_design_items_news_web_design_items_news_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./modules/category/web-design/categories/web-design-items-news/web-design-items-news.component */ "./src/app/modules/category/web-design/categories/web-design-items-news/web-design-items-news.component.ts");
+/* harmony import */ var _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./modules/color-palette/color-palette.component */ "./src/app/modules/color-palette/color-palette.component.ts");
+/* harmony import */ var _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./modules/directos/directos.component */ "./src/app/modules/directos/directos.component.ts");
+/* harmony import */ var _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./modules/view-post/view-post.component */ "./src/app/modules/view-post/view-post.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_post_design_ux_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/post-design-ux-list.component */ "./src/app/modules/view-post/categories/ux-design-items/post-design-ux-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service */ "./src/app/modules/view-post/categories/ux-design-items/design-ux-posts-detail/design-ux-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-list.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-web-items/design-web-posts-detail/design-web-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-list.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-general-items/design-general-posts-detail/design-general-posts-router-activate.service.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-list.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-list.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-detail.component.ts");
+/* harmony import */ var _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service */ "./src/app/modules/view-post/categories/design-others-items/design-others-posts-detail/design-others-posts-router-activate.service.ts");
+/* harmony import */ var _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./modules/photos/view-photo.component */ "./src/app/modules/photos/view-photo.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_photo_design_ux_list_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/photo-design-ux-list.component */ "./src/app/modules/photos/categories/ux-design-items/photo-design-ux-list.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service */ "./src/app/modules/photos/categories/ux-design-items/design-ux-photos-detail/design-ux-photos-router-activate.service.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/photo-design-web-list.component */ "./src/app/modules/photos/categories/design-web-items/photo-design-web-list.component.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service */ "./src/app/modules/photos/categories/design-web-items/design-web-photos-detail/design-web-photos-router-activate.service.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/photo-design-general-list.component */ "./src/app/modules/photos/categories/design-general-items/photo-design-general-list.component.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service */ "./src/app/modules/photos/categories/design-general-items/design-general-photos-detail/design-general-photos-router-activate.service.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/photo-design-others-list.component */ "./src/app/modules/photos/categories/design-others-items/photo-design-others-list.component.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-detail.component.ts");
+/* harmony import */ var _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service */ "./src/app/modules/photos/categories/design-others-items/design-others-photos-detail/design-others-photos-router-activate.service.ts");
+/* harmony import */ var _modules_news_view_news_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./modules/news/view-news.component */ "./src/app/modules/news/view-news.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_news_design_ux_list_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/news-design-ux-list.component */ "./src/app/modules/news/categories/ux-design-items/news-design-ux-list.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_detail_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component */ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-router-activate.service */ "./src/app/modules/news/categories/ux-design-items/design-ux-newss-detail/design-ux-newss-router-activate.service.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_news_design_web_list_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/news-design-web-list.component */ "./src/app/modules/news/categories/design-web-items/news-design-web-list.component.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_detail_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component */ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-router-activate.service */ "./src/app/modules/news/categories/design-web-items/design-web-newss-detail/design-web-newss-router-activate.service.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_news_design_general_list_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/news-design-general-list.component */ "./src/app/modules/news/categories/design-general-items/news-design-general-list.component.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_detail_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component */ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-router-activate.service */ "./src/app/modules/news/categories/design-general-items/design-general-newss-detail/design-general-newss-router-activate.service.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_news_design_others_list_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/news-design-others-list.component */ "./src/app/modules/news/categories/design-others-items/news-design-others-list.component.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_detail_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component */ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-detail.component.ts");
+/* harmony import */ var _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-router-activate.service */ "./src/app/modules/news/categories/design-others-items/design-others-newss-detail/design-others-newss-router-activate.service.ts");
 
 //Default components router
 
 
  //activando el error 404 en los items* (este es el 404 especial para los items)
 //Trends components router
+
+//Category components router
+
+
+
+
+
+
+
+
+
+
+
+
+//Others components router
+
+
+//Posts components router
+
+
+
+
+
+
+
+
 
 
 
@@ -5624,58 +7405,72 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//Posts components router
-
-
-
-
-
-
-
-
-
-
-
 
 //News components router
 
 
- //activando el error 404 en los items* (este es el 404 especial para los items)
-//Record components router
+
+
+
+
+
+
+
+
+
+
 
 var appRoutes = [
     //Default components parameters and router
     { path: 'inicio', component: _modules_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_1__["InicioComponent"] },
     { path: 'videos/:id', component: _modules_inicio_videos_detail_videos_detail_component__WEBPACK_IMPORTED_MODULE_2__["VideosDetailComponent"], canActivate: [_modules_inicio_videos_detail_videos_router_activate_service__WEBPACK_IMPORTED_MODULE_3__["VideoRouteActivator"]] },
+    //Category components router
+    { path: 'web-design', component: _modules_category_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_13__["WebDesignComponent"] },
+    { path: 'web-design-items-post', component: _modules_category_web_design_categories_web_design_items_post_web_design_items_post_component__WEBPACK_IMPORTED_MODULE_14__["WebDesignItemsPostComponent"] },
+    { path: 'web-design-items-photos', component: _modules_category_web_design_categories_web_design_items_photos_web_design_items_photos_component__WEBPACK_IMPORTED_MODULE_15__["WebDesignItemsPhotosComponent"] },
+    { path: 'web-design-items-news', component: _modules_category_web_design_categories_web_design_items_news_web_design_items_news_component__WEBPACK_IMPORTED_MODULE_16__["WebDesignItemsNewsComponent"] },
+    { path: 'ux-designer', component: _modules_category_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_9__["UxDesignerComponent"] },
+    { path: 'ux-designer-items-post', component: _modules_category_ux_designer_categories_ux_designer_items_post_ux_designer_items_post_component__WEBPACK_IMPORTED_MODULE_10__["UxDesignerItemsPostComponent"] },
+    { path: 'ux-designer-items-photos', component: _modules_category_ux_designer_categories_ux_designer_items_photos_ux_designer_items_photos_component__WEBPACK_IMPORTED_MODULE_11__["UxDesignerItemsPhotosComponent"] },
+    { path: 'ux-designer-items-news', component: _modules_category_ux_designer_categories_ux_designer_items_news_ux_designer_items_news_component__WEBPACK_IMPORTED_MODULE_12__["UxDesignerItemsNewsComponent"] },
+    { path: 'general-designer', component: _modules_category_general_design_general_design_component__WEBPACK_IMPORTED_MODULE_5__["GeneralDesignComponent"] },
+    { path: 'general-design-items-post', component: _modules_category_general_design_categories_general_design_items_post_general_design_items_post_component__WEBPACK_IMPORTED_MODULE_6__["GeneralDesignItemsPostComponent"] },
+    { path: 'general-design-items-photos', component: _modules_category_general_design_categories_general_design_items_photos_general_design_items_photos_component__WEBPACK_IMPORTED_MODULE_7__["GeneralDesignItemsPhotosComponent"] },
+    { path: 'general-design-items-news', component: _modules_category_general_design_categories_general_design_items_news_general_design_items_news_component__WEBPACK_IMPORTED_MODULE_8__["GeneralDesignItemsNewsComponent"] },
     //others components router
     { path: 'trends', component: _modules_trends_trends_component__WEBPACK_IMPORTED_MODULE_4__["TrendsComponent"] },
-    { path: 'web-design', component: _modules_web_design_web_design_component__WEBPACK_IMPORTED_MODULE_5__["WebDesignComponent"] },
-    { path: 'color-palette', component: _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_6__["ColorPaletteComponent"] },
-    { path: 'directos', component: _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_7__["DirectosComponent"] },
-    { path: 'ux-designer', component: _modules_ux_designer_ux_designer_component__WEBPACK_IMPORTED_MODULE_8__["UxDesignerComponent"] },
-    //Photos component parameters and router
-    { path: 'view-photo', component: _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_9__["ViewPhotoComponent"] },
-    { path: 'designuxphotos/:id', component: _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_10__["DesignUxPhotosDetailComponent"], canActivate: [_modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_11__["DesignUxPhotoRouteActivator"]] },
-    { path: 'design-web-list', component: _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_12__["PhotoDesignWebListComponent"] },
-    { path: 'designwebphotos/:id', component: _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_13__["DesignWebPhotosDetailComponent"], canActivate: [_modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_14__["DesignWebPhotoRouteActivator"]] },
-    { path: 'design-general-list', component: _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_15__["PhotoDesignGeneralListComponent"] },
-    { path: 'designgeneralphotos/:id', component: _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_16__["DesignGeneralPhotosDetailComponent"], canActivate: [_modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_17__["DesignGeneralPhotoRouteActivator"]] },
-    { path: 'design-others-list', component: _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_18__["PhotoDesignOthersListComponent"] },
-    { path: 'designothersphotos/:id', component: _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_19__["DesignOthersPhotosDetailComponent"], canActivate: [_modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_20__["DesignOthersPhotoRouteActivator"]] },
+    { path: 'color-palette', component: _modules_color_palette_color_palette_component__WEBPACK_IMPORTED_MODULE_17__["ColorPaletteComponent"] },
+    { path: 'directos', component: _modules_directos_directos_component__WEBPACK_IMPORTED_MODULE_18__["DirectosComponent"] },
     //Posts component parameters and router
-    { path: 'view-post', component: _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_21__["ViewPostComponent"] },
-    { path: 'designuxposts/:id', component: _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_22__["DesignUxPostsDetailComponent"], canActivate: [_modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_23__["DesignUxPostRouteActivator"]] },
-    { path: 'design-web-list', component: _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_24__["DesignWebListComponent"] },
-    { path: 'designwebposts/:id', component: _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_25__["DesignWebPostsDetailComponent"], canActivate: [_modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_26__["DesignWebPostRouteActivator"]] },
-    { path: 'design-general-list', component: _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_27__["DesignGeneralListComponent"] },
-    { path: 'designgeneralposts/:id', component: _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_28__["DesignGeneralPostsDetailComponent"], canActivate: [_modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_29__["DesignGeneralPostRouteActivator"]] },
-    { path: 'design-others-list', component: _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_30__["DesignOthersListComponent"] },
-    { path: 'designothersposts/:id', component: _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_31__["DesignOthersPostsDetailComponent"], canActivate: [_modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_32__["DesignOthersPostRouteActivator"]] },
-    //Record component
-    { path: 'record', component: _modules_record_record_component__WEBPACK_IMPORTED_MODULE_36__["RecordComponent"] },
+    { path: 'view-post', component: _modules_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_19__["ViewPostComponent"] },
+    { path: 'design-ux-list', component: _modules_view_post_categories_ux_design_items_post_design_ux_list_component__WEBPACK_IMPORTED_MODULE_20__["PostDesignUxListComponent"] },
+    { path: 'designuxposts/:id', component: _modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_detail_component__WEBPACK_IMPORTED_MODULE_21__["DesignUxPostsDetailComponent"], canActivate: [_modules_view_post_categories_ux_design_items_design_ux_posts_detail_design_ux_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_22__["DesignUxPostRouteActivator"]] },
+    { path: 'design-web-list', component: _modules_view_post_categories_design_web_items_design_web_list_component__WEBPACK_IMPORTED_MODULE_23__["DesignWebListComponent"] },
+    { path: 'designwebposts/:id', component: _modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_detail_component__WEBPACK_IMPORTED_MODULE_24__["DesignWebPostsDetailComponent"], canActivate: [_modules_view_post_categories_design_web_items_design_web_posts_detail_design_web_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_25__["DesignWebPostRouteActivator"]] },
+    { path: 'design-general-list', component: _modules_view_post_categories_design_general_items_design_general_list_component__WEBPACK_IMPORTED_MODULE_26__["DesignGeneralListComponent"] },
+    { path: 'designgeneralposts/:id', component: _modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_detail_component__WEBPACK_IMPORTED_MODULE_27__["DesignGeneralPostsDetailComponent"], canActivate: [_modules_view_post_categories_design_general_items_design_general_posts_detail_design_general_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_28__["DesignGeneralPostRouteActivator"]] },
+    { path: 'design-others-list', component: _modules_view_post_categories_design_others_items_design_others_list_component__WEBPACK_IMPORTED_MODULE_29__["DesignOthersListComponent"] },
+    { path: 'designothersposts/:id', component: _modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_detail_component__WEBPACK_IMPORTED_MODULE_30__["DesignOthersPostsDetailComponent"], canActivate: [_modules_view_post_categories_design_others_items_design_others_posts_detail_design_others_posts_router_activate_service__WEBPACK_IMPORTED_MODULE_31__["DesignOthersPostRouteActivator"]] },
+    //Photos component parameters and router
+    { path: 'view-photo', component: _modules_photos_view_photo_component__WEBPACK_IMPORTED_MODULE_32__["ViewPhotoComponent"] },
+    { path: 'design-ux-list', component: _modules_photos_categories_ux_design_items_photo_design_ux_list_component__WEBPACK_IMPORTED_MODULE_33__["PhotoDesignUxListComponent"] },
+    { path: 'designuxphotos/:id', component: _modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_detail_component__WEBPACK_IMPORTED_MODULE_34__["DesignUxPhotosDetailComponent"], canActivate: [_modules_photos_categories_ux_design_items_design_ux_photos_detail_design_ux_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_35__["DesignUxPhotoRouteActivator"]] },
+    { path: 'design-web-list', component: _modules_photos_categories_design_web_items_photo_design_web_list_component__WEBPACK_IMPORTED_MODULE_36__["PhotoDesignWebListComponent"] },
+    { path: 'designwebphotos/:id', component: _modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_detail_component__WEBPACK_IMPORTED_MODULE_37__["DesignWebPhotosDetailComponent"], canActivate: [_modules_photos_categories_design_web_items_design_web_photos_detail_design_web_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_38__["DesignWebPhotoRouteActivator"]] },
+    { path: 'design-general-list', component: _modules_photos_categories_design_general_items_photo_design_general_list_component__WEBPACK_IMPORTED_MODULE_39__["PhotoDesignGeneralListComponent"] },
+    { path: 'designgeneralphotos/:id', component: _modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_detail_component__WEBPACK_IMPORTED_MODULE_40__["DesignGeneralPhotosDetailComponent"], canActivate: [_modules_photos_categories_design_general_items_design_general_photos_detail_design_general_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_41__["DesignGeneralPhotoRouteActivator"]] },
+    { path: 'design-others-list', component: _modules_photos_categories_design_others_items_photo_design_others_list_component__WEBPACK_IMPORTED_MODULE_42__["PhotoDesignOthersListComponent"] },
+    { path: 'designothersphotos/:id', component: _modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_detail_component__WEBPACK_IMPORTED_MODULE_43__["DesignOthersPhotosDetailComponent"], canActivate: [_modules_photos_categories_design_others_items_design_others_photos_detail_design_others_photos_router_activate_service__WEBPACK_IMPORTED_MODULE_44__["DesignOthersPhotoRouteActivator"]] },
     //News component parameters and router
-    { path: 'news', component: _modules_news_news_list_component__WEBPACK_IMPORTED_MODULE_33__["NewsListComponent"] },
-    { path: 'newss/:id', component: _modules_news_newss_detail_newss_detail_component__WEBPACK_IMPORTED_MODULE_34__["NewssDetailComponent"], canActivate: [_modules_news_newss_detail_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_35__["NewsRouteActivator"]] },
+    { path: 'view-news', component: _modules_news_view_news_component__WEBPACK_IMPORTED_MODULE_45__["ViewNewsComponent"] },
+    { path: 'design-ux-list', component: _modules_news_categories_ux_design_items_news_design_ux_list_component__WEBPACK_IMPORTED_MODULE_46__["NewsDesignUxListComponent"] },
+    { path: 'designuxnewss/:id', component: _modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_detail_component__WEBPACK_IMPORTED_MODULE_47__["DesignUxNewssDetailComponent"], canActivate: [_modules_news_categories_ux_design_items_design_ux_newss_detail_design_ux_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_48__["DesignUxNewsRouteActivator"]] },
+    { path: 'design-web-list', component: _modules_news_categories_design_web_items_news_design_web_list_component__WEBPACK_IMPORTED_MODULE_49__["NewsDesignWebListComponent"] },
+    { path: 'designwebnewss/:id', component: _modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_detail_component__WEBPACK_IMPORTED_MODULE_50__["DesignWebNewssDetailComponent"], canActivate: [_modules_news_categories_design_web_items_design_web_newss_detail_design_web_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_51__["DesignWebNewsRouteActivator"]] },
+    { path: 'design-general-list', component: _modules_news_categories_design_general_items_news_design_general_list_component__WEBPACK_IMPORTED_MODULE_52__["NewsDesignGeneralListComponent"] },
+    { path: 'designgeneralnewss/:id', component: _modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_detail_component__WEBPACK_IMPORTED_MODULE_53__["DesignGeneralNewssDetailComponent"], canActivate: [_modules_news_categories_design_general_items_design_general_newss_detail_design_general_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_54__["DesignGeneralNewsRouteActivator"]] },
+    { path: 'design-others-list', component: _modules_news_categories_design_others_items_news_design_others_list_component__WEBPACK_IMPORTED_MODULE_55__["NewsDesignOthersListComponent"] },
+    { path: 'designothersnewss/:id', component: _modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_detail_component__WEBPACK_IMPORTED_MODULE_56__["DesignOthersNewssDetailComponent"], canActivate: [_modules_news_categories_design_others_items_design_others_newss_detail_design_others_newss_router_activate_service__WEBPACK_IMPORTED_MODULE_57__["DesignOthersNewsRouteActivator"]] },
     //Redirection component and 404
     { path: '', redirectTo: 'inicio', pathMatch: 'full' },
     { path: '**', component: _modules_common_errors_no_found_component__WEBPACK_IMPORTED_MODULE_0__["NoFoundComponent"] },
