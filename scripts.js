@@ -59,6 +59,7 @@ $(document).ready(function () {
   //MENU HAMBURGUESA RESPONSIVE
   var size = screen.width
   if (size <= '768') {
+    $("#absoluting").addClass("col-md-12")
     $(".open-close-nav").hide()//Quitando este botón de cerrar 
     $(".open-nav-show").addClass("open-nav-show-d-block")//Habilitando el botón nuevo para abrir
 
@@ -97,7 +98,7 @@ $(document).ready(function () {
     });
   });
   //CLOSE NAV
-  $("#AAE-close-login").click(function () {
+  $("#AAE-close-login,#AAE-close-login-mobile").click(function () {
     $(".video-background").hide(50)
     $(".AAE-headerPage").animate({
       marginLeft: "100%"
@@ -115,7 +116,56 @@ $(document).ready(function () {
       input.attr("type", "password");
     }
   });
+
+  //MENÚ PARA APP Y CÉLULARES
+  var size = screen.width
+  if (size <= '474') {
+    $("#container-app-mobile").addClass("container-app-mobile");
+    $("#content-menu-mobile").addClass("content-page-mobile");
+    $("#buton-toggle-menu-mobile").addClass("button-menu-mobile");
+    $("#menu-toggle-mobile").addClass("menu-mobile");
+  
+    /*Definiendo el momento click*/
+    if( 'ontouchstart' in window ){ var click = 'touchstart'; }
+    else { var click = 'click'; }
+    /*	Reveelando menu-mobile */
+    $('div.button-menu-mobile').on(click, function(){
+      if( !$('div.content-page-mobile').hasClass('inactive') ){
+        // Desliza y escala contenido-página-móvil
+        $('div.content-page-mobile').addClass('inactive');
+        setTimeout(function(){ $('div.content-page-mobile').addClass('flag'); }, 100);
+        // Deslizar en el menú de enlaces móviles
+        var timer = 0;
+        $.each($('li'), function(i,v){
+          timer = 40 * i;
+          setTimeout(function(){
+            $(v).addClass('visible');
+          }, timer);
+        });
+      }
+    });
+    /*Close menu-mobile*/
+    function closeMenu() {		
+      // Slide and scale content-page-mobile
+      $('div.content-page-mobile').removeClass('inactive flag');
+      //Reset menu-mobile
+      setTimeout(function(){
+        $('li').removeClass('visible');
+      }, 300);
+    }
+    $('div.content-page-mobile').on(click, function(){
+      if( $('div.content-page-mobile').hasClass('flag') ){
+        closeMenu();
+      }
+    });
+    $('li a').on(click, function(e){
+      e.preventDefault();
+      closeMenu();
+    });
+  }
+
 });
+
 ;//Nocturne Mode Activate
 $(document).ready(function(){
     $('.toggle-switch').on('click', function() {

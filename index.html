@@ -16,20 +16,51 @@
   <!-- <base href="/"> -->
   <base href="./"><!--calibración de ruta para que funcione en la web-->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
 </head>
 
 <body>
   <app-root> 
-    <!--Loader Page--> 
-    <!-- <div class="loader">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div> -->
+    <div class="preloader">
+      <div class="spinner">
+      </div>
+    </div>
+    <!--PREOLADER PAGE START: Tiene que cargar junto con la página, por ende no está en el css externo.-->
+    <style>
+        .preloader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          z-index: 999999;
+          align-items: center;
+          background: #000;
+        }
+        .spinner {
+          width: 50px;
+          height: 50px;
+          border-width: 3px;
+          border-left: 1px;
+          border-style: solid;
+          border-color: hsl(0, 100%, 47%) hsla(0, 0%, 0%, 0) hsla(0, 0%, 0%, 0) hsl(0, 100%, 47%);
+          border-radius: 50%;
+          margin: 100px auto;
+          -webkit-animation: loader 0.5s infinite linear;
+          -moz-animation: loader 0.5s infinite linear;
+          -ms-animation: loader 0.5s infinite linear;
+          -o-animation: loader 0.5s infinite linear;
+          animation: loader 0.5s infinite linear;
+        }
+        @keyframes loader {
+          100% {
+            -webkit-transform: rotate(360deg);
+          }
+        }
+      </style>
   </app-root>
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body> 
 
